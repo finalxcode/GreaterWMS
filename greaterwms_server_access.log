@@ -58758,3 +58758,48 @@ TypeError: unsupported operand type(s) for +: 'PosixPath' and 'str'
 [2023-11-30 19:58:46][django.request.log_response():241] [WARNING] Not Found: /Pages/log/
 [2023-11-30 21:56:47][django.request.log_response():241] [WARNING] Not Found: /webui/
 [2023-11-30 21:58:22][django.request.log_response():241] [WARNING] Not Found: /geoserver/web/
+
+ Dev mode.......... spa
+ Pkg quasar........ v1.19.4
+ Pkg @quasar/app... v2.4.1
+ Debugging......... enabled
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ Configured browser support (at least 88.57% of global marketshare):
+ · Chrome for Android >= 103
+ · Firefox for Android >= 101
+ · Android >= 103
+ · Chrome >= 94
+ · Edge >= 100
+ · Firefox >= 94
+ · iOS >= 13.0-13.1
+ · Opera >= 85
+ · Safari >= 14.1
+
+Welcome To GreaterWMS
+2023-11-30 22:34:45,313 INFO     Starting server at tcp:port=8008:interface=0.0.0.0
+2023-11-30 22:34:45,314 INFO     HTTP/2 support enabled
+2023-11-30 22:34:45,314 INFO     Configuring endpoint tcp:port=8008:interface=0.0.0.0
+2023-11-30 22:34:45,316 INFO     Listening on TCP address 0.0.0.0:8008
+ App · Reading quasar.conf.js
+ App · Checking listening address availability (0.0.0.0:8080)...
+ App · Transpiling JS (Babel active)
+ App · Extending SPA Webpack config
+ App · Generating Webpack entry point
+ App · Booting up...
+ App · Compiling SPA...
+ App · Compiled SPA done in 19692 ms
+ DONE  Compiled successfully in 19697ms10:35:06 PM
+
+
+ N  App dir........... /root/www/GreaterWMS/templates
+    App URL........... http://localhost:8080
+    Dev mode.......... spa
+    Pkg quasar........ v1.19.4
+    Pkg @quasar/app... v2.4.1
+    Transpiled JS..... yes (Babel)
+  
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
