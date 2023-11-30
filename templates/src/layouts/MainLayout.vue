@@ -28,7 +28,7 @@
             round
             dense
             flat
-            @click="brownlink('https://www.56yhz.com/ios.html')"
+            @click="brownlink('https://apps.apple.com/cn/app/%E6%99%BA%E8%83%BD%E4%BB%93%E5%82%A8%E8%BD%AF%E4%BB%B6gwms/id6444078526')"
             style="margin: 0 10px 0 10px"
           >
             <q-tooltip
@@ -46,7 +46,7 @@
             round
             dense
             flat
-            @click="brownlink('https://www.56yhz.com/zh/ios.html')"
+            @click="brownlink('https://apps.apple.com/cn/app/%E6%99%BA%E8%83%BD%E4%BB%93%E5%82%A8%E8%BD%AF%E4%BB%B6gwms/id6444078526')"
             style="margin: 0 10px 0 10px"
           >
             <q-tooltip
@@ -64,7 +64,7 @@
             round
             dense
             flat
-            @click="brownlink('https://www.56yhz.com/android.html')"
+            @click="brownlink('https://po.56yhz.com/media/GWMS.apks')"
             style="margin: 0 10px 0 10px"
           >
             <q-tooltip
@@ -82,7 +82,7 @@
             round
             dense
             flat
-            @click="brownlink('https://www.56yhz.com/zh/android.html')"
+            @click="brownlink('https://po.56yhz.com/media/GWMS.apks')"
             style="margin: 0 10px 0 10px"
           >
             <q-tooltip
@@ -93,65 +93,7 @@
             </q-tooltip>
           </q-btn>
         </transition>
-        <transition appear enter-active-class="animated zoomIn">
-          <q-btn
-            icon="img:statics/icons/GitHub.png"
-            round
-            dense
-            flat
-            @click="brownlink('https://github.com/GreaterWMS/GreaterWMS')"
-            style="margin: 0 10px 0 10px"
-          >
-            <q-tooltip
-              content-class="bg-amber text-black shadow-4"
-              :offset="[15, 15]"
-              content-style="font-size: 12px"
-              >GitHub Link</q-tooltip
-            >
-          </q-btn>
-        </transition>
-        <transition appear enter-active-class="animated zoomIn">
-          <q-btn
-            icon="api"
-            round
-            dense
-            flat
-            @click="apiLink()"
-            style="margin: 0 10px 0 10px"
-          >
-            <q-tooltip
-              content-class="bg-amber text-black shadow-4"
-              :offset="[15, 15]"
-              content-style="font-size: 12px"
-              >{{ $t('index.api') }}</q-tooltip
-            >
-          </q-btn>
-        </transition>
-        <transition appear enter-active-class="animated zoomIn">
-          <q-btn
-            square
-            dense
-            flat
-            color="white"
-            :label="warehouse_name"
-            icon="maps_home_work"
-            style="margin: 0 10px 0 10px"
-          >
-            <q-menu>
-              <q-list style="min-width: 100px">
-                <q-item
-                  clickable
-                  v-close-popup
-                  v-for="(warehouse, index) in warehouseOptions"
-                  :key="index"
-                  @click="warehouseChange(index)"
-                >
-                  <q-item-section>{{ warehouse.warehouse_name }}</q-item-section>
-                </q-item>
-              </q-list>
-            </q-menu>
-          </q-btn>
-        </transition>
+
         <transition appear enter-active-class="animated zoomIn">
           <q-btn
             round
