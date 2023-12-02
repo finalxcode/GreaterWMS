@@ -60833,3 +60833,225 @@ Welcome To GreaterWMS
   
 [34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8080/
 [34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+ WAIT  Compiling...7:36:04 PM
+
+ App · Compiling SPA...
+ App · Compiled SPA done in 569 ms
+ DONE  Compiled successfully in 574ms7:36:05 PM
+
+
+ N  App dir........... /root/www/GreaterWMS/templates
+    App URL........... http://localhost:8080
+    Dev mode.......... spa
+    Pkg quasar........ v1.19.4
+    Pkg @quasar/app... v2.4.1
+    Transpiled JS..... yes (Babel)
+  
+
+ Dev mode.......... spa
+ Pkg quasar........ v1.19.4
+ Pkg @quasar/app... v2.4.1
+ Debugging......... enabled
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ Configured browser support (at least 88.57% of global marketshare):
+ · Chrome for Android >= 103
+ · Firefox for Android >= 101
+ · Android >= 103
+ · Chrome >= 94
+ · Edge >= 100
+ · Firefox >= 94
+ · iOS >= 13.0-13.1
+ · Opera >= 85
+ · Safari >= 14.1
+
+ App · Reading quasar.conf.js
+ App · Checking listening address availability (0.0.0.0:8080)...
+ App · Transpiling JS (Babel active)
+ App · Extending SPA Webpack config
+ App · Generating Webpack entry point
+ App · Booting up...
+ App · Compiling SPA...
+Welcome To GreaterWMS
+2023-12-02 19:37:30,972 INFO     Starting server at tcp:port=8008:interface=0.0.0.0
+2023-12-02 19:37:30,976 INFO     HTTP/2 support enabled
+2023-12-02 19:37:30,976 INFO     Configuring endpoint tcp:port=8008:interface=0.0.0.0
+2023-12-02 19:37:30,977 INFO     Listening on TCP address 0.0.0.0:8008
+ App · Compiled SPA done in 19431 ms
+ DONE  Compiled successfully in 19436ms7:37:49 PM
+
+
+ N  App dir........... /root/www/GreaterWMS/templates
+    App URL........... http://localhost:8080
+    Dev mode.......... spa
+    Pkg quasar........ v1.19.4
+    Pkg @quasar/app... v2.4.1
+    Transpiled JS..... yes (Babel)
+  
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+
+ Dev mode.......... spa
+ Pkg quasar........ v1.19.4
+ Pkg @quasar/app... v2.4.1
+ Debugging......... enabled
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ Configured browser support (at least 88.57% of global marketshare):
+ · Chrome for Android >= 103
+ · Firefox for Android >= 101
+ · Android >= 103
+ · Chrome >= 94
+ · Edge >= 100
+ · Firefox >= 94
+ · iOS >= 13.0-13.1
+ · Opera >= 85
+ · Safari >= 14.1
+
+Welcome To GreaterWMS
+2023-12-02 19:37:59,114 INFO     Starting server at tcp:port=8008:interface=0.0.0.0
+2023-12-02 19:37:59,114 INFO     HTTP/2 support enabled
+2023-12-02 19:37:59,115 INFO     Configuring endpoint tcp:port=8008:interface=0.0.0.0
+2023-12-02 19:37:59,115 INFO     Listening on TCP address 0.0.0.0:8008
+ App · Reading quasar.conf.js
+ App · Checking listening address availability (0.0.0.0:8080)...
+ App · Transpiling JS (Babel active)
+ App · Extending SPA Webpack config
+ App · Generating Webpack entry point
+ App · Booting up...
+ App · Compiling SPA...
+ App · Compiled SPA done in 19070 ms
+ DONE  Compiled successfully in 19075ms7:38:18 PM
+
+
+ N  App dir........... /root/www/GreaterWMS/templates
+    App URL........... http://localhost:8080
+    Dev mode.......... spa
+    Pkg quasar........ v1.19.4
+    Pkg @quasar/app... v2.4.1
+    Transpiled JS..... yes (Babel)
+  
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+
+ Dev mode.......... spa
+ Pkg quasar........ v1.19.4
+ Pkg @quasar/app... v2.4.1
+ Debugging......... enabled
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ Configured browser support (at least 88.57% of global marketshare):
+ · Chrome for Android >= 103
+ · Firefox for Android >= 101
+ · Android >= 103
+ · Chrome >= 94
+ · Edge >= 100
+ · Firefox >= 94
+ · iOS >= 13.0-13.1
+ · Opera >= 85
+ · Safari >= 14.1
+
+Welcome To GreaterWMS
+2023-12-02 19:40:36,446 INFO     Starting server at tcp:port=8008:interface=0.0.0.0
+2023-12-02 19:40:36,447 INFO     HTTP/2 support enabled
+2023-12-02 19:40:36,447 INFO     Configuring endpoint tcp:port=8008:interface=0.0.0.0
+2023-12-02 19:40:36,448 INFO     Listening on TCP address 0.0.0.0:8008
+ App · Reading quasar.conf.js
+ App · Checking listening address availability (0.0.0.0:8080)...
+ App · Transpiling JS (Babel active)
+ App · Extending SPA Webpack config
+ App · Generating Webpack entry point
+ App · Booting up...
+ App · Compiling SPA...
+ App · Compiled SPA done in 19018 ms
+ DONE  Compiled successfully in 19023ms7:40:56 PM
+
+
+ N  App dir........... /root/www/GreaterWMS/templates
+    App URL........... http://localhost:8080
+    Dev mode.......... spa
+    Pkg quasar........ v1.19.4
+    Pkg @quasar/app... v2.4.1
+    Transpiled JS..... yes (Babel)
+  
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+ WAIT  Compiling...7:41:44 PM
+
+ App · Compiling SPA...
+ App · Compiled SPA done in 638 ms
+ DONE  Compiled successfully in 641ms7:41:45 PM
+
+
+ N  App dir........... /root/www/GreaterWMS/templates
+    App URL........... http://localhost:8080
+    Dev mode.......... spa
+    Pkg quasar........ v1.19.4
+    Pkg @quasar/app... v2.4.1
+    Transpiled JS..... yes (Babel)
+  
+ WAIT  Compiling...7:42:04 PM
+
+ App · Compiling SPA...
+ App · Compiled SPA done in 541 ms
+ DONE  Compiled successfully in 542ms7:42:05 PM
+
+
+ N  App dir........... /root/www/GreaterWMS/templates
+    App URL........... http://localhost:8080
+    Dev mode.......... spa
+    Pkg quasar........ v1.19.4
+    Pkg @quasar/app... v2.4.1
+    Transpiled JS..... yes (Babel)
+  
+
+ Dev mode.......... spa
+ Pkg quasar........ v1.19.4
+ Pkg @quasar/app... v2.4.1
+ Debugging......... enabled
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ Configured browser support (at least 88.57% of global marketshare):
+ · Chrome for Android >= 103
+ · Firefox for Android >= 101
+ · Android >= 103
+ · Chrome >= 94
+ · Edge >= 100
+ · Firefox >= 94
+ · iOS >= 13.0-13.1
+ · Opera >= 85
+ · Safari >= 14.1
+
+Welcome To GreaterWMS
+2023-12-02 19:43:06,262 INFO     Starting server at tcp:port=8008:interface=0.0.0.0
+2023-12-02 19:43:06,263 INFO     HTTP/2 support enabled
+2023-12-02 19:43:06,263 INFO     Configuring endpoint tcp:port=8008:interface=0.0.0.0
+2023-12-02 19:43:06,264 INFO     Listening on TCP address 0.0.0.0:8008
+ App · Reading quasar.conf.js
+ App · Checking listening address availability (0.0.0.0:8080)...
+ App · Transpiling JS (Babel active)
+ App · Extending SPA Webpack config
+ App · Generating Webpack entry point
+ App · Booting up...
+ App · Compiling SPA...
+ App · Compiled SPA done in 18943 ms
+ DONE  Compiled successfully in 18947ms7:43:25 PM
+
+
+ N  App dir........... /root/www/GreaterWMS/templates
+    App URL........... http://localhost:8080
+    Dev mode.......... spa
+    Pkg quasar........ v1.19.4
+    Pkg @quasar/app... v2.4.1
+    Transpiled JS..... yes (Babel)
+  
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
