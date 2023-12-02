@@ -58803,3 +58803,2033 @@ Welcome To GreaterWMS
   
 [34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8080/
 [34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[2023-11-30 23:10:07][django.request.log_response():241] [WARNING] Not Found: /solr/
+[2023-11-30 23:45:42][django.request.log_response():241] [WARNING] Not Found: /webfig/
+[2023-12-01 00:06:28][django.request.log_response():241] [WARNING] Not Found: /favicon-32x32.png
+[2023-12-01 01:17:32][django.request.log_response():241] [WARNING] Not Found: /.env
+[2023-12-01 02:13:17][django.request.log_response():241] [ERROR] Internal Server Error: /robots.txt
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 408, in wait_for
+    return await fut
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "/root/www/GreaterWMS/./greaterwms/views.py", line 8, in robots
+    path = settings.BASE_DIR + request.path_info
+TypeError: unsupported operand type(s) for +: 'PosixPath' and 'str'
+[2023-12-01 02:13:17][django.request.log_response():241] [WARNING] Not Found: /sitemap.xml
+2023-12-01 03:04:37,139 WARNING  Application instance <Task pending name='Task-21' coro=<application() running at /root/www/GreaterWMS/./greaterwms/asgi.py:14> wait_for=<Future finished result=<TemplateResp...harset=utf-8">>> for connection <WebRequest at 0x7f34c332e380 method=GET uri=/ clientproto=HTTP/1.0> took too long to shut down and was killed.
+[2023-12-01 03:07:13][django.request.log_response():241] [WARNING] Not Found: /actuator/health
+[2023-12-01 04:19:42][django.request.log_response():241] [WARNING] Not Found: /cf_scripts/scripts/ajax/ckeditor/ckeditor.js
+[2023-12-01 04:23:59][django.request.log_response():241] [WARNING] Not Found: /.env
+[2023-12-01 05:38:28][django.request.log_response():241] [WARNING] Not Found: /level/15/exec/-/sh/run/CR
+[2023-12-01 06:11:27][django.request.log_response():241] [ERROR] Internal Server Error: /robots.txt
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 408, in wait_for
+    return await fut
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "/root/www/GreaterWMS/./greaterwms/views.py", line 8, in robots
+    path = settings.BASE_DIR + request.path_info
+TypeError: unsupported operand type(s) for +: 'PosixPath' and 'str'
+[2023-12-01 06:11:27][django.request.log_response():241] [ERROR] Internal Server Error: /robots.txt
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 408, in wait_for
+    return await fut
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "/root/www/GreaterWMS/./greaterwms/views.py", line 8, in robots
+    path = settings.BASE_DIR + request.path_info
+TypeError: unsupported operand type(s) for +: 'PosixPath' and 'str'
+[2023-12-01 07:12:28][django.request.log_response():241] [WARNING] Not Found: /actuator/health
+[2023-12-01 07:31:07][django.request.log_response():241] [WARNING] Not Found: /.env.www
+[2023-12-01 08:57:48][django.request.log_response():241] [WARNING] Not Found: /level/15/exec/-/sh/run/CR
+[2023-12-01 08:57:48][django.request.log_response():241] [WARNING] Not Found: /level/15/exec/-/sh/run/CR
+[2023-12-01 10:03:48][django.request.log_response():241] [WARNING] Not Found: /portal/redlion
+[2023-12-01 10:11:36][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin/index.php
+[2023-12-01 10:11:36][django.request.log_response():241] [WARNING] Not Found: /pmd/index.php
+[2023-12-01 10:11:36][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin4.8.5/index.php
+[2023-12-01 10:49:16][django.request.log_response():241] [WARNING] Not Found: /webui/
+[2023-12-01 10:51:01][django.request.log_response():241] [WARNING] Not Found: /geoserver/web/
+[2023-12-01 11:53:15][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin/index.php
+[2023-12-01 11:53:15][django.request.log_response():241] [WARNING] Not Found: /pmd/index.php
+[2023-12-01 11:53:16][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin4.8.5/index.php
+[2023-12-01 13:09:44][django.request.log_response():241] [WARNING] Not Found: /v1/user/login
+[2023-12-01 13:22:07][django.request.log_response():241] [WARNING] Not Found: /cf_scripts/scripts/ajax/ckeditor/ckeditor.js
+[2023-12-01 13:25:26][django.request.log_response():241] [WARNING] Not Found: /setup/eureka_info
+[2023-12-01 15:30:10][django.request.log_response():241] [WARNING] Not Found: /nice ports,/Trinity.txt.bak
+[2023-12-01 15:30:24][django.request.log_response():241] [WARNING] Not Found: sip:nm
+[2023-12-01 15:32:47][django.request.log_response():241] [WARNING] Not Found: /sdk
+[2023-12-01 15:32:49][django.request.log_response():241] [WARNING] Not Found: /nmaplowercheck1701415964
+[2023-12-01 15:32:49][django.request.log_response():241] [WARNING] Not Found: /HNAP1
+[2023-12-01 15:32:49][django.request.log_response():241] [WARNING] Not Found: /evox/about
+[2023-12-01 15:41:01][django.request.log_response():241] [WARNING] Not Found: *
+183.193.35.39:5851 - - [30/Nov/2023:22:35:12] "GET /warehouse/multiple/?max_page=30" 200 1354
+123.60.101.59:52858 - - [30/Nov/2023:23:10:07] "GET /solr/" 404 6849
+123.60.101.59:43738 - - [30/Nov/2023:23:45:42] "GET /webfig/" 404 6855
+123.60.101.59:56008 - - [01/Dec/2023:00:06:28] "GET /favicon-32x32.png" 404 6885
+123.60.101.59:53156 - - [01/Dec/2023:00:16:51] "GET /" 200 907
+123.60.101.59:48584 - - [01/Dec/2023:00:19:30] "GET /" 200 907
+123.60.101.59:48596 - - [01/Dec/2023:00:19:34] "GET /" 200 907
+123.60.101.59:48602 - - [01/Dec/2023:00:19:34] "GET /statics/icons/logo.png" 200 9411
+123.60.101.59:48608 - - [01/Dec/2023:00:19:35] "GET /favicon.ico" 200 9411
+123.60.101.59:46374 - - [01/Dec/2023:01:08:18] "GET /" 200 907
+123.60.101.59:39668 - - [01/Dec/2023:01:17:32] "GET /.env" 404 6846
+123.249.116.30:30494 - - [01/Dec/2023:01:50:43] "HEAD /" 200 -
+123.249.116.30:17039 - - [01/Dec/2023:01:50:43] "GET /" 200 907
+152.32.243.245:51304 - - [01/Dec/2023:02:12:56] "GET /" 200 907
+152.32.243.245:37432 - - [01/Dec/2023:02:13:16] "GET /statics/icons/logo.png" 200 9411
+152.32.243.245:38496 - - [01/Dec/2023:02:13:17] "GET /robots.txt" 500 86684
+152.32.243.245:39650 - - [01/Dec/2023:02:13:17] "GET /sitemap.xml" 404 6872
+152.32.243.245:39950 - - [01/Dec/2023:02:13:18] "GET /js/app.9c3c4b10.js" 200 269647
+152.32.243.245:39958 - - [01/Dec/2023:02:13:18] "GET /js/vendor.4a49a306.js" 200 2250174
+123.60.101.59:57846 - - [01/Dec/2023:02:15:30] "GET /" 200 907
+123.60.101.59:49256 - - [01/Dec/2023:04:04:45] "GET /" 200 907
+162.243.150.39:35216 - - [01/Dec/2023:04:09:48] "GET /" 200 907
+123.60.101.59:56154 - - [01/Dec/2023:04:19:41] "GET /" 200 907
+123.60.101.59:56168 - - [01/Dec/2023:04:19:42] "GET /cf_scripts/scripts/ajax/ckeditor/ckeditor.js" 404 6966
+123.60.101.59:44782 - - [01/Dec/2023:04:23:59] "GET /.env" 404 6846
+123.60.101.59:55742 - - [01/Dec/2023:05:11:07] "GET /" 200 907
+123.60.101.59:38782 - - [01/Dec/2023:05:18:34] "GET /" 200 907
+123.60.101.59:39088 - - [01/Dec/2023:05:37:23] "GET /" 200 907
+123.60.101.59:46770 - - [01/Dec/2023:05:38:28] "GET /level/15/exec/-/sh/run/CR" 404 6909
+198.235.24.56:61770 - - [01/Dec/2023:05:54:54] "GET /" 200 907
+123.249.116.30:39069 - - [01/Dec/2023:06:11:27] "HEAD /robots.txt" 500 21342
+123.249.116.30:52526 - - [01/Dec/2023:06:11:27] "GET /robots.txt" 500 86868
+123.60.101.59:58552 - - [01/Dec/2023:06:23:51] "GET /" 200 907
+123.60.101.59:49704 - - [01/Dec/2023:07:12:28] "GET /actuator/health" 404 6879
+123.60.101.59:41350 - - [01/Dec/2023:07:31:07] "GET /.env.www" 404 6858
+123.60.101.59:44148 - - [01/Dec/2023:07:36:52] "GET /" 200 907
+123.60.101.59:53944 - - [01/Dec/2023:08:02:38] "GET /" 200 907
+123.60.101.59:43074 - - [01/Dec/2023:08:02:41] "GET /" 200 907
+123.60.101.59:51866 - - [01/Dec/2023:08:03:17] "GET /statics/icons/logo.png" 200 9411
+123.60.101.59:41080 - - [01/Dec/2023:08:03:50] "GET /favicon.ico" 200 9411
+123.60.101.59:51734 - - [01/Dec/2023:08:39:48] "GET /" 200 907
+123.60.101.59:55318 - - [01/Dec/2023:08:39:53] "GET /" 200 907
+123.60.101.59:52516 - - [01/Dec/2023:08:57:48] "HEAD /level/15/exec/-/sh/run/CR" 404 -
+123.60.101.59:52526 - - [01/Dec/2023:08:57:48] "GET /level/15/exec/-/sh/run/CR" 404 6909
+123.60.101.59:32800 - - [01/Dec/2023:09:18:45] "GET /" 200 907
+123.60.101.59:46214 - - [01/Dec/2023:10:03:48] "GET /portal/redlion" 404 6876
+123.60.101.59:39824 - - [01/Dec/2023:10:11:36] "GET /phpmyadmin/index.php" 404 6894
+123.60.101.59:39828 - - [01/Dec/2023:10:11:36] "GET /pmd/index.php" 404 6873
+123.60.101.59:39840 - - [01/Dec/2023:10:11:36] "GET /phpmyadmin4.8.5/index.php" 404 6909
+123.60.101.59:57010 - - [01/Dec/2023:10:15:21] "GET /" 200 907
+123.60.101.59:46594 - - [01/Dec/2023:10:33:38] "GET /" 200 907
+114.84.99.229:48361 - - [01/Dec/2023:10:44:24] "OPTIONS /staff/?staff_name=qige" 200 -
+114.84.99.229:48362 - - [01/Dec/2023:10:44:24] "OPTIONS /warehouse/multiple/?max_page=30" 200 -
+114.84.99.229:48361 - - [01/Dec/2023:10:44:24] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.99.229:48362 - - [01/Dec/2023:10:44:24] "GET /staff/?staff_name=qige" 200 238
+123.60.101.59:60758 - - [01/Dec/2023:10:48:33] "GET /" 200 907
+123.60.101.59:59244 - - [01/Dec/2023:10:49:16] "GET /webui/" 404 6852
+123.60.101.59:59690 - - [01/Dec/2023:10:50:21] "GET /favicon.ico" 200 9411
+123.60.101.59:46854 - - [01/Dec/2023:10:50:58] "GET /" 200 907
+123.60.101.59:50200 - - [01/Dec/2023:10:51:01] "GET /geoserver/web/" 404 6876
+123.60.101.59:35848 - - [01/Dec/2023:11:53:01] "GET /" 200 907
+123.60.101.59:36518 - - [01/Dec/2023:11:53:15] "GET /phpmyadmin/index.php" 404 6894
+123.60.101.59:36530 - - [01/Dec/2023:11:53:15] "GET /pmd/index.php" 404 6873
+123.60.101.59:36536 - - [01/Dec/2023:11:53:16] "GET /phpmyadmin4.8.5/index.php" 404 6909
+123.60.101.59:60942 - - [01/Dec/2023:12:03:03] "GET /" 200 907
+123.60.101.59:60958 - - [01/Dec/2023:12:03:04] "GET /favicon.ico" 200 9411
+123.60.101.59:60292 - - [01/Dec/2023:12:07:49] "GET /" 200 907
+114.84.99.229:46213 - - [01/Dec/2023:12:55:20] "OPTIONS /warehouse/multiple/?max_page=30" 200 -
+114.84.99.229:46214 - - [01/Dec/2023:12:55:20] "OPTIONS /staff/?staff_name=qige" 200 -
+114.84.99.229:46214 - - [01/Dec/2023:12:55:20] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.99.229:46213 - - [01/Dec/2023:12:55:20] "GET /staff/?staff_name=qige" 200 238
+114.84.99.229:46213 - - [01/Dec/2023:12:55:25] "OPTIONS /asn/list/?page=1" 200 -
+114.84.99.229:46213 - - [01/Dec/2023:12:55:25] "GET /asn/list/?page=1" 200 1608
+114.84.99.229:46932 - - [01/Dec/2023:12:57:34] "OPTIONS /warehouse/?page=1" 200 -
+114.84.99.229:46932 - - [01/Dec/2023:12:57:34] "GET /warehouse/?page=1" 200 372
+114.84.99.229:46932 - - [01/Dec/2023:12:58:30] "OPTIONS /company/?page=1" 200 -
+114.84.99.229:46932 - - [01/Dec/2023:12:58:30] "GET /company/?page=1" 200 319
+114.84.99.229:46932 - - [01/Dec/2023:12:58:59] "OPTIONS /goods/?page=1" 200 -
+114.84.99.229:46932 - - [01/Dec/2023:12:58:59] "GET /goods/?page=1" 200 18858
+114.84.99.229:46932 - - [01/Dec/2023:12:59:06] "OPTIONS /driver/?page=1" 200 -
+114.84.99.229:46932 - - [01/Dec/2023:12:59:06] "GET /driver/?page=1" 200 5656
+114.84.99.229:46932 - - [01/Dec/2023:12:59:13] "OPTIONS /stock/list/?ordering=-update_time&page=1" 200 -
+114.84.99.229:46932 - - [01/Dec/2023:12:59:13] "GET /stock/list/?ordering=-update_time&page=1" 200 1258
+114.84.99.229:46932 - - [01/Dec/2023:12:59:18] "OPTIONS /dashboard/sales/" 200 -
+114.84.99.229:46932 - - [01/Dec/2023:12:59:18] "GET /dashboard/sales/" 200 220
+123.60.101.59:40706 - - [01/Dec/2023:13:09:44] "POST /v1/user/login" 404 6874
+123.60.101.59:55212 - - [01/Dec/2023:13:22:07] "GET /" 200 907
+123.60.101.59:55216 - - [01/Dec/2023:13:22:07] "GET /cf_scripts/scripts/ajax/ckeditor/ckeditor.js" 404 6966
+162.243.144.29:40472 - - [01/Dec/2023:13:25:26] "GET /setup/eureka_info" 404 6890
+123.60.101.59:47156 - - [01/Dec/2023:13:48:57] "GET /" 200 907
+123.60.101.59:37052 - - [01/Dec/2023:13:50:12] "GET /" 200 907
+123.60.101.59:48258 - - [01/Dec/2023:14:49:47] "GET /" 200 907
+123.60.101.59:55782 - - [01/Dec/2023:15:08:35] "GET /" 200 907
+88.80.145.85:37588 - - [01/Dec/2023:15:30:10] "GET /" 200 907
+88.80.145.85:39666 - - [01/Dec/2023:15:30:10] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak" 404 6923
+88.80.145.85:43332 - - [01/Dec/2023:15:30:23] "OPTIONS /" 200 -
+88.80.145.85:43340 - - [01/Dec/2023:15:30:24] "OPTIONS /" 200 -
+88.80.145.85:43344 - - [01/Dec/2023:15:30:24] "OPTIONS sip:nm" 404 1752
+123.60.101.59:56172 - - [01/Dec/2023:15:32:47] "POST /sdk" 404 6844
+123.60.101.59:56178 - - [01/Dec/2023:15:32:49] "GET /nmaplowercheck1701415964" 404 6906
+123.60.101.59:55030 - - [01/Dec/2023:15:32:49] "GET /HNAP1" 404 6849
+123.60.101.59:55036 - - [01/Dec/2023:15:32:49] "GET /evox/about" 404 6864
+123.60.101.59:55042 - - [01/Dec/2023:15:32:53] "GET /" 200 907
+123.60.101.59:40006 - - [01/Dec/2023:15:33:07] "GET /" 200 907
+123.60.101.59:35374 - - [01/Dec/2023:15:33:58] "GET /" 200 907
+123.60.101.59:35378 - - [01/Dec/2023:15:33:58] "GET /statics/icons/logo.png" 200 9411
+88.80.145.85:54746 - - [01/Dec/2023:15:35:20] "OPTIONS /warehouse/multiple/?max_page=30" 200 -
+88.80.145.85:54746 - - [01/Dec/2023:15:35:20] "GET /warehouse/multiple/?max_page=30" 200 1354
+88.80.145.85:53956 - - [01/Dec/2023:15:41:01] "OPTIONS *" 404 1737
+114.84.99.229:47684 - - [01/Dec/2023:15:52:02] "OPTIONS /staff/?staff_name=qige" 200 -
+114.84.99.229:47685 - - [01/Dec/2023:15:52:02] "OPTIONS /warehouse/multiple/?max_page=30" 200 -
+114.84.99.229:47685 - - [01/Dec/2023:15:52:02] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.99.229:47684 - - [01/Dec/2023:15:52:02] "GET /staff/?staff_name=qige" 200 238
+114.84.99.229:46892 - - [01/Dec/2023:15:56:23] "OPTIONS /dn/list/?page=1" 200 -
+114.84.99.229:46892 - - [01/Dec/2023:15:56:23] "GET /dn/list/?page=1" 200 1641
+114.84.99.229:46892 - - [01/Dec/2023:15:56:29] "OPTIONS /dn/orderrelease/" 200 -
+114.84.99.229:46892 - - [01/Dec/2023:15:56:29] "POST /dn/orderrelease/" 200 20
+114.84.99.229:46892 - - [01/Dec/2023:15:56:29] "GET /dn/list/?page=1" 200 1641
+114.84.99.229:46892 - - [01/Dec/2023:15:56:31] "POST /dn/orderrelease/" 200 20
+114.84.99.229:46892 - - [01/Dec/2023:15:56:31] "GET /dn/list/?page=1" 200 1641
+114.84.99.229:46892 - - [01/Dec/2023:15:56:31] "POST /dn/orderrelease/" 200 20
+114.84.99.229:46892 - - [01/Dec/2023:15:56:31] "GET /dn/list/?page=1" 200 1641
+123.60.101.59:58180 - - [01/Dec/2023:15:59:28] "GET /" 200 907
+114.84.99.229:48712 - - [01/Dec/2023:16:07:47] "OPTIONS /dashboard/sales/" 200 -
+114.84.99.229:48712 - - [01/Dec/2023:16:07:47] "GET /dashboard/sales/" 200 220
+114.84.99.229:48712 - - [01/Dec/2023:16:07:50] "OPTIONS /dashboard/receipts/" 200 -
+114.84.99.229:48712 - - [01/Dec/2023:16:07:50] "GET /dashboard/receipts/" 200 381
+114.84.99.229:48712 - - [01/Dec/2023:16:07:55] "OPTIONS /cyclecount/qtyrecorviewset/?page=1" 200 -
+114.84.99.229:48712 - - [01/Dec/2023:16:07:55] "GET /cyclecount/qtyrecorviewset/?page=1" 200 573
+114.84.99.229:48712 - - [01/Dec/2023:16:07:56] "GET /dashboard/receipts/" 200 381
+114.84.99.229:48712 - - [01/Dec/2023:16:07:58] "OPTIONS /asn/list/?page=1" 200 -
+114.84.99.229:48712 - - [01/Dec/2023:16:07:58] "GET /asn/list/?page=1" 200 1608
+114.84.99.229:48712 - - [01/Dec/2023:16:08:04] "OPTIONS /asn/list/" 200 -
+114.84.99.229:48712 - - [01/Dec/2023:16:08:04] "POST /asn/list/" 200 336
+114.84.99.229:48712 - - [01/Dec/2023:16:08:36] "OPTIONS /driver/?page=1" 200 -
+114.84.99.229:48712 - - [01/Dec/2023:16:08:36] "GET /driver/?page=1" 200 5656
+114.84.99.229:48712 - - [01/Dec/2023:16:08:46] "OPTIONS /staff/?page=1" 200 -
+114.84.99.229:48712 - - [01/Dec/2023:16:08:46] "GET /staff/?page=1" 200 5865
+114.84.99.229:48712 - - [01/Dec/2023:16:08:52] "OPTIONS /warehouse/?page=1" 200 -
+114.84.99.229:48712 - - [01/Dec/2023:16:08:52] "GET /warehouse/?page=1" 200 372
+114.84.99.229:45798 - - [01/Dec/2023:16:11:59] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.99.229:45798 - - [01/Dec/2023:16:12:10] "OPTIONS /login/" 200 -
+114.84.99.229:45798 - - [01/Dec/2023:16:12:10] "POST /login/" 200 123
+114.84.99.229:45798 - - [01/Dec/2023:16:12:22] "POST /login/" 200 151
+114.84.99.229:45798 - - [01/Dec/2023:16:12:23] "GET /staff/?staff_name=qige" 200 238
+114.84.99.229:45823 - - [01/Dec/2023:16:12:23] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.99.229:45823 - - [01/Dec/2023:16:12:27] "OPTIONS /stock/list/?ordering=-update_time&page=1" 200 -
+114.84.99.229:45823 - - [01/Dec/2023:16:12:27] "GET /stock/list/?ordering=-update_time&page=1" 200 1258
+114.84.99.229:45823 - - [01/Dec/2023:16:12:30] "GET /asn/list/?page=1" 200 1608
+114.84.99.229:45823 - - [01/Dec/2023:16:12:55] "OPTIONS /asn/detail/?asn_status=4&page=1" 200 -
+114.84.99.229:45823 - - [01/Dec/2023:16:12:55] "GET /asn/detail/?asn_status=4&page=1" 200 449
+114.84.99.229:45823 - - [01/Dec/2023:16:13:01] "OPTIONS /binset/?bin_name__icontains=001" 200 -
+114.84.99.229:45823 - - [01/Dec/2023:16:13:01] "GET /binset/?bin_name__icontains=001" 200 162
+114.84.99.229:45823 - - [01/Dec/2023:16:13:03] "OPTIONS /binset/?bin_name__icontains=00" 200 -
+114.84.99.229:45823 - - [01/Dec/2023:16:13:03] "GET /binset/?bin_name__icontains=00" 200 162
+114.84.99.229:45823 - - [01/Dec/2023:16:13:05] "OPTIONS /binset/?bin_name__icontains=01" 200 -
+114.84.99.229:45823 - - [01/Dec/2023:16:13:05] "GET /binset/?bin_name__icontains=01" 200 2951
+114.84.99.229:45823 - - [01/Dec/2023:16:13:15] "OPTIONS /asn/movetobin/3/" 200 -
+114.84.99.229:45823 - - [01/Dec/2023:16:13:15] "POST /asn/movetobin/3/" 200 64
+114.84.99.229:45823 - - [01/Dec/2023:16:13:15] "GET /asn/detail/?asn_status=4&page=1" 200 449
+114.84.99.229:45823 - - [01/Dec/2023:16:13:23] "GET /binset/?bin_name__icontains=01" 200 2951
+114.84.99.229:45823 - - [01/Dec/2023:16:13:29] "POST /asn/movetobin/3/" 200 20
+114.84.99.229:45823 - - [01/Dec/2023:16:13:29] "GET /asn/detail/?asn_status=4&page=1" 200 52
+114.84.99.229:45823 - - [01/Dec/2023:16:13:31] "GET /stock/list/?ordering=-update_time&page=1" 200 1259
+114.84.99.229:45823 - - [01/Dec/2023:16:13:36] "GET /dashboard/sales/" 200 220
+114.84.99.229:45823 - - [01/Dec/2023:16:13:37] "GET /dashboard/receipts/" 200 381
+114.84.99.229:45823 - - [01/Dec/2023:16:13:39] "GET /cyclecount/qtyrecorviewset/?page=1" 200 834
+114.84.99.229:45823 - - [01/Dec/2023:16:13:47] "GET /asn/list/?page=1" 200 1608
+114.84.99.229:45823 - - [01/Dec/2023:16:13:55] "GET /dn/list/?page=1" 200 1641
+114.84.99.229:45823 - - [01/Dec/2023:16:13:58] "GET /dashboard/sales/" 200 220
+114.84.99.229:45823 - - [01/Dec/2023:16:13:59] "GET /dashboard/receipts/" 200 381
+114.84.99.229:45823 - - [01/Dec/2023:16:14:01] "GET /cyclecount/qtyrecorviewset/?page=1" 200 834
+114.84.99.229:45823 - - [01/Dec/2023:16:14:56] "GET /dn/list/?page=1" 200 1641
+114.84.99.229:45823 - - [01/Dec/2023:16:15:01] "POST /dn/orderrelease/" 200 20
+114.84.99.229:45823 - - [01/Dec/2023:16:15:01] "GET /dn/list/?page=1" 200 1641
+114.84.99.229:45823 - - [01/Dec/2023:16:15:05] "GET /asn/list/?page=1" 200 1608
+114.84.99.229:45823 - - [01/Dec/2023:16:15:06] "POST /asn/list/" 200 336
+114.84.99.229:45823 - - [01/Dec/2023:16:15:11] "OPTIONS /goods/?goods_code__icontains=1" 200 -
+114.84.99.229:45823 - - [01/Dec/2023:16:15:11] "GET /goods/?goods_code__icontains=1" 200 9899
+114.84.99.229:45823 - - [01/Dec/2023:16:15:11] "OPTIONS /goods/?goods_code__icontains=19" 200 -
+114.84.99.229:45823 - - [01/Dec/2023:16:15:11] "GET /goods/?goods_code__icontains=19" 200 2626
+114.84.99.229:45823 - - [01/Dec/2023:16:15:12] "OPTIONS /goods/?goods_code__icontains=a000019" 200 -
+114.84.99.229:45823 - - [01/Dec/2023:16:15:12] "GET /goods/?goods_code__icontains=a000019" 200 2626
+114.84.99.229:45823 - - [01/Dec/2023:16:15:15] "OPTIONS /asn/detail/" 200 -
+114.84.99.229:45823 - - [01/Dec/2023:16:15:15] "POST /asn/detail/" 200 20
+114.84.99.229:45823 - - [01/Dec/2023:16:15:15] "GET /asn/list/?page=1" 200 1991
+114.84.99.229:45823 - - [01/Dec/2023:16:15:20] "OPTIONS /asn/preload/12/" 200 -
+114.84.99.229:45823 - - [01/Dec/2023:16:15:20] "POST /asn/preload/12/" 200 440
+114.84.99.229:45823 - - [01/Dec/2023:16:15:20] "GET /asn/list/?page=1" 200 1991
+114.84.99.229:45823 - - [01/Dec/2023:16:15:21] "OPTIONS /asn/presort/12/" 200 -
+114.84.99.229:45823 - - [01/Dec/2023:16:15:22] "POST /asn/presort/12/" 200 440
+114.84.99.229:45823 - - [01/Dec/2023:16:15:22] "GET /asn/list/?page=1" 200 1991
+114.84.99.229:45823 - - [01/Dec/2023:16:15:23] "OPTIONS /asn/detail/?asn_code=ASN202312011" 200 -
+114.84.99.229:45823 - - [01/Dec/2023:16:15:23] "GET /asn/detail/?asn_code=ASN202312011" 200 450
+114.84.99.229:45823 - - [01/Dec/2023:16:15:28] "OPTIONS /asn/sorted/12/" 200 -
+114.84.99.229:45823 - - [01/Dec/2023:16:15:28] "POST /asn/sorted/12/" 200 20
+114.84.99.229:45823 - - [01/Dec/2023:16:15:28] "GET /asn/list/?page=1" 200 1991
+114.84.99.229:45823 - - [01/Dec/2023:16:15:36] "OPTIONS /asn/detail/?goods_shortage_qty__gt=0&page=1" 200 -
+114.84.99.229:45823 - - [01/Dec/2023:16:15:36] "GET /asn/detail/?goods_shortage_qty__gt=0&page=1" 200 462
+114.84.99.229:45823 - - [01/Dec/2023:16:15:39] "GET /asn/detail/?goods_shortage_qty__gt=0&page=1" 200 462
+114.84.99.229:45823 - - [01/Dec/2023:16:15:50] "OPTIONS /asn/detail/?asn_status=1&page=1" 200 -
+114.84.99.229:45823 - - [01/Dec/2023:16:15:50] "GET /asn/detail/?asn_status=1&page=1" 200 52
+114.84.99.229:45823 - - [01/Dec/2023:16:15:51] "GET /asn/detail/?asn_status=1&page=1" 200 52
+114.84.99.229:45823 - - [01/Dec/2023:16:15:52] "GET /asn/list/?page=1" 200 1991
+114.84.99.229:45823 - - [01/Dec/2023:16:16:05] "GET /asn/detail/?goods_shortage_qty__gt=0&page=1" 200 462
+114.84.99.229:48186 - - [01/Dec/2023:16:19:03] "GET /asn/list/?page=1" 200 1991
+114.84.99.229:48186 - - [01/Dec/2023:16:19:16] "GET /asn/detail/?goods_shortage_qty__gt=0&page=1" 200 462
+114.84.99.229:48186 - - [01/Dec/2023:16:19:17] "GET /asn/list/?page=1" 200 1991
+114.84.99.229:48186 - - [01/Dec/2023:16:19:20] "POST /asn/list/" 200 336
+114.84.99.229:48186 - - [01/Dec/2023:16:19:44] "OPTIONS /asn/viewprint/5/" 200 -
+114.84.99.229:48186 - - [01/Dec/2023:16:19:44] "GET /asn/viewprint/5/" 200 742
+123.60.101.59:39510 - - [01/Dec/2023:16:20:03] "GET /" 200 907
+114.84.99.229:45259 - - [01/Dec/2023:16:21:43] "OPTIONS /asn/detail/?goods_more_qty__gt=0&page=1" 200 -
+114.84.99.229:45259 - - [01/Dec/2023:16:21:43] "GET /asn/detail/?goods_more_qty__gt=0&page=1" 200 52
+114.84.99.229:45259 - - [01/Dec/2023:16:21:44] "GET /asn/detail/?goods_shortage_qty__gt=0&page=1" 200 462
+114.84.99.229:45259 - - [01/Dec/2023:16:21:46] "GET /asn/list/?page=1" 200 1991
+114.84.99.229:45259 - - [01/Dec/2023:16:21:47] "POST /asn/list/" 200 336
+114.84.99.229:45259 - - [01/Dec/2023:16:21:52] "GET /goods/?goods_code__icontains=1" 200 9899
+114.84.99.229:45259 - - [01/Dec/2023:16:21:53] "OPTIONS /goods/?goods_code__icontains=15" 200 -
+114.84.99.229:45259 - - [01/Dec/2023:16:21:53] "GET /goods/?goods_code__icontains=15" 200 2622
+114.84.99.229:45259 - - [01/Dec/2023:16:21:54] "OPTIONS /goods/?goods_code__icontains=a000015" 200 -
+114.84.99.229:45259 - - [01/Dec/2023:16:21:55] "GET /goods/?goods_code__icontains=a000015" 200 2622
+114.84.99.229:45259 - - [01/Dec/2023:16:21:58] "POST /asn/detail/" 200 20
+114.84.99.229:45259 - - [01/Dec/2023:16:21:58] "GET /asn/list/?page=1" 200 2372
+114.84.99.229:45259 - - [01/Dec/2023:16:22:03] "OPTIONS /asn/preload/14/" 200 -
+114.84.99.229:45259 - - [01/Dec/2023:16:22:03] "POST /asn/preload/14/" 200 438
+114.84.99.229:45259 - - [01/Dec/2023:16:22:03] "GET /asn/list/?page=1" 200 2372
+114.84.99.229:45259 - - [01/Dec/2023:16:22:06] "OPTIONS /asn/presort/14/" 200 -
+114.84.99.229:45259 - - [01/Dec/2023:16:22:06] "POST /asn/presort/14/" 200 438
+114.84.99.229:45259 - - [01/Dec/2023:16:22:06] "GET /asn/list/?page=1" 200 2372
+114.84.99.229:45259 - - [01/Dec/2023:16:22:08] "OPTIONS /asn/detail/?asn_code=ASN202312012" 200 -
+114.84.99.229:45259 - - [01/Dec/2023:16:22:08] "GET /asn/detail/?asn_code=ASN202312012" 200 448
+114.84.99.229:45259 - - [01/Dec/2023:16:22:12] "OPTIONS /asn/sorted/14/" 200 -
+114.84.99.229:45259 - - [01/Dec/2023:16:22:12] "POST /asn/sorted/14/" 200 20
+114.84.99.229:45259 - - [01/Dec/2023:16:22:12] "GET /asn/list/?page=1" 200 2373
+114.84.99.229:45259 - - [01/Dec/2023:16:22:28] "GET /asn/detail/?goods_shortage_qty__gt=0&page=1" 200 462
+114.84.99.229:45259 - - [01/Dec/2023:16:22:29] "GET /asn/list/?page=1" 200 2373
+114.84.99.229:45259 - - [01/Dec/2023:16:22:31] "OPTIONS /asn/detail/?asn_status=3&page=1" 200 -
+114.84.99.229:45259 - - [01/Dec/2023:16:22:31] "GET /asn/detail/?asn_status=3&page=1" 200 52
+114.84.99.229:45259 - - [01/Dec/2023:16:22:32] "GET /asn/detail/?asn_status=4&page=1" 200 850
+114.84.99.229:45259 - - [01/Dec/2023:16:22:35] "GET /asn/detail/?goods_more_qty__gt=0&page=1" 200 450
+114.84.99.229:45259 - - [01/Dec/2023:16:23:23] "GET /dn/list/?page=1" 200 1641
+114.84.99.229:45259 - - [01/Dec/2023:16:23:29] "OPTIONS /dn/detail/?dn_status=2&back_order_label=true&page=1" 200 -
+114.84.99.229:45259 - - [01/Dec/2023:16:23:29] "GET /dn/detail/?dn_status=2&back_order_label=true&page=1" 200 512
+114.84.99.229:45259 - - [01/Dec/2023:16:23:35] "GET /dn/list/?page=1" 200 1641
+114.84.99.229:45259 - - [01/Dec/2023:16:23:56] "GET /dn/detail/?dn_status=2&back_order_label=true&page=1" 200 512
+114.84.99.229:45259 - - [01/Dec/2023:16:23:57] "GET /dn/list/?page=1" 200 1641
+114.84.99.229:45259 - - [01/Dec/2023:16:24:20] "GET /dn/detail/?dn_status=2&back_order_label=true&page=1" 200 512
+114.84.99.229:45259 - - [01/Dec/2023:16:24:21] "GET /dn/list/?page=1" 200 1641
+114.84.99.229:45259 - - [01/Dec/2023:16:24:22] "POST /dn/orderrelease/" 200 20
+114.84.99.229:45259 - - [01/Dec/2023:16:24:22] "GET /dn/list/?page=1" 200 1641
+114.84.99.229:45259 - - [01/Dec/2023:16:24:27] "OPTIONS /dn/pickinglist/7/" 200 -
+114.84.99.229:45259 - - [01/Dec/2023:16:24:27] "GET /dn/pickinglist/7/" 200 59
+114.84.99.229:45259 - - [01/Dec/2023:16:24:33] "GET /dn/detail/?dn_status=2&back_order_label=true&page=1" 200 512
+114.84.99.229:46469 - - [01/Dec/2023:16:27:07] "GET /stock/list/?ordering=-update_time&page=1" 200 1664
+114.84.99.229:46469 - - [01/Dec/2023:16:27:14] "OPTIONS /stock/bin/?page=1" 200 -
+114.84.99.229:46469 - - [01/Dec/2023:16:27:14] "GET /stock/bin/?page=1" 200 635
+114.84.99.229:46469 - - [01/Dec/2023:16:27:18] "GET /stock/list/?ordering=-update_time&page=1" 200 1664
+114.84.99.229:46469 - - [01/Dec/2023:16:27:20] "GET /stock/bin/?page=1" 200 635
+114.84.99.229:46469 - - [01/Dec/2023:16:27:22] "GET /stock/list/?ordering=-update_time&page=1" 200 1664
+114.84.99.229:46469 - - [01/Dec/2023:16:27:25] "GET /asn/list/?page=1" 200 2373
+114.84.99.229:46469 - - [01/Dec/2023:16:27:27] "GET /asn/detail/?asn_status=4&page=1" 200 850
+114.84.99.229:46469 - - [01/Dec/2023:16:27:35] "GET /binset/?bin_name__icontains=00" 200 162
+114.84.99.229:46469 - - [01/Dec/2023:16:27:36] "OPTIONS /binset/?bin_name__icontains=0" 200 -
+114.84.99.229:46469 - - [01/Dec/2023:16:27:36] "GET /binset/?bin_name__icontains=0" 200 2952
+114.84.99.229:46469 - - [01/Dec/2023:16:27:37] "GET /binset/?bin_name__icontains=01" 200 2952
+114.84.99.229:46469 - - [01/Dec/2023:16:27:41] "OPTIONS /asn/movetobin/6/" 200 -
+114.84.99.229:46469 - - [01/Dec/2023:16:27:42] "POST /asn/movetobin/6/" 200 20
+114.84.99.229:46469 - - [01/Dec/2023:16:27:42] "GET /asn/detail/?asn_status=4&page=1" 200 850
+114.84.99.229:46469 - - [01/Dec/2023:16:27:49] "OPTIONS /binset/?bin_name__icontains=222" 200 -
+114.84.99.229:46469 - - [01/Dec/2023:16:27:49] "GET /binset/?bin_name__icontains=222" 200 162
+114.84.99.229:46469 - - [01/Dec/2023:16:27:51] "OPTIONS /binset/?bin_name__icontains=22" 200 -
+114.84.99.229:46469 - - [01/Dec/2023:16:27:51] "GET /binset/?bin_name__icontains=22" 200 162
+114.84.99.229:46469 - - [01/Dec/2023:16:27:52] "OPTIONS /binset/?bin_name__icontains=2" 200 -
+114.84.99.229:46469 - - [01/Dec/2023:16:27:52] "GET /binset/?bin_name__icontains=2" 200 1554
+114.84.99.229:46469 - - [01/Dec/2023:16:27:59] "POST /asn/movetobin/6/" 200 64
+114.84.99.229:46469 - - [01/Dec/2023:16:27:59] "GET /asn/detail/?asn_status=4&page=1" 200 850
+114.84.99.229:46469 - - [01/Dec/2023:16:28:04] "OPTIONS /binset/?bin_name__icontains=02" 200 -
+114.84.99.229:46469 - - [01/Dec/2023:16:28:05] "GET /binset/?bin_name__icontains=02" 200 1554
+114.84.99.229:46469 - - [01/Dec/2023:16:28:40] "POST /asn/movetobin/6/" 200 20
+114.84.99.229:46469 - - [01/Dec/2023:16:28:41] "GET /asn/detail/?asn_status=4&page=1" 200 451
+114.84.99.229:46469 - - [01/Dec/2023:16:28:47] "GET /binset/?bin_name__icontains=222" 200 162
+114.84.99.229:46469 - - [01/Dec/2023:16:28:49] "GET /binset/?bin_name__icontains=2" 200 1555
+114.84.99.229:46469 - - [01/Dec/2023:16:28:53] "GET /warehouse/?page=1" 200 372
+114.84.99.229:46469 - - [01/Dec/2023:16:28:56] "OPTIONS /binset/?page=1" 200 -
+114.84.99.229:46469 - - [01/Dec/2023:16:28:56] "GET /binset/?page=1" 200 2954
+114.84.99.229:46469 - - [01/Dec/2023:16:29:03] "OPTIONS /binset/25/" 200 -
+114.84.99.229:46469 - - [01/Dec/2023:16:29:04] "PUT /binset/25/" 200 241
+114.84.99.229:46469 - - [01/Dec/2023:16:29:04] "GET /binset/?page=1" 200 2950
+114.84.99.229:46469 - - [01/Dec/2023:16:29:10] "OPTIONS /binsize/?page=1" 200 -
+114.84.99.229:46469 - - [01/Dec/2023:16:29:10] "GET /binsize/?page=1" 200 774
+114.84.99.229:46469 - - [01/Dec/2023:16:29:12] "OPTIONS /binproperty/?page=1" 200 -
+114.84.99.229:46469 - - [01/Dec/2023:16:29:12] "GET /binproperty/?page=1" 200 568
+114.84.99.229:46469 - - [01/Dec/2023:16:29:13] "GET /binsize/?page=1" 200 774
+114.84.99.229:46469 - - [01/Dec/2023:16:29:16] "GET /binproperty/?page=1" 200 568
+114.84.99.229:46469 - - [01/Dec/2023:16:29:17] "GET /binsize/?page=1" 200 774
+114.84.99.229:46469 - - [01/Dec/2023:16:29:22] "GET /stock/list/?ordering=-update_time&page=1" 200 1664
+123.60.101.59:42310 - - [01/Dec/2023:16:29:24] "GET /" 200 907
+114.84.99.229:46469 - - [01/Dec/2023:16:29:28] "OPTIONS /goods/?page=1" 200 -
+114.84.99.229:46469 - - [01/Dec/2023:16:29:28] "GET /goods/?page=1" 200 18858
+114.84.99.229:46469 - - [01/Dec/2023:16:29:39] "GET /warehouse/?page=1" 200 372
+114.84.99.229:49031 - - [01/Dec/2023:16:31:00] "GET /asn/list/?page=1" 200 2373
+114.84.99.229:49031 - - [01/Dec/2023:16:31:03] "GET /asn/detail/?asn_status=4&page=1" 200 451
+114.84.99.229:49031 - - [01/Dec/2023:16:31:10] "GET /binset/?bin_name__icontains=001" 200 162
+114.84.99.229:49031 - - [01/Dec/2023:16:31:12] "OPTIONS /binset/?bin_name__icontains=1" 200 -
+114.84.99.229:49031 - - [01/Dec/2023:16:31:12] "GET /binset/?bin_name__icontains=1" 200 2950
+114.84.99.229:49031 - - [01/Dec/2023:16:31:17] "OPTIONS /asn/movetobin/5/" 200 -
+114.84.99.229:49031 - - [01/Dec/2023:16:31:17] "POST /asn/movetobin/5/" 200 20
+114.84.99.229:49031 - - [01/Dec/2023:16:31:17] "GET /asn/detail/?asn_status=4&page=1" 200 52
+114.84.99.229:49031 - - [01/Dec/2023:16:31:21] "GET /stock/list/?ordering=-update_time&page=1" 200 1665
+114.84.99.229:49031 - - [01/Dec/2023:16:31:28] "GET /stock/bin/?page=1" 200 1511
+114.84.99.229:49031 - - [01/Dec/2023:16:31:29] "GET /stock/list/?ordering=-update_time&page=1" 200 1665
+114.84.99.229:49031 - - [01/Dec/2023:16:31:31] "GET /asn/list/?page=1" 200 2373
+114.84.99.229:49031 - - [01/Dec/2023:16:31:53] "POST /asn/list/" 200 336
+114.84.99.229:49031 - - [01/Dec/2023:16:31:59] "OPTIONS /goods/?goods_code__icontains=0" 200 -
+114.84.99.229:49031 - - [01/Dec/2023:16:31:59] "GET /goods/?goods_code__icontains=0" 200 18882
+114.84.99.229:49031 - - [01/Dec/2023:16:31:59] "OPTIONS /goods/?goods_code__icontains=01" 200 -
+114.84.99.229:49031 - - [01/Dec/2023:16:31:59] "GET /goods/?goods_code__icontains=01" 200 8210
+114.84.99.229:49031 - - [01/Dec/2023:16:31:59] "OPTIONS /goods/?goods_code__icontains=019" 200 -
+114.84.99.229:49031 - - [01/Dec/2023:16:31:59] "GET /goods/?goods_code__icontains=019" 200 2626
+114.84.99.229:49031 - - [01/Dec/2023:16:32:01] "GET /goods/?goods_code__icontains=a000019" 200 2626
+114.84.99.229:49031 - - [01/Dec/2023:16:32:05] "POST /asn/detail/" 200 20
+114.84.99.229:49031 - - [01/Dec/2023:16:32:05] "GET /asn/list/?page=1" 200 2781
+114.84.99.229:49031 - - [01/Dec/2023:16:32:11] "OPTIONS /asn/preload/15/" 200 -
+114.84.99.229:49031 - - [01/Dec/2023:16:32:11] "POST /asn/preload/15/" 200 465
+114.84.99.229:49031 - - [01/Dec/2023:16:32:11] "GET /asn/list/?page=1" 200 2781
+114.84.99.229:49031 - - [01/Dec/2023:16:32:13] "OPTIONS /asn/presort/15/" 200 -
+114.84.99.229:49031 - - [01/Dec/2023:16:32:13] "POST /asn/presort/15/" 200 465
+114.84.99.229:49031 - - [01/Dec/2023:16:32:13] "GET /asn/list/?page=1" 200 2781
+114.84.99.229:49031 - - [01/Dec/2023:16:32:16] "OPTIONS /asn/detail/?asn_code=ASN202312013" 200 -
+114.84.99.229:49031 - - [01/Dec/2023:16:32:16] "GET /asn/detail/?asn_code=ASN202312013" 200 476
+114.84.99.229:49031 - - [01/Dec/2023:16:32:24] "OPTIONS /asn/sorted/15/" 200 -
+114.84.99.229:49031 - - [01/Dec/2023:16:32:24] "POST /asn/sorted/15/" 200 20
+114.84.99.229:49031 - - [01/Dec/2023:16:32:24] "GET /asn/list/?page=1" 200 2780
+114.84.99.229:49031 - - [01/Dec/2023:16:32:28] "GET /asn/detail/?asn_status=3&page=1" 200 52
+114.84.99.229:49031 - - [01/Dec/2023:16:32:29] "GET /asn/detail/?asn_status=4&page=1" 200 491
+114.84.99.229:49031 - - [01/Dec/2023:16:32:37] "GET /binset/?bin_name__icontains=01" 200 2950
+114.84.99.229:49031 - - [01/Dec/2023:16:33:24] "OPTIONS /asn/movetobin/7/" 200 -
+114.84.99.229:49031 - - [01/Dec/2023:16:33:24] "POST /asn/movetobin/7/" 200 20
+114.84.99.229:49031 - - [01/Dec/2023:16:33:24] "GET /asn/detail/?asn_status=4&page=1" 200 52
+114.84.99.229:49031 - - [01/Dec/2023:16:33:27] "GET /stock/list/?ordering=-update_time&page=1" 200 1686
+114.84.99.229:48425 - - [01/Dec/2023:16:35:14] "OPTIONS /capital/?page=1" 200 -
+114.84.99.229:48425 - - [01/Dec/2023:16:35:14] "GET /capital/?page=1" 200 5359
+114.84.99.229:48425 - - [01/Dec/2023:16:35:28] "GET /goods/?page=1" 200 18858
+114.84.99.229:48425 - - [01/Dec/2023:16:35:44] "OPTIONS /company/?page=1" 200 -
+114.84.99.229:48425 - - [01/Dec/2023:16:35:44] "GET /company/?page=1" 200 319
+114.84.99.229:48425 - - [01/Dec/2023:16:35:49] "GET /warehouse/?page=1" 200 372
+114.84.99.229:48425 - - [01/Dec/2023:16:35:52] "GET /staff/?page=1" 200 5865
+114.84.99.229:48425 - - [01/Dec/2023:16:36:02] "GET /staff/?page=1" 200 5865
+114.84.99.229:48425 - - [01/Dec/2023:16:36:55] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.99.229:46211 - - [01/Dec/2023:16:38:23] "POST /login/" 200 151
+114.84.99.229:46211 - - [01/Dec/2023:16:38:24] "GET /staff/?staff_name=qige" 200 238
+114.84.99.229:46218 - - [01/Dec/2023:16:38:24] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.99.229:46218 - - [01/Dec/2023:16:38:31] "GET /staff/?page=1" 200 5865
+114.84.99.229:46218 - - [01/Dec/2023:16:38:35] "GET /staff/?page=1" 200 5865
+114.84.99.229:46218 - - [01/Dec/2023:16:38:42] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.99.229:46218 - - [01/Dec/2023:16:38:52] "OPTIONS /staff/?staff_name=abel&check_code=8899" 200 -
+114.84.99.229:46218 - - [01/Dec/2023:16:38:52] "GET /staff/?staff_name=abel&check_code=8899" 200 59
+114.84.99.229:46218 - - [01/Dec/2023:16:38:55] "GET /staff/?staff_name=abel&check_code=8899" 200 59
+114.84.99.229:46218 - - [01/Dec/2023:16:39:05] "POST /login/" 200 151
+114.84.99.229:46211 - - [01/Dec/2023:16:39:06] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.99.229:46218 - - [01/Dec/2023:16:39:06] "GET /staff/?staff_name=qige" 200 238
+114.84.99.229:46218 - - [01/Dec/2023:16:39:07] "GET /staff/?page=1" 200 5865
+114.84.99.229:46218 - - [01/Dec/2023:16:39:09] "GET /staff/?page=1" 200 5865
+114.84.99.229:46218 - - [01/Dec/2023:16:39:19] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.99.229:46218 - - [01/Dec/2023:16:39:26] "OPTIONS /staff/?staff_name=qige&check_code=8899" 200 -
+114.84.99.229:46218 - - [01/Dec/2023:16:39:26] "GET /staff/?staff_name=qige&check_code=8899" 200 65
+114.84.99.229:46218 - - [01/Dec/2023:16:39:38] "POST /login/" 200 151
+114.84.99.229:46211 - - [01/Dec/2023:16:39:39] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.99.229:46218 - - [01/Dec/2023:16:39:39] "GET /staff/?staff_name=qige" 200 238
+114.84.99.229:46218 - - [01/Dec/2023:16:39:39] "GET /staff/?page=1" 200 5865
+114.84.99.229:46218 - - [01/Dec/2023:16:39:41] "GET /staff/?page=1" 200 5865
+114.84.99.229:48100 - - [01/Dec/2023:16:42:21] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.99.229:48100 - - [01/Dec/2023:16:42:32] "OPTIONS /staff/?staff_name=Aaron&check_code=8185" 200 -
+114.84.99.229:48100 - - [01/Dec/2023:16:42:32] "GET /staff/?staff_name=Aaron&check_code=8185" 200 241
+114.84.99.229:48100 - - [01/Dec/2023:16:42:33] "OPTIONS /staff/?staff_name=Aaron" 200 -
+114.84.99.229:48108 - - [01/Dec/2023:16:42:33] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.99.229:48100 - - [01/Dec/2023:16:42:33] "GET /staff/?staff_name=Aaron" 200 241
+114.84.99.229:48100 - - [01/Dec/2023:16:42:38] "GET /asn/list/?page=1" 200 2780
+114.84.99.229:48100 - - [01/Dec/2023:16:42:45] "POST /asn/list/" 200 337
+114.84.99.229:48100 - - [01/Dec/2023:16:42:48] "GET /dn/list/?page=1" 200 1641
+114.84.99.229:48100 - - [01/Dec/2023:16:42:50] "GET /stock/list/?ordering=-update_time&page=1" 200 1686
+114.84.99.229:48100 - - [01/Dec/2023:16:42:51] "GET /capital/?page=1" 200 5359
+114.84.99.229:48100 - - [01/Dec/2023:16:42:53] "GET /goods/?page=1" 200 18858
+114.84.99.229:48100 - - [01/Dec/2023:16:42:54] "GET /company/?page=1" 200 319
+114.84.99.229:48100 - - [01/Dec/2023:16:42:56] "GET /warehouse/?page=1" 200 372
+114.84.99.229:48100 - - [01/Dec/2023:16:43:05] "GET /staff/?page=1" 200 5865
+114.84.99.229:48100 - - [01/Dec/2023:16:43:16] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.99.229:45839 - - [01/Dec/2023:16:44:20] "OPTIONS /staff/?staff_name=Dale&check_code=8435" 200 -
+[2023-12-01 17:07:38][django.request.log_response():241] [WARNING] Not Found: /setup/eureka_info
+[2023-12-01 17:07:38][django.request.log_response():241] [WARNING] Not Found: /setup/eureka_info
+[2023-12-01 17:22:27][django.request.log_response():241] [ERROR] Internal Server Error: /js/NewWindow_2_all.js
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 408, in wait_for
+    return await fut
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "/root/www/GreaterWMS/./greaterwms/views.py", line 31, in js
+    resp = StreamingHttpResponse(FileWrapper(open(path, 'rb')), content_type=content_type)
+FileNotFoundError: [Errno 2] No such file or directory: '/root/www/GreaterWMS/templates/dist/spa/js/NewWindow_2_all.js'
+[2023-12-01 18:17:59][django.request.log_response():241] [WARNING] Not Found: /hudson
+[2023-12-01 18:37:42][django.request.log_response():241] [WARNING] Not Found: *
+[2023-12-01 18:38:15][django.request.log_response():241] [ERROR] Internal Server Error: /robots.txt
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 408, in wait_for
+    return await fut
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "/root/www/GreaterWMS/./greaterwms/views.py", line 8, in robots
+    path = settings.BASE_DIR + request.path_info
+TypeError: unsupported operand type(s) for +: 'PosixPath' and 'str'
+[2023-12-01 19:12:09][django.request.log_response():241] [WARNING] Not Found: /nice ports,/Trinity.txt.bak
+[2023-12-01 19:12:09][django.request.log_response():241] [WARNING] Not Found: /nice ports,/Trinity.txt.bak
+[2023-12-01 19:16:18][django.request.log_response():241] [WARNING] Not Found: /evox/about
+[2023-12-01 19:22:23][django.request.log_response():241] [WARNING] Not Found: /HNAP1
+[2023-12-01 20:10:40][django.request.log_response():241] [WARNING] Not Found: /setup/eureka_info
+[2023-12-01 21:29:15][django.request.log_response():241] [WARNING] Not Found: *
+[2023-12-01 21:34:59][django.request.log_response():241] [WARNING] Not Found: /setup/eureka_info
+[2023-12-01 22:17:09][django.request.log_response():241] [ERROR] Internal Server Error: /robots.txt
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 408, in wait_for
+    return await fut
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "/root/www/GreaterWMS/./greaterwms/views.py", line 8, in robots
+    path = settings.BASE_DIR + request.path_info
+TypeError: unsupported operand type(s) for +: 'PosixPath' and 'str'
+[2023-12-01 22:17:09][django.request.log_response():241] [ERROR] Internal Server Error: /robots.txt
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 408, in wait_for
+    return await fut
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "/root/www/GreaterWMS/./greaterwms/views.py", line 8, in robots
+    path = settings.BASE_DIR + request.path_info
+TypeError: unsupported operand type(s) for +: 'PosixPath' and 'str'
+114.84.99.229:45839 - - [01/Dec/2023:16:44:20] "GET /staff/?staff_name=Dale&check_code=8435" 200 240
+114.84.99.229:45839 - - [01/Dec/2023:16:44:21] "OPTIONS /staff/?staff_name=Dale" 200 -
+114.84.99.229:45847 - - [01/Dec/2023:16:44:21] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.99.229:45839 - - [01/Dec/2023:16:44:21] "GET /staff/?staff_name=Dale" 200 240
+114.84.99.229:45839 - - [01/Dec/2023:16:44:23] "GET /asn/list/?page=1" 200 2780
+114.84.99.229:45839 - - [01/Dec/2023:16:44:28] "OPTIONS /asn/viewprint/15/" 200 -
+114.84.99.229:45839 - - [01/Dec/2023:16:44:28] "GET /asn/viewprint/15/" 200 782
+114.84.99.229:45839 - - [01/Dec/2023:16:44:30] "POST /asn/list/" 200 336
+114.84.99.229:45839 - - [01/Dec/2023:16:44:36] "GET /goods/?goods_code__icontains=0" 200 18882
+114.84.99.229:45839 - - [01/Dec/2023:16:44:36] "OPTIONS /goods/?goods_code__icontains=00" 200 -
+114.84.99.229:45839 - - [01/Dec/2023:16:44:36] "GET /goods/?goods_code__icontains=00" 200 18883
+114.84.99.229:45839 - - [01/Dec/2023:16:44:36] "OPTIONS /goods/?goods_code__icontains=001" 200 -
+114.84.99.229:45839 - - [01/Dec/2023:16:44:36] "GET /goods/?goods_code__icontains=001" 200 8210
+114.84.99.229:45839 - - [01/Dec/2023:16:44:39] "OPTIONS /goods/?goods_code__icontains=a000010" 200 -
+114.84.99.229:45839 - - [01/Dec/2023:16:44:39] "GET /goods/?goods_code__icontains=a000010" 200 2627
+114.84.99.229:45839 - - [01/Dec/2023:16:44:47] "POST /asn/detail/" 200 20
+114.84.99.229:45839 - - [01/Dec/2023:16:44:47] "GET /asn/list/?page=1" 200 3160
+114.84.99.229:45839 - - [01/Dec/2023:16:44:50] "OPTIONS /asn/preload/17/" 200 -
+114.84.99.229:45839 - - [01/Dec/2023:16:44:50] "POST /asn/preload/17/" 200 437
+114.84.99.229:45839 - - [01/Dec/2023:16:44:50] "GET /asn/list/?page=1" 200 3160
+114.84.99.229:45839 - - [01/Dec/2023:16:44:54] "OPTIONS /asn/presort/17/" 200 -
+114.84.99.229:45839 - - [01/Dec/2023:16:44:54] "POST /asn/presort/17/" 200 437
+114.84.99.229:45839 - - [01/Dec/2023:16:44:54] "GET /asn/list/?page=1" 200 3160
+114.84.99.229:45839 - - [01/Dec/2023:16:44:54] "OPTIONS /asn/detail/?asn_code=ASN202312014" 200 -
+114.84.99.229:45839 - - [01/Dec/2023:16:44:54] "GET /asn/detail/?asn_code=ASN202312014" 200 448
+114.84.99.229:45839 - - [01/Dec/2023:16:44:57] "GET /company/?page=1" 200 319
+114.84.99.229:45839 - - [01/Dec/2023:16:45:00] "GET /goods/?page=1" 200 18858
+114.84.99.229:45590 - - [01/Dec/2023:16:46:23] "GET /company/?page=1" 200 319
+114.84.99.229:45590 - - [01/Dec/2023:16:46:24] "GET /warehouse/?page=1" 200 372
+114.84.99.229:45590 - - [01/Dec/2023:16:47:17] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.99.229:45590 - - [01/Dec/2023:16:47:26] "POST /login/" 200 151
+114.84.99.229:45620 - - [01/Dec/2023:16:47:27] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.99.229:45590 - - [01/Dec/2023:16:47:27] "GET /staff/?staff_name=qige" 200 238
+114.84.99.229:45620 - - [01/Dec/2023:16:47:53] "GET /asn/list/?page=1" 200 3160
+114.84.99.229:45620 - - [01/Dec/2023:16:47:56] "GET /dashboard/sales/" 200 220
+114.84.99.229:45620 - - [01/Dec/2023:16:47:58] "GET /dashboard/receipts/" 200 544
+114.84.99.229:45620 - - [01/Dec/2023:16:48:00] "GET /cyclecount/qtyrecorviewset/?page=1" 200 1883
+114.84.99.229:45620 - - [01/Dec/2023:16:48:03] "GET /asn/list/?page=1" 200 3160
+114.84.99.229:46300 - - [01/Dec/2023:16:51:05] "GET /dashboard/sales/" 200 220
+114.84.99.229:46300 - - [01/Dec/2023:16:51:11] "GET /dashboard/receipts/" 200 544
+114.84.99.229:46300 - - [01/Dec/2023:16:51:14] "GET /warehouse/?page=1" 200 372
+114.84.99.229:46300 - - [01/Dec/2023:16:51:16] "GET /company/?page=1" 200 319
+121.36.70.110:17152 - - [01/Dec/2023:17:07:38] "HEAD /setup/eureka_info" 404 -
+121.36.70.110:42384 - - [01/Dec/2023:17:07:38] "GET /setup/eureka_info" 404 6890
+123.60.101.59:53076 - - [01/Dec/2023:17:22:27] "GET /js/NewWindow_2_all.js" 500 88068
+198.98.58.141:48582 - - [01/Dec/2023:18:13:11] "GET /" 200 907
+123.60.101.59:52268 - - [01/Dec/2023:18:17:59] "GET /hudson" 404 6852
+167.248.133.49:46858 - - [01/Dec/2023:18:37:38] "GET /" 200 907
+167.248.133.49:50698 - - [01/Dec/2023:18:37:42] "GET /" 200 907
+167.248.133.49:57382 - - [01/Dec/2023:18:37:42] "PRI *" 404 1733
+167.248.133.49:36180 - - [01/Dec/2023:18:37:43] "GET /statics/icons/logo.png" 200 9411
+167.248.133.49:43080 - - [01/Dec/2023:18:37:43] "GET /favicon.ico" 200 9411
+123.60.101.59:41958 - - [01/Dec/2023:18:38:15] "GET /" 200 907
+123.60.101.59:41972 - - [01/Dec/2023:18:38:15] "GET /statics/icons/logo.png" 200 9411
+123.60.101.59:41984 - - [01/Dec/2023:18:38:15] "GET /robots.txt" 500 87208
+123.249.103.79:60724 - - [01/Dec/2023:19:12:09] "HEAD /nice%20ports,/Trinity.txt.bak" 404 -
+123.249.103.79:47269 - - [01/Dec/2023:19:12:09] "GET /nice%20ports,/Trinity.txt.bak" 404 6922
+123.60.101.59:52862 - - [01/Dec/2023:19:16:18] "GET /evox/about" 404 6864
+123.60.101.59:50730 - - [01/Dec/2023:19:22:23] "GET /HNAP1" 404 6849
+123.60.101.59:44520 - - [01/Dec/2023:19:40:40] "GET /" 200 907
+123.60.101.59:47362 - - [01/Dec/2023:19:58:36] "GET /" 200 907
+123.60.101.59:34966 - - [01/Dec/2023:20:06:02] "HEAD /" 200 -
+123.60.101.59:34974 - - [01/Dec/2023:20:06:02] "GET /" 200 907
+123.60.101.59:52962 - - [01/Dec/2023:20:06:55] "HEAD /" 200 -
+123.60.101.59:52970 - - [01/Dec/2023:20:06:56] "GET /" 200 907
+123.60.101.59:52986 - - [01/Dec/2023:20:06:56] "GET /css/vendor.2ac1ba6a.css" 200 208810
+123.60.101.59:52998 - - [01/Dec/2023:20:06:56] "GET /css/app.45730797.css" 200 1376
+123.60.101.59:53010 - - [01/Dec/2023:20:06:56] "GET /js/vendor.4a49a306.js" 200 2250174
+123.60.101.59:53024 - - [01/Dec/2023:20:06:56] "GET /js/app.9c3c4b10.js" 200 269647
+123.60.101.59:53034 - - [01/Dec/2023:20:06:57] "GET /statics/baseurl.txt" 200 26
+123.60.101.59:53038 - - [01/Dec/2023:20:06:57] "GET /css/2.01c6672a.css" 200 107
+123.60.101.59:53062 - - [01/Dec/2023:20:06:57] "GET /js/2.2e50e4a1.js" 200 26953
+123.60.101.59:53048 - - [01/Dec/2023:20:06:57] "GET /js/63.920bbb4b.js" 200 361455
+123.60.101.59:53072 - - [01/Dec/2023:20:06:58] "GET /fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.c08197a9.woff2" 200 128264
+123.60.101.59:53092 - - [01/Dec/2023:20:06:58] "GET /fonts/KFOlCnqEu92Fr1MmEU9fBBc-.48af7707.woff" 200 20544
+123.60.101.59:53108 - - [01/Dec/2023:20:06:58] "GET /fonts/KFOmCnqEu92Fr1Mu4mxM.f1e2a767.woff" 200 20344
+123.60.101.59:53136 - - [01/Dec/2023:20:06:58] "GET /statics/icons/IOS.png" 200 3161
+123.249.98.200:22226 - - [01/Dec/2023:20:06:58] "GET /warehouse/multiple/?max_page=30" 200 1354
+123.60.101.59:53078 - - [01/Dec/2023:20:06:59] "GET /fonts/KFOlCnqEu92Fr1MmWUlfBBc-.77ecb942.woff" 200 20408
+123.60.101.59:53122 - - [01/Dec/2023:20:06:59] "GET /statics/icons/android.png" 200 7470
+198.199.104.76:44056 - - [01/Dec/2023:20:10:40] "GET /setup/eureka_info" 404 6890
+121.36.70.110:47333 - - [01/Dec/2023:20:26:59] "HEAD /asn/presort/14/" 200 -
+121.36.70.110:37243 - - [01/Dec/2023:20:26:59] "GET /asn/presort/14/" 200 71
+121.36.70.110:23834 - - [01/Dec/2023:20:32:26] "HEAD /asn/preload/14/" 200 -
+121.36.70.110:22153 - - [01/Dec/2023:20:32:26] "GET /asn/preload/14/" 200 71
+121.36.70.110:23905 - - [01/Dec/2023:20:32:37] "HEAD /asn/preload/14/" 200 -
+121.36.70.110:27294 - - [01/Dec/2023:20:32:38] "GET /asn/preload/14/" 200 71
+123.60.101.59:52676 - - [01/Dec/2023:20:42:56] "GET /" 200 907
+119.3.219.91:12081 - - [01/Dec/2023:20:43:11] "HEAD /asn/detail/?goods_more_qty__gt=0&page=1" 200 -
+119.3.219.91:20516 - - [01/Dec/2023:20:43:12] "GET /asn/detail/?goods_more_qty__gt=0&page=1" 200 71
+121.36.70.110:22073 - - [01/Dec/2023:20:46:08] "HEAD /asn/detail/" 200 -
+121.36.70.110:45622 - - [01/Dec/2023:20:46:08] "GET /asn/detail/" 200 71
+167.94.145.51:36814 - - [01/Dec/2023:21:29:11] "GET /" 200 907
+167.94.145.51:40560 - - [01/Dec/2023:21:29:14] "GET /" 200 907
+167.94.145.51:54652 - - [01/Dec/2023:21:29:15] "PRI *" 404 1733
+167.94.145.51:41216 - - [01/Dec/2023:21:29:15] "GET /statics/icons/logo.png" 200 9411
+167.94.145.51:54486 - - [01/Dec/2023:21:29:15] "GET /favicon.ico" 200 9411
+192.241.207.57:55872 - - [01/Dec/2023:21:34:59] "GET /setup/eureka_info" 404 6890
+123.60.101.59:44220 - - [01/Dec/2023:22:17:09] "HEAD /robots.txt" 500 21752
+123.60.101.59:44232 - - [01/Dec/2023:22:17:09] "GET /robots.txt" 500 87278
+[2023-12-01 23:29:17][django.request.log_response():241] [WARNING] Not Found: /__phpmyadmin/index.php
+[2023-12-01 23:29:18][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-5.1.2/index.php
+[2023-12-01 23:29:18][django.request.log_response():241] [WARNING] Not Found: /mysql/web/index.php
+[2023-12-01 23:29:19][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin3/index.php
+[2023-12-01 23:29:19][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-5.2.0-all-languages/index.php
+[2023-12-01 23:29:19][django.request.log_response():241] [WARNING] Not Found: /db/index.php
+[2023-12-01 23:29:19][django.request.log_response():241] [WARNING] Not Found: /1phpmyadmin/index.php
+[2023-12-01 23:29:20][django.request.log_response():241] [WARNING] Not Found: /sql/sqladmin/index.php
+[2023-12-01 23:29:20][django.request.log_response():241] [WARNING] Not Found: /_phpmyadmin_/index.php
+[2023-12-01 23:29:20][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2/index.php
+[2023-12-01 23:29:21][django.request.log_response():241] [WARNING] Not Found: /database/index.php
+[2023-12-01 23:29:21][django.request.log_response():241] [WARNING] Not Found: /dbadmin/index.php
+[2023-12-01 23:29:21][django.request.log_response():241] [WARNING] Not Found: /db/phpmyadmin/index.php
+[2023-12-01 23:29:21][django.request.log_response():241] [WARNING] Not Found: /sql/phpmanager/index.php
+[2023-12-01 23:29:21][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-4/index.php
+[2023-12-01 23:29:21][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-4.9.10-all-languages/index.php
+[2023-12-01 23:29:22][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin4/index.php
+[2023-12-01 23:29:22][django.request.log_response():241] [WARNING] Not Found: /db/websql/index.php
+[2023-12-01 23:29:22][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-5.1.3/index.php
+[2023-12-01 23:29:22][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-latest-english/index.php
+[2023-12-01 23:29:22][django.request.log_response():241] [WARNING] Not Found: /mysql/index.php
+[2023-12-01 23:29:22][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-3/index.php
+[2023-12-01 23:29:23][django.request.log_response():241] [WARNING] Not Found: /sql/phpMyAdmin2/index.php
+[2023-12-01 23:29:23][django.request.log_response():241] [WARNING] Not Found: /administrator/admin/index.php
+[2023-12-01 23:29:23][django.request.log_response():241] [WARNING] Not Found: /mysqladmin/index.php
+[2023-12-01 23:29:23][django.request.log_response():241] [WARNING] Not Found: /administrator/pma/index.php
+[2023-12-01 23:29:23][django.request.log_response():241] [WARNING] Not Found: /administrator/web/index.php
+[2023-12-01 23:29:24][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-5.1.0/index.php
+[2023-12-01 23:29:24][django.request.log_response():241] [WARNING] Not Found: /phpmy/index.php
+[2023-12-01 23:29:24][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-5.1.1/index.php
+[2023-12-01 23:29:24][django.request.log_response():241] [WARNING] Not Found: /administrator/db/index.php
+[2023-12-01 23:29:24][django.request.log_response():241] [WARNING] Not Found: /db/dbweb/index.php
+[2023-12-01 23:29:24][django.request.log_response():241] [WARNING] Not Found: /mysql/dbadmin/index.php
+[2023-12-01 23:29:25][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin/index.php
+[2023-12-01 23:29:25][django.request.log_response():241] [WARNING] Not Found: /db/phpmyadmin3/index.php
+[2023-12-01 23:29:25][django.request.log_response():241] [WARNING] Not Found: /administrator/phpMyAdmin/index.php
+[2023-12-01 23:29:25][django.request.log_response():241] [WARNING] Not Found: /db/phpmyadmin5/index.php
+[2023-12-01 23:29:25][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2018/index.php
+[2023-12-01 23:29:26][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin5/index.php
+[2023-12-01 23:29:26][django.request.log_response():241] [WARNING] Not Found: /php-myadmin/index.php
+[2023-12-01 23:29:26][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin5.2/index.php
+[2023-12-01 23:29:26][django.request.log_response():241] [WARNING] Not Found: /index.php
+[2023-12-01 23:29:26][django.request.log_response():241] [WARNING] Not Found: /administrator/PMA/index.php
+[2023-12-01 23:29:26][django.request.log_response():241] [WARNING] Not Found: /wpma5.2/index.php
+[2023-12-01 23:29:27][django.request.log_response():241] [WARNING] Not Found: /PMA/index.php
+[2023-12-01 23:29:27][django.request.log_response():241] [WARNING] Not Found: /mysql/mysqlmanager/index.php
+[2023-12-01 23:29:27][django.request.log_response():241] [WARNING] Not Found: /mysql/admin/index.php
+[2023-12-01 23:29:27][django.request.log_response():241] [WARNING] Not Found: /MyAdmin/index.php
+[2023-12-01 23:29:27][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-5/index.php
+[2023-12-01 23:29:28][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-4.9.7/index.php
+[2023-12-01 23:29:28][django.request.log_response():241] [WARNING] Not Found: /sql/phpmyadmin5/index.php
+[2023-12-01 23:29:28][django.request.log_response():241] [WARNING] Not Found: /db/phpMyAdmin3/index.php
+[2023-12-01 23:29:28][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2015/index.php
+[2023-12-01 23:29:28][django.request.log_response():241] [WARNING] Not Found: /phpmyAdmin/index.php
+[2023-12-01 23:29:28][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2016/index.php
+[2023-12-01 23:29:29][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2012/index.php
+[2023-12-01 23:29:29][django.request.log_response():241] [WARNING] Not Found: /program/index.php
+[2023-12-01 23:29:29][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin1/index.php
+[2023-12-01 23:29:29][django.request.log_response():241] [WARNING] Not Found: /shopdb/index.php
+[2023-12-01 23:29:29][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin3/index.php
+[2023-12-01 23:29:30][django.request.log_response():241] [WARNING] Not Found: /db/myadmin/index.php
+[2023-12-01 23:29:30][django.request.log_response():241] [WARNING] Not Found: /administrator/phpmyadmin/index.php
+[2023-12-01 23:29:30][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2014/index.php
+[2023-12-01 23:29:30][django.request.log_response():241] [WARNING] Not Found: /db/phpMyAdmin/index.php
+[2023-12-01 23:29:30][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin/index.php
+[2023-12-01 23:29:31][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin5.1/index.php
+[2023-12-01 23:29:31][django.request.log_response():241] [WARNING] Not Found: /sql/phpmyadmin4/index.php
+[2023-12-01 23:29:31][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin1/index.php
+[2023-12-01 23:29:31][django.request.log_response():241] [WARNING] Not Found: /sql/phpmyadmin3/index.php
+[2023-12-01 23:29:31][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-5.3.0-all-languages/index.php
+[2023-12-01 23:29:32][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2021/index.php
+[2023-12-01 23:29:32][django.request.log_response():241] [WARNING] Not Found: /db/dbadmin/index.php
+[2023-12-01 23:29:32][django.request.log_response():241] [WARNING] Not Found: /phpMyadmin/index.php
+[2023-12-01 23:29:32][django.request.log_response():241] [WARNING] Not Found: /mysql/sqlmanager/index.php
+[2023-12-01 23:29:32][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2013/index.php
+[2023-12-01 23:29:33][django.request.log_response():241] [WARNING] Not Found: /wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php
+[2023-12-01 23:29:33][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2017/index.php
+123.60.101.59:60340 - - [01/Dec/2023:22:29:12] "GET /" 200 907
+123.60.101.59:33286 - - [01/Dec/2023:23:29:17] "GET /__phpmyadmin/index.php?lang=en" 404 6908
+123.60.101.59:33290 - - [01/Dec/2023:23:29:17] "GET /admin/phpmyadmin/index.php?lang=en" 302 -
+123.60.101.59:33304 - - [01/Dec/2023:23:29:18] "GET /admin/login/?next=/admin/phpmyadmin/index.php%3Flang%3Den" 200 2280
+123.60.101.59:33308 - - [01/Dec/2023:23:29:18] "GET /admin/phpMyAdmin/index.php?lang=en" 302 -
+123.60.101.59:33312 - - [01/Dec/2023:23:29:18] "GET /admin/login/?next=/admin/phpMyAdmin/index.php%3Flang%3Den" 200 2280
+123.60.101.59:33326 - - [01/Dec/2023:23:29:18] "GET /phpMyAdmin-5.1.2/index.php?lang=en" 404 6920
+123.60.101.59:33338 - - [01/Dec/2023:23:29:18] "GET /mysql/web/index.php?lang=en" 404 6899
+123.60.101.59:33354 - - [01/Dec/2023:23:29:19] "GET /admin/web/index.php?lang=en" 302 -
+123.60.101.59:33366 - - [01/Dec/2023:23:29:19] "GET /admin/login/?next=/admin/web/index.php%3Flang%3Den" 200 2266
+123.60.101.59:33368 - - [01/Dec/2023:23:29:19] "GET /phpmyadmin3/index.php?lang=en" 404 6905
+123.60.101.59:53792 - - [01/Dec/2023:23:29:19] "GET /phpMyAdmin-5.2.0-all-languages/index.php?lang=en" 404 6962
+123.60.101.59:53802 - - [01/Dec/2023:23:29:19] "GET /db/index.php?lang=en" 404 6878
+123.60.101.59:53804 - - [01/Dec/2023:23:29:19] "GET /1phpmyadmin/index.php?lang=en" 404 6905
+123.60.101.59:53820 - - [01/Dec/2023:23:29:20] "GET /sql/sqladmin/index.php?lang=en" 404 6908
+123.60.101.59:53828 - - [01/Dec/2023:23:29:20] "GET /_phpmyadmin_/index.php?lang=en" 404 6908
+123.60.101.59:53844 - - [01/Dec/2023:23:29:20] "GET /phpmyadmin2/index.php?lang=en" 404 6905
+123.60.101.59:53850 - - [01/Dec/2023:23:29:21] "GET /database/index.php?lang=en" 404 6896
+123.60.101.59:53856 - - [01/Dec/2023:23:29:21] "GET /dbadmin/index.php?lang=en" 404 6893
+123.60.101.59:53870 - - [01/Dec/2023:23:29:21] "GET /db/phpmyadmin/index.php?lang=en" 404 6911
+123.60.101.59:53874 - - [01/Dec/2023:23:29:21] "GET /sql/phpmanager/index.php?lang=en" 404 6914
+123.60.101.59:53884 - - [01/Dec/2023:23:29:21] "GET /phpMyAdmin-4/index.php?lang=en" 404 6908
+123.60.101.59:53890 - - [01/Dec/2023:23:29:21] "GET /phpMyAdmin-4.9.10-all-languages/index.php?lang=en" 404 6965
+123.60.101.59:53898 - - [01/Dec/2023:23:29:22] "GET /phpMyAdmin4/index.php?lang=en" 404 6905
+123.60.101.59:53900 - - [01/Dec/2023:23:29:22] "GET /db/websql/index.php?lang=en" 404 6899
+123.60.101.59:53916 - - [01/Dec/2023:23:29:22] "GET /phpMyAdmin-5.1.3/index.php?lang=en" 404 6920
+123.60.101.59:53918 - - [01/Dec/2023:23:29:22] "GET /phpMyAdmin-latest-english/index.php?lang=en" 404 6947
+123.60.101.59:53926 - - [01/Dec/2023:23:29:22] "GET /mysql/index.php?lang=en" 404 6887
+123.60.101.59:53940 - - [01/Dec/2023:23:29:22] "GET /phpMyAdmin-3/index.php?lang=en" 404 6908
+123.60.101.59:53942 - - [01/Dec/2023:23:29:23] "GET /sql/phpMyAdmin2/index.php?lang=en" 404 6917
+123.60.101.59:53956 - - [01/Dec/2023:23:29:23] "GET /administrator/admin/index.php?lang=en" 404 6929
+123.60.101.59:53962 - - [01/Dec/2023:23:29:23] "GET /mysqladmin/index.php?lang=en" 404 6902
+123.60.101.59:53970 - - [01/Dec/2023:23:29:23] "GET /administrator/pma/index.php?lang=en" 404 6923
+123.60.101.59:53982 - - [01/Dec/2023:23:29:23] "GET /administrator/web/index.php?lang=en" 404 6923
+123.60.101.59:53998 - - [01/Dec/2023:23:29:24] "GET /phpMyAdmin-5.1.0/index.php?lang=en" 404 6920
+123.60.101.59:54014 - - [01/Dec/2023:23:29:24] "GET /phpmy/index.php?lang=en" 404 6887
+123.60.101.59:54018 - - [01/Dec/2023:23:29:24] "GET /phpMyAdmin-5.1.1/index.php?lang=en" 404 6920
+123.60.101.59:54030 - - [01/Dec/2023:23:29:24] "GET /administrator/db/index.php?lang=en" 404 6920
+123.60.101.59:54040 - - [01/Dec/2023:23:29:24] "GET /db/dbweb/index.php?lang=en" 404 6896
+123.60.101.59:54046 - - [01/Dec/2023:23:29:24] "GET /mysql/dbadmin/index.php?lang=en" 404 6911
+123.60.101.59:54060 - - [01/Dec/2023:23:29:25] "GET /phpMyAdmin/index.php?lang=en" 404 6902
+123.60.101.59:54072 - - [01/Dec/2023:23:29:25] "GET /db/phpmyadmin3/index.php?lang=en" 404 6914
+123.60.101.59:54082 - - [01/Dec/2023:23:29:25] "GET /administrator/phpMyAdmin/index.php?lang=en" 404 6944
+123.60.101.59:54086 - - [01/Dec/2023:23:29:25] "GET /db/phpmyadmin5/index.php?lang=en" 404 6914
+123.60.101.59:54090 - - [01/Dec/2023:23:29:25] "GET /phpmyadmin2018/index.php?lang=en" 404 6914
+123.60.101.59:54100 - - [01/Dec/2023:23:29:26] "GET /phpmyadmin5/index.php?lang=en" 404 6905
+123.60.101.59:54116 - - [01/Dec/2023:23:29:26] "GET /php-myadmin/index.php?lang=en" 404 6905
+123.60.101.59:54118 - - [01/Dec/2023:23:29:26] "GET /phpMyAdmin5.2/index.php?lang=en" 404 6911
+123.60.101.59:54128 - - [01/Dec/2023:23:29:26] "GET /index.php?lang=en" 404 6869
+123.60.101.59:54132 - - [01/Dec/2023:23:29:26] "GET /administrator/PMA/index.php?lang=en" 404 6923
+123.60.101.59:54136 - - [01/Dec/2023:23:29:26] "GET /wpma5.2/index.php?lang=en" 404 6893
+123.60.101.59:54146 - - [01/Dec/2023:23:29:27] "GET /PMA/index.php?lang=en" 404 6881
+123.60.101.59:54162 - - [01/Dec/2023:23:29:27] "GET /mysql/mysqlmanager/index.php?lang=en" 404 6926
+123.60.101.59:54172 - - [01/Dec/2023:23:29:27] "GET /mysql/admin/index.php?lang=en" 404 6905
+123.60.101.59:54188 - - [01/Dec/2023:23:29:27] "GET /MyAdmin/index.php?lang=en" 404 6893
+123.60.101.59:54194 - - [01/Dec/2023:23:29:27] "GET /phpMyAdmin-5/index.php?lang=en" 404 6908
+123.60.101.59:54198 - - [01/Dec/2023:23:29:28] "GET /phpMyAdmin-4.9.7/index.php?lang=en" 404 6920
+123.60.101.59:54212 - - [01/Dec/2023:23:29:28] "GET /sql/phpmyadmin5/index.php?lang=en" 404 6917
+123.60.101.59:54216 - - [01/Dec/2023:23:29:28] "GET /db/phpMyAdmin3/index.php?lang=en" 404 6914
+123.60.101.59:54224 - - [01/Dec/2023:23:29:28] "GET /phpmyadmin2015/index.php?lang=en" 404 6914
+123.60.101.59:54238 - - [01/Dec/2023:23:29:28] "GET /phpmyAdmin/index.php?lang=en" 404 6902
+123.60.101.59:54242 - - [01/Dec/2023:23:29:28] "GET /phpmyadmin2016/index.php?lang=en" 404 6914
+123.60.101.59:54254 - - [01/Dec/2023:23:29:29] "GET /phpmyadmin2012/index.php?lang=en" 404 6914
+123.60.101.59:54266 - - [01/Dec/2023:23:29:29] "GET /program/index.php?lang=en" 404 6893
+123.60.101.59:54280 - - [01/Dec/2023:23:29:29] "GET /phpMyAdmin1/index.php?lang=en" 404 6905
+123.60.101.59:52386 - - [01/Dec/2023:23:29:29] "GET /shopdb/index.php?lang=en" 404 6890
+123.60.101.59:52400 - - [01/Dec/2023:23:29:29] "GET /phpMyAdmin3/index.php?lang=en" 404 6905
+123.60.101.59:52410 - - [01/Dec/2023:23:29:30] "GET /db/myadmin/index.php?lang=en" 404 6902
+123.60.101.59:52426 - - [01/Dec/2023:23:29:30] "GET /administrator/phpmyadmin/index.php?lang=en" 404 6944
+123.60.101.59:52432 - - [01/Dec/2023:23:29:30] "GET /phpmyadmin2014/index.php?lang=en" 404 6914
+123.60.101.59:52446 - - [01/Dec/2023:23:29:30] "GET /db/phpMyAdmin/index.php?lang=en" 404 6911
+123.60.101.59:52460 - - [01/Dec/2023:23:29:30] "GET /phpmyadmin/index.php?lang=en" 404 6902
+123.60.101.59:52470 - - [01/Dec/2023:23:29:30] "GET /admin/pma/index.php?lang=en" 302 -
+123.60.101.59:52482 - - [01/Dec/2023:23:29:31] "GET /admin/login/?next=/admin/pma/index.php%3Flang%3Den" 200 2266
+123.60.101.59:52498 - - [01/Dec/2023:23:29:31] "GET /phpMyAdmin5.1/index.php?lang=en" 404 6911
+123.60.101.59:52504 - - [01/Dec/2023:23:29:31] "GET /sql/phpmyadmin4/index.php?lang=en" 404 6917
+123.60.101.59:52516 - - [01/Dec/2023:23:29:31] "GET /phpmyadmin1/index.php?lang=en" 404 6905
+123.60.101.59:52520 - - [01/Dec/2023:23:29:31] "GET /sql/phpmyadmin3/index.php?lang=en" 404 6917
+123.60.101.59:52524 - - [01/Dec/2023:23:29:31] "GET /phpMyAdmin-5.3.0-all-languages/index.php?lang=en" 404 6962
+123.60.101.59:52532 - - [01/Dec/2023:23:29:32] "GET /phpmyadmin2021/index.php?lang=en" 404 6914
+123.60.101.59:52546 - - [01/Dec/2023:23:29:32] "GET /db/dbadmin/index.php?lang=en" 404 6902
+123.60.101.59:52554 - - [01/Dec/2023:23:29:32] "GET /phpMyadmin/index.php?lang=en" 404 6902
+123.60.101.59:52558 - - [01/Dec/2023:23:29:32] "GET /mysql/sqlmanager/index.php?lang=en" 404 6920
+123.60.101.59:52566 - - [01/Dec/2023:23:29:32] "GET /phpmyadmin2013/index.php?lang=en" 404 6914
+123.60.101.59:52580 - - [01/Dec/2023:23:29:33] "GET /wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php?lang=en" 404 7019
+[2023-12-01 23:29:33][django.request.log_response():241] [WARNING] Not Found: /mysql/pma/index.php
+[2023-12-01 23:29:33][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-latest-all-languages/index.php
+[2023-12-01 23:29:33][django.request.log_response():241] [WARNING] Not Found: /mysql/pMA/index.php
+[2023-12-01 23:29:33][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin2/index.php
+[2023-12-01 23:29:34][django.request.log_response():241] [WARNING] Not Found: /sql/phpmy-admin/index.php
+[2023-12-01 23:29:34][django.request.log_response():241] [WARNING] Not Found: /phpmy-admin/index.php
+[2023-12-01 23:29:34][django.request.log_response():241] [WARNING] Not Found: /mysqlmanager/index.php
+[2023-12-01 23:29:35][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin5/index.php
+[2023-12-01 23:29:35][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2020/index.php
+[2023-12-01 23:29:35][django.request.log_response():241] [WARNING] Not Found: /sql/webadmin/index.php
+[2023-12-01 23:29:35][django.request.log_response():241] [WARNING] Not Found: /mysql-admin/index.php
+[2023-12-01 23:29:36][django.request.log_response():241] [WARNING] Not Found: /sql/sql-admin/index.php
+[2023-12-01 23:29:36][django.request.log_response():241] [WARNING] Not Found: /db/phpMyAdmin-4/index.php
+[2023-12-01 23:29:36][django.request.log_response():241] [WARNING] Not Found: /sql/myadmin/index.php
+[2023-12-01 23:29:36][django.request.log_response():241] [WARNING] Not Found: /sql/php-myadmin/index.php
+[2023-12-01 23:29:37][django.request.log_response():241] [WARNING] Not Found: /php-my-admin/index.php
+[2023-12-01 23:29:37][django.request.log_response():241] [WARNING] Not Found: /db/db-admin/index.php
+[2023-12-01 23:29:37][django.request.log_response():241] [WARNING] Not Found: /sql/sql/index.php
+[2023-12-01 23:29:37][django.request.log_response():241] [WARNING] Not Found: /2phpmyadmin/index.php
+[2023-12-01 23:29:38][django.request.log_response():241] [WARNING] Not Found: /_phpmyadmin/index.php
+[2023-12-01 23:29:38][django.request.log_response():241] [WARNING] Not Found: /mysql/db/index.php
+[2023-12-01 23:29:38][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin_/index.php
+[2023-12-01 23:29:38][django.request.log_response():241] [WARNING] Not Found: /db/webadmin/index.php
+[2023-12-01 23:29:38][django.request.log_response():241] [WARNING] Not Found: /sql/sqlweb/index.php
+[2023-12-01 23:29:39][django.request.log_response():241] [WARNING] Not Found: /db/phpmyadmin4/index.php
+[2023-12-01 23:29:39][django.request.log_response():241] [WARNING] Not Found: /_phpMyAdmin/index.php
+[2023-12-01 23:29:39][django.request.log_response():241] [WARNING] Not Found: /sql/websql/index.php
+[2023-12-01 23:29:39][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-5.3.0/index.php
+[2023-12-01 23:29:40][django.request.log_response():241] [WARNING] Not Found: /phppma/index.php
+[2023-12-01 23:29:40][django.request.log_response():241] [WARNING] Not Found: /pma/index.php
+[2023-12-01 23:29:40][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin4/index.php
+[2023-12-01 23:29:40][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2019/index.php
+[2023-12-01 23:29:40][django.request.log_response():241] [WARNING] Not Found: /db/phpMyAdmin-3/index.php
+[2023-12-01 23:29:41][django.request.log_response():241] [WARNING] Not Found: /myadmin/index.php
+[2023-12-01 23:29:41][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2022/index.php
+[2023-12-01 23:29:41][django.request.log_response():241] [WARNING] Not Found: /sql/webdb/index.php
+[2023-12-01 23:29:41][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin_/index.php
+[2023-12-01 23:29:42][django.request.log_response():241] [WARNING] Not Found: /sql/phpMyAdmin/index.php
+[2023-12-01 23:29:42][django.request.log_response():241] [WARNING] Not Found: /db/webdb/index.php
+[2023-12-01 23:29:42][django.request.log_response():241] [WARNING] Not Found: /db/phpMyAdmin-5/index.php
+[2023-12-01 23:29:43][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-5.2.0/index.php
+[2023-12-01 23:29:43][django.request.log_response():241] [WARNING] Not Found: /sqlmanager/index.php
+[2023-12-01 23:29:43][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2011/index.php
+[2023-12-02 00:15:26][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin/scripts/setup.php
+[2023-12-02 00:15:27][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin/scripts/setup.php
+[2023-12-02 00:15:27][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-2.11.4/scripts/setup.php
+[2023-12-02 00:15:27][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-2.11.3/scripts/setup.php
+[2023-12-02 00:22:14][django.request.log_response():241] [WARNING] Not Found: /nice ports,/Trinity.txt.bak
+[2023-12-02 00:22:24][django.request.log_response():241] [WARNING] Not Found: sip:nm
+[2023-12-02 00:25:23][django.request.log_response():241] [WARNING] Not Found: *
+[2023-12-02 00:25:23][django.request.log_response():241] [WARNING] Not Found: *
+[2023-12-02 03:24:50][django.request.log_response():241] [WARNING] Not Found: /druid/index.html
+[2023-12-02 04:46:51][django.request.log_response():241] [WARNING] Not Found: /systembc/password.php
+[2023-12-02 04:46:52][django.request.log_response():241] [WARNING] Not Found: /Ep1v
+[2023-12-02 04:46:54][django.request.log_response():241] [WARNING] Not Found: /GWqN
+[2023-12-02 05:05:12][django.request.log_response():241] [WARNING] Not Found: /.env
+[2023-12-02 05:41:49][django.request.log_response():241] [WARNING] Not Found: /manage/account/login
+[2023-12-02 05:45:08][django.request.log_response():241] [WARNING] Not Found: /index.html
+[2023-12-02 05:46:51][django.request.log_response():241] [WARNING] Not Found: /+CSCOE+/logon.html
+[2023-12-02 05:48:27][django.request.log_response():241] [WARNING] Not Found: /cgi-bin/login.cgi
+[2023-12-02 05:49:59][django.request.log_response():241] [WARNING] Not Found: /logon.htm
+[2023-12-02 05:51:35][django.request.log_response():241] [WARNING] Not Found: /login.jsp
+[2023-12-02 06:58:30][django.request.log_response():241] [WARNING] Not Found: /boaform/admin/formLogin
+[2023-12-02 07:15:10][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin/scripts/setup.php
+[2023-12-02 07:15:10][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin/scripts/setup.php
+[2023-12-02 07:15:10][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-2.11.4/scripts/setup.php
+[2023-12-02 07:15:10][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-2.11.3/scripts/setup.php
+123.60.101.59:52592 - - [01/Dec/2023:23:29:33] "GET /phpmyadmin2017/index.php?lang=en" 404 6914
+123.60.101.59:52600 - - [01/Dec/2023:23:29:33] "GET /mysql/pma/index.php?lang=en" 404 6899
+123.60.101.59:52616 - - [01/Dec/2023:23:29:33] "GET /phpMyAdmin-latest-all-languages/index.php?lang=en" 404 6965
+123.60.101.59:52622 - - [01/Dec/2023:23:29:33] "GET /mysql/pMA/index.php?lang=en" 404 6899
+123.60.101.59:52634 - - [01/Dec/2023:23:29:33] "GET /phpMyAdmin2/index.php?lang=en" 404 6905
+123.60.101.59:52644 - - [01/Dec/2023:23:29:34] "GET /sql/phpmy-admin/index.php?lang=en" 404 6917
+123.60.101.59:52660 - - [01/Dec/2023:23:29:34] "GET /admin/index.php?lang=en" 302 -
+123.60.101.59:52668 - - [01/Dec/2023:23:29:34] "GET /admin/login/?next=/admin/index.php%3Flang%3Den" 200 2258
+123.60.101.59:52676 - - [01/Dec/2023:23:29:34] "GET /phpmy-admin/index.php?lang=en" 404 6905
+123.60.101.59:52684 - - [01/Dec/2023:23:29:34] "GET /mysqlmanager/index.php?lang=en" 404 6908
+123.60.101.59:52700 - - [01/Dec/2023:23:29:35] "GET /admin/sysadmin/index.php?lang=en" 302 -
+123.60.101.59:52706 - - [01/Dec/2023:23:29:35] "GET /admin/login/?next=/admin/sysadmin/index.php%3Flang%3Den" 200 2276
+123.60.101.59:52714 - - [01/Dec/2023:23:29:35] "GET /phpMyAdmin5/index.php?lang=en" 404 6905
+123.60.101.59:52720 - - [01/Dec/2023:23:29:35] "GET /phpmyadmin2020/index.php?lang=en" 404 6914
+123.60.101.59:52726 - - [01/Dec/2023:23:29:35] "GET /sql/webadmin/index.php?lang=en" 404 6908
+123.60.101.59:52728 - - [01/Dec/2023:23:29:35] "GET /mysql-admin/index.php?lang=en" 404 6905
+123.60.101.59:52730 - - [01/Dec/2023:23:29:36] "GET /sql/sql-admin/index.php?lang=en" 404 6911
+123.60.101.59:52736 - - [01/Dec/2023:23:29:36] "GET /db/phpMyAdmin-4/index.php?lang=en" 404 6917
+123.60.101.59:52738 - - [01/Dec/2023:23:29:36] "GET /sql/myadmin/index.php?lang=en" 404 6905
+123.60.101.59:52746 - - [01/Dec/2023:23:29:36] "GET /sql/php-myadmin/index.php?lang=en" 404 6917
+123.60.101.59:52756 - - [01/Dec/2023:23:29:37] "GET /php-my-admin/index.php?lang=en" 404 6908
+123.60.101.59:52772 - - [01/Dec/2023:23:29:37] "GET /db/db-admin/index.php?lang=en" 404 6905
+123.60.101.59:52776 - - [01/Dec/2023:23:29:37] "GET /sql/sql/index.php?lang=en" 404 6893
+123.60.101.59:52780 - - [01/Dec/2023:23:29:37] "GET /2phpmyadmin/index.php?lang=en" 404 6905
+123.60.101.59:52786 - - [01/Dec/2023:23:29:38] "GET /_phpmyadmin/index.php?lang=en" 404 6905
+123.60.101.59:52796 - - [01/Dec/2023:23:29:38] "GET /mysql/db/index.php?lang=en" 404 6896
+123.60.101.59:52806 - - [01/Dec/2023:23:29:38] "GET /phpmyadmin_/index.php?lang=en" 404 6905
+123.60.101.59:52818 - - [01/Dec/2023:23:29:38] "GET /db/webadmin/index.php?lang=en" 404 6905
+123.60.101.59:52828 - - [01/Dec/2023:23:29:38] "GET /sql/sqlweb/index.php?lang=en" 404 6902
+123.60.101.59:52832 - - [01/Dec/2023:23:29:39] "GET /db/phpmyadmin4/index.php?lang=en" 404 6914
+123.60.101.59:40906 - - [01/Dec/2023:23:29:39] "GET /_phpMyAdmin/index.php?lang=en" 404 6905
+123.60.101.59:40912 - - [01/Dec/2023:23:29:39] "GET /sql/websql/index.php?lang=en" 404 6902
+123.60.101.59:40926 - - [01/Dec/2023:23:29:39] "GET /phpMyAdmin-5.3.0/index.php?lang=en" 404 6920
+123.60.101.59:40928 - - [01/Dec/2023:23:29:40] "GET /phppma/index.php?lang=en" 404 6890
+123.60.101.59:40936 - - [01/Dec/2023:23:29:40] "GET /pma/index.php?lang=en" 404 6881
+123.60.101.59:40948 - - [01/Dec/2023:23:29:40] "GET /phpmyadmin4/index.php?lang=en" 404 6905
+123.60.101.59:40954 - - [01/Dec/2023:23:29:40] "GET /phpmyadmin2019/index.php?lang=en" 404 6914
+123.60.101.59:40958 - - [01/Dec/2023:23:29:40] "GET /db/phpMyAdmin-3/index.php?lang=en" 404 6917
+123.60.101.59:40970 - - [01/Dec/2023:23:29:41] "GET /myadmin/index.php?lang=en" 404 6893
+123.60.101.59:40974 - - [01/Dec/2023:23:29:41] "GET /admin/db/index.php?lang=en" 302 -
+123.60.101.59:40978 - - [01/Dec/2023:23:29:41] "GET /admin/login/?next=/admin/db/index.php%3Flang%3Den" 200 2264
+123.60.101.59:40980 - - [01/Dec/2023:23:29:41] "GET /phpmyadmin2022/index.php?lang=en" 404 6914
+123.60.101.59:40982 - - [01/Dec/2023:23:29:41] "GET /sql/webdb/index.php?lang=en" 404 6899
+123.60.101.59:40986 - - [01/Dec/2023:23:29:41] "GET /phpMyAdmin_/index.php?lang=en" 404 6905
+123.60.101.59:41002 - - [01/Dec/2023:23:29:42] "GET /sql/phpMyAdmin/index.php?lang=en" 404 6914
+123.60.101.59:41008 - - [01/Dec/2023:23:29:42] "GET /admin/sqladmin/index.php?lang=en" 302 -
+123.60.101.59:41016 - - [01/Dec/2023:23:29:42] "GET /admin/login/?next=/admin/sqladmin/index.php%3Flang%3Den" 200 2276
+123.60.101.59:41020 - - [01/Dec/2023:23:29:42] "GET /db/webdb/index.php?lang=en" 404 6896
+123.60.101.59:41036 - - [01/Dec/2023:23:29:42] "GET /db/phpMyAdmin-5/index.php?lang=en" 404 6917
+123.60.101.59:41046 - - [01/Dec/2023:23:29:43] "GET /phpMyAdmin-5.2.0/index.php?lang=en" 404 6920
+123.60.101.59:41050 - - [01/Dec/2023:23:29:43] "GET /sqlmanager/index.php?lang=en" 404 6902
+123.60.101.59:41056 - - [01/Dec/2023:23:29:43] "GET /phpmyadmin2011/index.php?lang=en" 404 6914
+123.60.101.59:39332 - - [01/Dec/2023:23:40:58] "GET /" 200 907
+123.60.101.59:55324 - - [02/Dec/2023:00:15:26] "GET /phpMyAdmin/scripts/setup.php" 404 6918
+123.60.101.59:55336 - - [02/Dec/2023:00:15:27] "GET /phpmyadmin/scripts/setup.php" 404 6918
+123.60.101.59:55350 - - [02/Dec/2023:00:15:27] "GET /phpMyAdmin-2.11.4/scripts/setup.php" 404 6939
+123.60.101.59:55364 - - [02/Dec/2023:00:15:27] "GET /phpMyAdmin-2.11.3/scripts/setup.php" 404 6939
+47.92.227.85:41412 - - [02/Dec/2023:00:22:14] "GET /" 200 907
+47.92.227.85:42154 - - [02/Dec/2023:00:22:14] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak" 404 6923
+47.92.227.85:43556 - - [02/Dec/2023:00:22:24] "OPTIONS /" 200 -
+47.92.227.85:43562 - - [02/Dec/2023:00:22:24] "OPTIONS /" 200 -
+47.92.227.85:43568 - - [02/Dec/2023:00:22:24] "OPTIONS sip:nm" 404 1752
+47.92.227.85:35720 - - [02/Dec/2023:00:25:23] "OPTIONS *" 404 1737
+47.92.227.85:35738 - - [02/Dec/2023:00:25:23] "DESCRIBE *" 404 1738
+123.60.101.59:38346 - - [02/Dec/2023:00:35:44] "GET /" 200 907
+123.60.101.59:34338 - - [02/Dec/2023:01:14:30] "HEAD /statics/icons/logo.png" 200 1219
+123.60.101.59:34344 - - [02/Dec/2023:01:14:30] "GET /statics/icons/logo.png" 200 9411
+123.60.101.59:58866 - - [02/Dec/2023:02:10:08] "GET /" 200 907
+123.60.101.59:33900 - - [02/Dec/2023:03:24:50] "GET /druid/index.html" 404 6882
+123.60.101.59:44700 - - [02/Dec/2023:04:04:11] "GET /" 200 907
+123.60.101.59:42928 - - [02/Dec/2023:04:05:52] "GET /" 200 907
+123.60.101.59:45652 - - [02/Dec/2023:04:46:49] "GET /" 200 907
+123.60.101.59:45654 - - [02/Dec/2023:04:46:51] "GET /systembc/password.php" 404 6897
+123.60.101.59:45656 - - [02/Dec/2023:04:46:52] "GET /Ep1v" 404 6846
+123.60.101.59:45668 - - [02/Dec/2023:04:46:54] "GET /GWqN" 404 6846
+123.60.101.59:43638 - - [02/Dec/2023:04:55:58] "GET /" 200 907
+123.60.101.59:44258 - - [02/Dec/2023:05:05:12] "GET /.env" 404 6846
+123.60.101.59:45826 - - [02/Dec/2023:05:27:05] "GET /" 200 907
+123.60.101.59:59548 - - [02/Dec/2023:05:36:41] "GET /" 200 907
+123.60.101.59:46352 - - [02/Dec/2023:05:40:40] "GET /favicon.ico" 200 9411
+123.60.101.59:46246 - - [02/Dec/2023:05:41:49] "GET /manage/account/login" 404 6894
+123.60.101.59:43988 - - [02/Dec/2023:05:42:19] "GET /" 200 907
+123.60.101.59:44962 - - [02/Dec/2023:05:43:32] "GET /admin/index.html" 302 -
+123.60.101.59:36438 - - [02/Dec/2023:05:45:08] "GET /index.html" 404 6864
+123.60.101.59:38704 - - [02/Dec/2023:05:46:51] "GET /+CSCOE+/logon.html" 404 6888
+123.60.101.59:39590 - - [02/Dec/2023:05:48:27] "GET /cgi-bin/login.cgi" 404 6885
+123.60.101.59:34766 - - [02/Dec/2023:05:49:59] "GET /logon.htm" 404 6861
+123.60.101.59:57242 - - [02/Dec/2023:05:51:35] "GET /login.jsp" 404 6861
+123.60.101.59:33832 - - [02/Dec/2023:05:53:12] "GET /" 200 907
+123.60.101.59:52212 - - [02/Dec/2023:06:22:20] "GET /" 200 907
+45.79.172.21:58414 - - [02/Dec/2023:06:36:48] "GET /" 200 907
+123.60.101.59:50308 - - [02/Dec/2023:06:58:30] "POST /boaform/admin/formLogin" 404 6904
+123.60.101.59:38856 - - [02/Dec/2023:07:15:10] "GET /phpMyAdmin/scripts/setup.php" 404 6918
+123.60.101.59:38870 - - [02/Dec/2023:07:15:10] "GET /phpmyadmin/scripts/setup.php" 404 6918
+123.60.101.59:38874 - - [02/Dec/2023:07:15:10] "GET /phpMyAdmin-2.11.4/scripts/setup.php" 404 6939
+[2023-12-02 07:15:10][django.request.log_response():241] [WARNING] Not Found: /db/scripts/setup.php
+[2023-12-02 07:44:16][django.request.log_response():241] [WARNING] Not Found: /Ep1v
+[2023-12-02 08:12:12][django.request.log_response():241] [WARNING] Not Found: /GWqN
+[2023-12-02 09:01:04][django.request.log_response():241] [WARNING] Not Found: /logon.htm
+[2023-12-02 09:04:47][django.request.log_response():241] [WARNING] Not Found: /+CSCOE+/logon.html
+[2023-12-02 09:12:34][django.request.log_response():241] [WARNING] Not Found: /index.html
+[2023-12-02 10:45:25][django.request.log_response():241] [WARNING] Not Found: /webui/
+[2023-12-02 10:47:20][django.request.log_response():241] [WARNING] Not Found: /geoserver/web/
+[2023-12-02 11:05:09][django.request.log_response():241] [WARNING] Not Found: /mbilling/
+[2023-12-02 13:32:04][django.request.log_response():241] [WARNING] Not Found: /boaform/admin/formLogin
+[2023-12-02 13:33:15][django.request.log_response():241] [WARNING] Not Found: /db/phpMyAdmin-5/index.php
+[2023-12-02 13:33:15][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin1/index.php
+[2023-12-02 13:33:15][django.request.log_response():241] [WARNING] Not Found: /db/webadmin/index.php
+[2023-12-02 13:33:16][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2014/index.php
+[2023-12-02 13:33:16][django.request.log_response():241] [WARNING] Not Found: /sql/websql/index.php
+[2023-12-02 13:33:16][django.request.log_response():241] [WARNING] Not Found: /1phpmyadmin/index.php
+[2023-12-02 13:33:17][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin_/index.php
+[2023-12-02 13:33:17][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-4/index.php
+[2023-12-02 13:33:17][django.request.log_response():241] [WARNING] Not Found: /sql/phpmyadmin4/index.php
+[2023-12-02 13:33:17][django.request.log_response():241] [WARNING] Not Found: /db/myadmin/index.php
+[2023-12-02 13:33:18][django.request.log_response():241] [WARNING] Not Found: /mysql/mysqlmanager/index.php
+[2023-12-02 13:33:18][django.request.log_response():241] [WARNING] Not Found: /mysql-admin/index.php
+[2023-12-02 13:33:19][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-4.9.7/index.php
+[2023-12-02 13:33:19][django.request.log_response():241] [WARNING] Not Found: /db/phpMyAdmin-3/index.php
+[2023-12-02 13:33:20][django.request.log_response():241] [WARNING] Not Found: /sql/myadmin/index.php
+[2023-12-02 13:33:20][django.request.log_response():241] [WARNING] Not Found: /db/dbweb/index.php
+[2023-12-02 13:33:20][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2016/index.php
+[2023-12-02 13:33:20][django.request.log_response():241] [WARNING] Not Found: /mysql/index.php
+[2023-12-02 13:33:21][django.request.log_response():241] [WARNING] Not Found: /sql/phpMyAdmin/index.php
+[2023-12-02 13:33:21][django.request.log_response():241] [WARNING] Not Found: /administrator/admin/index.php
+[2023-12-02 13:33:21][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2020/index.php
+[2023-12-02 13:33:21][django.request.log_response():241] [WARNING] Not Found: /sql/webdb/index.php
+[2023-12-02 13:33:22][django.request.log_response():241] [WARNING] Not Found: /phpmy-admin/index.php
+[2023-12-02 13:33:22][django.request.log_response():241] [WARNING] Not Found: /db/websql/index.php
+[2023-12-02 13:33:23][django.request.log_response():241] [WARNING] Not Found: /sqlmanager/index.php
+[2023-12-02 13:33:23][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2011/index.php
+[2023-12-02 13:33:23][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin1/index.php
+[2023-12-02 13:33:24][django.request.log_response():241] [WARNING] Not Found: /sql/sqlweb/index.php
+[2023-12-02 13:33:24][django.request.log_response():241] [WARNING] Not Found: /db/phpMyAdmin-4/index.php
+[2023-12-02 13:33:24][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2021/index.php
+[2023-12-02 13:33:24][django.request.log_response():241] [WARNING] Not Found: /db/phpmyadmin3/index.php
+[2023-12-02 13:33:25][django.request.log_response():241] [WARNING] Not Found: /mysql/pMA/index.php
+[2023-12-02 13:33:25][django.request.log_response():241] [WARNING] Not Found: /administrator/pma/index.php
+[2023-12-02 13:33:25][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin4/index.php
+[2023-12-02 13:33:25][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin_/index.php
+[2023-12-02 13:33:26][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin2/index.php
+[2023-12-02 13:33:26][django.request.log_response():241] [WARNING] Not Found: /2phpmyadmin/index.php
+[2023-12-02 13:33:26][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-5.1.0/index.php
+[2023-12-02 13:33:26][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2/index.php
+[2023-12-02 13:33:27][django.request.log_response():241] [WARNING] Not Found: /db/phpmyadmin4/index.php
+[2023-12-02 13:33:27][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-4.9.10-all-languages/index.php
+[2023-12-02 13:33:27][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2013/index.php
+[2023-12-02 13:33:27][django.request.log_response():241] [WARNING] Not Found: /administrator/phpMyAdmin/index.php
+[2023-12-02 13:33:28][django.request.log_response():241] [WARNING] Not Found: /wpma5.2/index.php
+[2023-12-02 13:33:28][django.request.log_response():241] [WARNING] Not Found: /index.php
+[2023-12-02 13:33:29][django.request.log_response():241] [WARNING] Not Found: /administrator/db/index.php
+[2023-12-02 13:33:29][django.request.log_response():241] [WARNING] Not Found: /mysql/sqlmanager/index.php
+[2023-12-02 13:33:29][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin4/index.php
+[2023-12-02 13:33:29][django.request.log_response():241] [WARNING] Not Found: /pma/index.php
+[2023-12-02 13:33:30][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-5.1.1/index.php
+[2023-12-02 13:33:30][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-latest-all-languages/index.php
+[2023-12-02 13:33:30][django.request.log_response():241] [WARNING] Not Found: /db/db-admin/index.php
+[2023-12-02 13:33:30][django.request.log_response():241] [WARNING] Not Found: /php-myadmin/index.php
+123.60.101.59:38888 - - [02/Dec/2023:07:15:10] "GET /phpMyAdmin-2.11.3/scripts/setup.php" 404 6939
+123.60.101.59:38892 - - [02/Dec/2023:07:15:10] "GET /db/scripts/setup.php" 404 6894
+123.60.101.59:58054 - - [02/Dec/2023:07:21:39] "GET /" 200 907
+123.60.101.59:39978 - - [02/Dec/2023:07:44:16] "GET /Ep1v" 404 6846
+123.60.101.59:52646 - - [02/Dec/2023:08:05:17] "GET /" 200 907
+123.60.101.59:50382 - - [02/Dec/2023:08:12:12] "GET /GWqN" 404 6846
+123.60.101.59:37356 - - [02/Dec/2023:09:01:04] "GET /logon.htm" 404 6861
+123.60.101.59:58992 - - [02/Dec/2023:09:04:47] "GET /+CSCOE+/logon.html" 404 6888
+123.60.101.59:32980 - - [02/Dec/2023:09:10:31] "GET /" 200 907
+123.60.101.59:56822 - - [02/Dec/2023:09:12:34] "GET /index.html" 404 6864
+123.60.101.59:47378 - - [02/Dec/2023:09:26:47] "GET /" 200 907
+123.60.101.59:56926 - - [02/Dec/2023:09:27:44] "GET /" 200 907
+123.60.101.59:36112 - - [02/Dec/2023:10:26:25] "GET /" 200 907
+123.60.101.59:57536 - - [02/Dec/2023:10:44:01] "GET /" 200 907
+123.60.101.59:44432 - - [02/Dec/2023:10:45:25] "GET /webui/" 404 6852
+123.60.101.59:36336 - - [02/Dec/2023:10:46:38] "GET /favicon.ico" 200 9411
+123.60.101.59:36848 - - [02/Dec/2023:10:47:20] "GET /geoserver/web/" 404 6876
+123.60.101.59:39160 - - [02/Dec/2023:10:49:02] "GET /" 200 907
+123.60.101.59:39164 - - [02/Dec/2023:10:49:06] "GET /" 200 907
+123.60.101.59:39176 - - [02/Dec/2023:10:49:08] "GET /statics/icons/logo.png" 200 9411
+123.60.101.59:39178 - - [02/Dec/2023:10:49:09] "GET /favicon.ico" 200 9411
+198.235.24.242:61122 - - [02/Dec/2023:11:04:05] "GET /" 200 907
+123.60.101.59:54660 - - [02/Dec/2023:11:05:09] "GET /mbilling/" 404 6861
+123.60.101.59:51848 - - [02/Dec/2023:11:30:44] "GET /" 200 907
+123.60.101.59:41660 - - [02/Dec/2023:11:40:57] "OPTIONS /" 200 -
+123.60.101.59:58088 - - [02/Dec/2023:12:30:48] "GET /" 200 907
+123.60.101.59:33902 - - [02/Dec/2023:13:17:09] "GET /" 200 907
+123.60.101.59:50948 - - [02/Dec/2023:13:32:04] "POST /boaform/admin/formLogin" 404 6904
+123.60.101.59:45916 - - [02/Dec/2023:13:33:15] "GET /db/phpMyAdmin-5/index.php?lang=en" 404 6917
+123.60.101.59:45930 - - [02/Dec/2023:13:33:15] "GET /phpmyadmin1/index.php?lang=en" 404 6905
+123.60.101.59:45942 - - [02/Dec/2023:13:33:15] "GET /db/webadmin/index.php?lang=en" 404 6905
+123.60.101.59:45958 - - [02/Dec/2023:13:33:16] "GET /phpmyadmin2014/index.php?lang=en" 404 6914
+123.60.101.59:45960 - - [02/Dec/2023:13:33:16] "GET /sql/websql/index.php?lang=en" 404 6902
+123.60.101.59:45964 - - [02/Dec/2023:13:33:16] "GET /1phpmyadmin/index.php?lang=en" 404 6905
+123.60.101.59:45966 - - [02/Dec/2023:13:33:16] "GET /admin/sysadmin/index.php?lang=en" 302 -
+123.60.101.59:45978 - - [02/Dec/2023:13:33:17] "GET /admin/login/?next=/admin/sysadmin/index.php%3Flang%3Den" 200 2276
+123.60.101.59:45980 - - [02/Dec/2023:13:33:17] "GET /phpmyadmin_/index.php?lang=en" 404 6905
+123.60.101.59:45996 - - [02/Dec/2023:13:33:17] "GET /phpMyAdmin-4/index.php?lang=en" 404 6908
+123.60.101.59:46002 - - [02/Dec/2023:13:33:17] "GET /sql/phpmyadmin4/index.php?lang=en" 404 6917
+123.60.101.59:46004 - - [02/Dec/2023:13:33:17] "GET /db/myadmin/index.php?lang=en" 404 6902
+123.60.101.59:46012 - - [02/Dec/2023:13:33:18] "GET /admin/db/index.php?lang=en" 302 -
+123.60.101.59:46022 - - [02/Dec/2023:13:33:18] "GET /admin/login/?next=/admin/db/index.php%3Flang%3Den" 200 2264
+123.60.101.59:46036 - - [02/Dec/2023:13:33:18] "GET /mysql/mysqlmanager/index.php?lang=en" 404 6926
+123.60.101.59:46038 - - [02/Dec/2023:13:33:18] "GET /mysql-admin/index.php?lang=en" 404 6905
+123.60.101.59:46052 - - [02/Dec/2023:13:33:19] "GET /phpMyAdmin-4.9.7/index.php?lang=en" 404 6920
+123.60.101.59:46056 - - [02/Dec/2023:13:33:19] "GET /db/phpMyAdmin-3/index.php?lang=en" 404 6917
+123.60.101.59:54078 - - [02/Dec/2023:13:33:19] "GET /admin/sqladmin/index.php?lang=en" 302 -
+123.60.101.59:54090 - - [02/Dec/2023:13:33:19] "GET /admin/login/?next=/admin/sqladmin/index.php%3Flang%3Den" 200 2276
+123.60.101.59:54100 - - [02/Dec/2023:13:33:20] "GET /sql/myadmin/index.php?lang=en" 404 6905
+123.60.101.59:54108 - - [02/Dec/2023:13:33:20] "GET /db/dbweb/index.php?lang=en" 404 6896
+123.60.101.59:54122 - - [02/Dec/2023:13:33:20] "GET /phpmyadmin2016/index.php?lang=en" 404 6914
+123.60.101.59:54136 - - [02/Dec/2023:13:33:20] "GET /mysql/index.php?lang=en" 404 6887
+123.60.101.59:54142 - - [02/Dec/2023:13:33:21] "GET /sql/phpMyAdmin/index.php?lang=en" 404 6914
+123.60.101.59:54154 - - [02/Dec/2023:13:33:21] "GET /administrator/admin/index.php?lang=en" 404 6929
+123.60.101.59:54166 - - [02/Dec/2023:13:33:21] "GET /phpmyadmin2020/index.php?lang=en" 404 6914
+123.60.101.59:54172 - - [02/Dec/2023:13:33:21] "GET /sql/webdb/index.php?lang=en" 404 6899
+123.60.101.59:54176 - - [02/Dec/2023:13:33:22] "GET /phpmy-admin/index.php?lang=en" 404 6905
+123.60.101.59:54182 - - [02/Dec/2023:13:33:22] "GET /admin/phpmyadmin/index.php?lang=en" 302 -
+123.60.101.59:54188 - - [02/Dec/2023:13:33:22] "GET /admin/login/?next=/admin/phpmyadmin/index.php%3Flang%3Den" 200 2280
+123.60.101.59:54200 - - [02/Dec/2023:13:33:22] "GET /db/websql/index.php?lang=en" 404 6899
+123.60.101.59:54204 - - [02/Dec/2023:13:33:23] "GET /admin/phpMyAdmin/index.php?lang=en" 302 -
+123.60.101.59:54216 - - [02/Dec/2023:13:33:23] "GET /admin/login/?next=/admin/phpMyAdmin/index.php%3Flang%3Den" 200 2280
+123.60.101.59:54228 - - [02/Dec/2023:13:33:23] "GET /sqlmanager/index.php?lang=en" 404 6902
+123.60.101.59:54238 - - [02/Dec/2023:13:33:23] "GET /phpmyadmin2011/index.php?lang=en" 404 6914
+123.60.101.59:54248 - - [02/Dec/2023:13:33:23] "GET /phpMyAdmin1/index.php?lang=en" 404 6905
+123.60.101.59:54258 - - [02/Dec/2023:13:33:24] "GET /sql/sqlweb/index.php?lang=en" 404 6902
+123.60.101.59:54262 - - [02/Dec/2023:13:33:24] "GET /db/phpMyAdmin-4/index.php?lang=en" 404 6917
+123.60.101.59:54274 - - [02/Dec/2023:13:33:24] "GET /phpmyadmin2021/index.php?lang=en" 404 6914
+123.60.101.59:54290 - - [02/Dec/2023:13:33:24] "GET /db/phpmyadmin3/index.php?lang=en" 404 6914
+123.60.101.59:54298 - - [02/Dec/2023:13:33:25] "GET /mysql/pMA/index.php?lang=en" 404 6899
+123.60.101.59:54306 - - [02/Dec/2023:13:33:25] "GET /administrator/pma/index.php?lang=en" 404 6923
+123.60.101.59:54318 - - [02/Dec/2023:13:33:25] "GET /phpmyadmin4/index.php?lang=en" 404 6905
+123.60.101.59:54324 - - [02/Dec/2023:13:33:25] "GET /phpMyAdmin_/index.php?lang=en" 404 6905
+123.60.101.59:54330 - - [02/Dec/2023:13:33:26] "GET /phpMyAdmin2/index.php?lang=en" 404 6905
+123.60.101.59:54344 - - [02/Dec/2023:13:33:26] "GET /2phpmyadmin/index.php?lang=en" 404 6905
+123.60.101.59:54352 - - [02/Dec/2023:13:33:26] "GET /phpMyAdmin-5.1.0/index.php?lang=en" 404 6920
+123.60.101.59:54354 - - [02/Dec/2023:13:33:26] "GET /phpmyadmin2/index.php?lang=en" 404 6905
+123.60.101.59:54360 - - [02/Dec/2023:13:33:27] "GET /db/phpmyadmin4/index.php?lang=en" 404 6914
+123.60.101.59:54374 - - [02/Dec/2023:13:33:27] "GET /phpMyAdmin-4.9.10-all-languages/index.php?lang=en" 404 6965
+123.60.101.59:54376 - - [02/Dec/2023:13:33:27] "GET /phpmyadmin2013/index.php?lang=en" 404 6914
+123.60.101.59:54384 - - [02/Dec/2023:13:33:27] "GET /administrator/phpMyAdmin/index.php?lang=en" 404 6944
+123.60.101.59:54394 - - [02/Dec/2023:13:33:28] "GET /wpma5.2/index.php?lang=en" 404 6893
+123.60.101.59:54396 - - [02/Dec/2023:13:33:28] "GET /admin/web/index.php?lang=en" 302 -
+123.60.101.59:54408 - - [02/Dec/2023:13:33:28] "GET /admin/login/?next=/admin/web/index.php%3Flang%3Den" 200 2266
+123.60.101.59:54412 - - [02/Dec/2023:13:33:28] "GET /index.php?lang=en" 404 6869
+123.60.101.59:54418 - - [02/Dec/2023:13:33:29] "GET /administrator/db/index.php?lang=en" 404 6920
+123.60.101.59:54420 - - [02/Dec/2023:13:33:29] "GET /mysql/sqlmanager/index.php?lang=en" 404 6920
+123.60.101.59:33764 - - [02/Dec/2023:13:33:29] "GET /phpMyAdmin4/index.php?lang=en" 404 6905
+123.60.101.59:33776 - - [02/Dec/2023:13:33:29] "GET /pma/index.php?lang=en" 404 6881
+123.60.101.59:33782 - - [02/Dec/2023:13:33:30] "GET /phpMyAdmin-5.1.1/index.php?lang=en" 404 6920
+123.60.101.59:33792 - - [02/Dec/2023:13:33:30] "GET /phpMyAdmin-latest-all-languages/index.php?lang=en" 404 6965
+123.60.101.59:33794 - - [02/Dec/2023:13:33:30] "GET /db/db-admin/index.php?lang=en" 404 6905
+[2023-12-02 13:33:30][django.request.log_response():241] [WARNING] Not Found: /administrator/PMA/index.php
+[2023-12-02 13:33:31][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-5.1.3/index.php
+[2023-12-02 13:33:31][django.request.log_response():241] [WARNING] Not Found: /mysql/pma/index.php
+[2023-12-02 13:33:31][django.request.log_response():241] [WARNING] Not Found: /PMA/index.php
+[2023-12-02 13:33:31][django.request.log_response():241] [WARNING] Not Found: /sql/sql-admin/index.php
+[2023-12-02 13:33:32][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-5.3.0/index.php
+[2023-12-02 13:33:32][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-5.2.0-all-languages/index.php
+[2023-12-02 13:33:32][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-5/index.php
+[2023-12-02 13:33:32][django.request.log_response():241] [WARNING] Not Found: /administrator/web/index.php
+[2023-12-02 13:33:33][django.request.log_response():241] [WARNING] Not Found: /sql/phpmanager/index.php
+[2023-12-02 13:33:33][django.request.log_response():241] [WARNING] Not Found: /mysql/web/index.php
+[2023-12-02 13:33:33][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2022/index.php
+[2023-12-02 13:33:33][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin3/index.php
+[2023-12-02 13:33:34][django.request.log_response():241] [WARNING] Not Found: /phpmy/index.php
+[2023-12-02 13:33:34][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2018/index.php
+[2023-12-02 13:33:34][django.request.log_response():241] [WARNING] Not Found: /database/index.php
+[2023-12-02 13:33:34][django.request.log_response():241] [WARNING] Not Found: /php-my-admin/index.php
+[2023-12-02 13:33:35][django.request.log_response():241] [WARNING] Not Found: /db/phpMyAdmin3/index.php
+[2023-12-02 13:33:35][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2012/index.php
+[2023-12-02 13:33:36][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2017/index.php
+[2023-12-02 13:33:36][django.request.log_response():241] [WARNING] Not Found: /db/index.php
+[2023-12-02 13:33:36][django.request.log_response():241] [WARNING] Not Found: /mysql/dbadmin/index.php
+[2023-12-02 13:33:36][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2019/index.php
+[2023-12-02 13:33:37][django.request.log_response():241] [WARNING] Not Found: /sql/phpmyadmin5/index.php
+[2023-12-02 13:33:37][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin5.2/index.php
+[2023-12-02 13:33:37][django.request.log_response():241] [WARNING] Not Found: /mysql/admin/index.php
+[2023-12-02 13:33:37][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-5.2.0/index.php
+[2023-12-02 13:33:37][django.request.log_response():241] [WARNING] Not Found: /_phpMyAdmin/index.php
+[2023-12-02 13:33:38][django.request.log_response():241] [WARNING] Not Found: /_phpmyadmin_/index.php
+[2023-12-02 13:33:38][django.request.log_response():241] [WARNING] Not Found: /mysqlmanager/index.php
+[2023-12-02 13:33:38][django.request.log_response():241] [WARNING] Not Found: /program/index.php
+[2023-12-02 13:33:38][django.request.log_response():241] [WARNING] Not Found: /db/phpMyAdmin/index.php
+[2023-12-02 13:33:39][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-latest-english/index.php
+[2023-12-02 13:33:39][django.request.log_response():241] [WARNING] Not Found: /sql/webadmin/index.php
+[2023-12-02 13:33:39][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin5/index.php
+[2023-12-02 13:33:40][django.request.log_response():241] [WARNING] Not Found: /myadmin/index.php
+[2023-12-02 13:33:40][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin/index.php
+[2023-12-02 13:33:40][django.request.log_response():241] [WARNING] Not Found: /db/phpmyadmin/index.php
+[2023-12-02 13:33:40][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin3/index.php
+[2023-12-02 13:33:41][django.request.log_response():241] [WARNING] Not Found: /_phpmyadmin/index.php
+[2023-12-02 13:33:42][django.request.log_response():241] [WARNING] Not Found: /mysql/db/index.php
+[2023-12-02 13:33:42][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-5.1.2/index.php
+[2023-12-02 13:33:42][django.request.log_response():241] [WARNING] Not Found: /wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php
+[2023-12-02 13:33:42][django.request.log_response():241] [WARNING] Not Found: /sql/phpmy-admin/index.php
+[2023-12-02 13:33:43][django.request.log_response():241] [WARNING] Not Found: /__phpmyadmin/index.php
+[2023-12-02 13:33:43][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin5/index.php
+[2023-12-02 13:33:43][django.request.log_response():241] [WARNING] Not Found: /phppma/index.php
+[2023-12-02 13:33:43][django.request.log_response():241] [WARNING] Not Found: /sql/phpmyadmin3/index.php
+[2023-12-02 13:33:44][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin5.1/index.php
+[2023-12-02 13:33:44][django.request.log_response():241] [WARNING] Not Found: /db/webdb/index.php
+[2023-12-02 13:33:44][django.request.log_response():241] [WARNING] Not Found: /sql/sqladmin/index.php
+[2023-12-02 13:33:44][django.request.log_response():241] [WARNING] Not Found: /MyAdmin/index.php
+[2023-12-02 13:33:45][django.request.log_response():241] [WARNING] Not Found: /shopdb/index.php
+[2023-12-02 13:33:45][django.request.log_response():241] [WARNING] Not Found: /sql/phpMyAdmin2/index.php
+[2023-12-02 13:33:45][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin/index.php
+[2023-12-02 13:33:45][django.request.log_response():241] [WARNING] Not Found: /db/dbadmin/index.php
+[2023-12-02 13:33:46][django.request.log_response():241] [WARNING] Not Found: /sql/php-myadmin/index.php
+[2023-12-02 13:33:46][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin2015/index.php
+[2023-12-02 13:33:46][django.request.log_response():241] [WARNING] Not Found: /mysqladmin/index.php
+[2023-12-02 13:33:46][django.request.log_response():241] [WARNING] Not Found: /sql/sql/index.php
+[2023-12-02 13:33:47][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-5.3.0-all-languages/index.php
+[2023-12-02 13:33:47][django.request.log_response():241] [WARNING] Not Found: /dbadmin/index.php
+[2023-12-02 13:33:47][django.request.log_response():241] [WARNING] Not Found: /phpmyAdmin/index.php
+[2023-12-02 13:33:48][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-3/index.php
+[2023-12-02 13:33:48][django.request.log_response():241] [WARNING] Not Found: /administrator/phpmyadmin/index.php
+[2023-12-02 13:33:48][django.request.log_response():241] [WARNING] Not Found: /phpMyadmin/index.php
+[2023-12-02 13:33:48][django.request.log_response():241] [WARNING] Not Found: /db/phpmyadmin5/index.php
+[2023-12-02 13:55:37][django.request.log_response():241] [WARNING] Not Found: /sitemap.xml
+[2023-12-02 13:55:37][django.request.log_response():241] [ERROR] Internal Server Error: /robots.txt
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 408, in wait_for
+    return await fut
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/asgiref/sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "/root/www/GreaterWMS/./greaterwms/views.py", line 8, in robots
+    path = settings.BASE_DIR + request.path_info
+TypeError: unsupported operand type(s) for +: 'PosixPath' and 'str'
+[2023-12-02 15:21:56][django.request.log_response():241] [WARNING] Not Found: /mbilling/
+123.60.101.59:33798 - - [02/Dec/2023:13:33:30] "GET /php-myadmin/index.php?lang=en" 404 6905
+123.60.101.59:33804 - - [02/Dec/2023:13:33:30] "GET /administrator/PMA/index.php?lang=en" 404 6923
+123.60.101.59:33820 - - [02/Dec/2023:13:33:31] "GET /phpMyAdmin-5.1.3/index.php?lang=en" 404 6920
+123.60.101.59:33836 - - [02/Dec/2023:13:33:31] "GET /mysql/pma/index.php?lang=en" 404 6899
+123.60.101.59:33846 - - [02/Dec/2023:13:33:31] "GET /PMA/index.php?lang=en" 404 6881
+123.60.101.59:33860 - - [02/Dec/2023:13:33:31] "GET /sql/sql-admin/index.php?lang=en" 404 6911
+123.60.101.59:33868 - - [02/Dec/2023:13:33:32] "GET /phpMyAdmin-5.3.0/index.php?lang=en" 404 6920
+123.60.101.59:33882 - - [02/Dec/2023:13:33:32] "GET /phpMyAdmin-5.2.0-all-languages/index.php?lang=en" 404 6962
+123.60.101.59:33896 - - [02/Dec/2023:13:33:32] "GET /phpMyAdmin-5/index.php?lang=en" 404 6908
+123.60.101.59:33912 - - [02/Dec/2023:13:33:32] "GET /administrator/web/index.php?lang=en" 404 6923
+123.60.101.59:33924 - - [02/Dec/2023:13:33:33] "GET /sql/phpmanager/index.php?lang=en" 404 6914
+123.60.101.59:33934 - - [02/Dec/2023:13:33:33] "GET /mysql/web/index.php?lang=en" 404 6899
+123.60.101.59:33948 - - [02/Dec/2023:13:33:33] "GET /phpmyadmin2022/index.php?lang=en" 404 6914
+123.60.101.59:33958 - - [02/Dec/2023:13:33:33] "GET /phpMyAdmin3/index.php?lang=en" 404 6905
+123.60.101.59:33974 - - [02/Dec/2023:13:33:34] "GET /phpmy/index.php?lang=en" 404 6887
+123.60.101.59:33986 - - [02/Dec/2023:13:33:34] "GET /phpmyadmin2018/index.php?lang=en" 404 6914
+123.60.101.59:33998 - - [02/Dec/2023:13:33:34] "GET /database/index.php?lang=en" 404 6896
+123.60.101.59:34008 - - [02/Dec/2023:13:33:34] "GET /php-my-admin/index.php?lang=en" 404 6908
+123.60.101.59:34018 - - [02/Dec/2023:13:33:35] "GET /db/phpMyAdmin3/index.php?lang=en" 404 6914
+123.60.101.59:34024 - - [02/Dec/2023:13:33:35] "GET /admin/index.php?lang=en" 302 -
+123.60.101.59:34030 - - [02/Dec/2023:13:33:35] "GET /admin/login/?next=/admin/index.php%3Flang%3Den" 200 2258
+123.60.101.59:34034 - - [02/Dec/2023:13:33:35] "GET /phpmyadmin2012/index.php?lang=en" 404 6914
+123.60.101.59:34046 - - [02/Dec/2023:13:33:36] "GET /phpmyadmin2017/index.php?lang=en" 404 6914
+123.60.101.59:34060 - - [02/Dec/2023:13:33:36] "GET /db/index.php?lang=en" 404 6878
+123.60.101.59:34068 - - [02/Dec/2023:13:33:36] "GET /mysql/dbadmin/index.php?lang=en" 404 6911
+123.60.101.59:34078 - - [02/Dec/2023:13:33:36] "GET /phpmyadmin2019/index.php?lang=en" 404 6914
+123.60.101.59:34086 - - [02/Dec/2023:13:33:37] "GET /sql/phpmyadmin5/index.php?lang=en" 404 6917
+123.60.101.59:34098 - - [02/Dec/2023:13:33:37] "GET /phpMyAdmin5.2/index.php?lang=en" 404 6911
+123.60.101.59:34112 - - [02/Dec/2023:13:33:37] "GET /mysql/admin/index.php?lang=en" 404 6905
+123.60.101.59:34128 - - [02/Dec/2023:13:33:37] "GET /phpMyAdmin-5.2.0/index.php?lang=en" 404 6920
+123.60.101.59:34132 - - [02/Dec/2023:13:33:37] "GET /_phpMyAdmin/index.php?lang=en" 404 6905
+123.60.101.59:34140 - - [02/Dec/2023:13:33:38] "GET /_phpmyadmin_/index.php?lang=en" 404 6908
+123.60.101.59:34148 - - [02/Dec/2023:13:33:38] "GET /mysqlmanager/index.php?lang=en" 404 6908
+123.60.101.59:34154 - - [02/Dec/2023:13:33:38] "GET /program/index.php?lang=en" 404 6893
+123.60.101.59:34156 - - [02/Dec/2023:13:33:38] "GET /db/phpMyAdmin/index.php?lang=en" 404 6911
+123.60.101.59:34172 - - [02/Dec/2023:13:33:39] "GET /phpMyAdmin-latest-english/index.php?lang=en" 404 6947
+123.60.101.59:44418 - - [02/Dec/2023:13:33:39] "GET /sql/webadmin/index.php?lang=en" 404 6908
+123.60.101.59:44424 - - [02/Dec/2023:13:33:39] "GET /phpMyAdmin5/index.php?lang=en" 404 6905
+123.60.101.59:44436 - - [02/Dec/2023:13:33:40] "GET /myadmin/index.php?lang=en" 404 6893
+123.60.101.59:44450 - - [02/Dec/2023:13:33:40] "GET /phpMyAdmin/index.php?lang=en" 404 6902
+123.60.101.59:44462 - - [02/Dec/2023:13:33:40] "GET /db/phpmyadmin/index.php?lang=en" 404 6911
+123.60.101.59:44476 - - [02/Dec/2023:13:33:40] "GET /phpmyadmin3/index.php?lang=en" 404 6905
+123.60.101.59:44492 - - [02/Dec/2023:13:33:41] "GET /admin/pma/index.php?lang=en" 302 -
+123.60.101.59:44496 - - [02/Dec/2023:13:33:41] "GET /admin/login/?next=/admin/pma/index.php%3Flang%3Den" 200 2266
+123.60.101.59:44508 - - [02/Dec/2023:13:33:41] "GET /_phpmyadmin/index.php?lang=en" 404 6905
+123.60.101.59:44512 - - [02/Dec/2023:13:33:42] "GET /mysql/db/index.php?lang=en" 404 6896
+123.60.101.59:44518 - - [02/Dec/2023:13:33:42] "GET /phpMyAdmin-5.1.2/index.php?lang=en" 404 6920
+123.60.101.59:44526 - - [02/Dec/2023:13:33:42] "GET /wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php?lang=en" 404 7019
+123.60.101.59:44540 - - [02/Dec/2023:13:33:42] "GET /sql/phpmy-admin/index.php?lang=en" 404 6917
+123.60.101.59:44550 - - [02/Dec/2023:13:33:43] "GET /__phpmyadmin/index.php?lang=en" 404 6908
+123.60.101.59:44556 - - [02/Dec/2023:13:33:43] "GET /phpmyadmin5/index.php?lang=en" 404 6905
+123.60.101.59:44564 - - [02/Dec/2023:13:33:43] "GET /phppma/index.php?lang=en" 404 6890
+123.60.101.59:44578 - - [02/Dec/2023:13:33:43] "GET /sql/phpmyadmin3/index.php?lang=en" 404 6917
+123.60.101.59:44592 - - [02/Dec/2023:13:33:44] "GET /phpMyAdmin5.1/index.php?lang=en" 404 6911
+123.60.101.59:44594 - - [02/Dec/2023:13:33:44] "GET /db/webdb/index.php?lang=en" 404 6896
+123.60.101.59:44596 - - [02/Dec/2023:13:33:44] "GET /sql/sqladmin/index.php?lang=en" 404 6908
+123.60.101.59:44612 - - [02/Dec/2023:13:33:44] "GET /MyAdmin/index.php?lang=en" 404 6893
+123.60.101.59:44622 - - [02/Dec/2023:13:33:45] "GET /shopdb/index.php?lang=en" 404 6890
+123.60.101.59:44634 - - [02/Dec/2023:13:33:45] "GET /sql/phpMyAdmin2/index.php?lang=en" 404 6917
+123.60.101.59:44642 - - [02/Dec/2023:13:33:45] "GET /phpmyadmin/index.php?lang=en" 404 6902
+123.60.101.59:44646 - - [02/Dec/2023:13:33:45] "GET /db/dbadmin/index.php?lang=en" 404 6902
+123.60.101.59:44648 - - [02/Dec/2023:13:33:46] "GET /sql/php-myadmin/index.php?lang=en" 404 6917
+123.60.101.59:44652 - - [02/Dec/2023:13:33:46] "GET /phpmyadmin2015/index.php?lang=en" 404 6914
+123.60.101.59:44666 - - [02/Dec/2023:13:33:46] "GET /mysqladmin/index.php?lang=en" 404 6902
+123.60.101.59:44672 - - [02/Dec/2023:13:33:46] "GET /sql/sql/index.php?lang=en" 404 6893
+123.60.101.59:44680 - - [02/Dec/2023:13:33:47] "GET /phpMyAdmin-5.3.0-all-languages/index.php?lang=en" 404 6962
+123.60.101.59:44688 - - [02/Dec/2023:13:33:47] "GET /dbadmin/index.php?lang=en" 404 6893
+123.60.101.59:44698 - - [02/Dec/2023:13:33:47] "GET /phpmyAdmin/index.php?lang=en" 404 6902
+123.60.101.59:44712 - - [02/Dec/2023:13:33:48] "GET /phpMyAdmin-3/index.php?lang=en" 404 6908
+123.60.101.59:44726 - - [02/Dec/2023:13:33:48] "GET /administrator/phpmyadmin/index.php?lang=en" 404 6944
+123.60.101.59:44728 - - [02/Dec/2023:13:33:48] "GET /phpMyadmin/index.php?lang=en" 404 6902
+123.60.101.59:44742 - - [02/Dec/2023:13:33:48] "GET /db/phpmyadmin5/index.php?lang=en" 404 6914
+152.32.245.58:13318 - - [02/Dec/2023:13:54:20] "GET /" 200 907
+152.32.211.69:50192 - - [02/Dec/2023:13:55:33] "GET /" 200 907
+152.32.211.69:50246 - - [02/Dec/2023:13:55:33] "GET /statics/icons/logo.png" 200 9411
+152.32.211.69:50396 - - [02/Dec/2023:13:55:33] "GET /js/app.9c3c4b10.js" 200 269647
+152.32.211.69:53510 - - [02/Dec/2023:13:55:37] "GET /sitemap.xml" 404 6872
+152.32.211.69:53506 - - [02/Dec/2023:13:55:37] "GET /robots.txt" 500 87185
+123.60.101.59:42312 - - [02/Dec/2023:14:24:18] "GET /" 200 907
+123.60.101.59:40804 - - [02/Dec/2023:15:21:56] "GET /mbilling/" 404 6861
+114.84.5.78:46272 - - [02/Dec/2023:15:24:29] "OPTIONS /staff/?staff_name=qige" 200 -
+114.84.5.78:46591 - - [02/Dec/2023:15:24:29] "OPTIONS /warehouse/multiple/?max_page=30" 200 -
+114.84.5.78:46272 - - [02/Dec/2023:15:24:29] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.5.78:46591 - - [02/Dec/2023:15:24:29] "GET /staff/?staff_name=qige" 200 238
+183.193.34.102:3828 - - [02/Dec/2023:15:25:02] "OPTIONS /warehouse/multiple/?max_page=30" 200 -
+183.193.34.102:3828 - - [02/Dec/2023:15:25:02] "GET /warehouse/multiple/?max_page=30" 200 1354
+123.60.101.59:47822 - - [02/Dec/2023:15:25:09] "GET /" 200 907
+123.60.101.59:47836 - - [02/Dec/2023:15:25:09] "GET /" 200 907
+123.60.101.59:47850 - - [02/Dec/2023:15:25:09] "GET /css/vendor.2ac1ba6a.css" 200 208810
+123.60.101.59:47862 - - [02/Dec/2023:15:25:09] "GET /css/app.45730797.css" 200 1376
+123.60.101.59:47858 - - [02/Dec/2023:15:25:09] "GET /css/vendor.2ac1ba6a.css" 200 208810
+123.60.101.59:47870 - - [02/Dec/2023:15:25:09] "GET /js/vendor.4a49a306.js" 200 2250174
+123.60.101.59:47878 - - [02/Dec/2023:15:25:09] "GET /js/app.9c3c4b10.js" 200 269647
+123.60.101.59:57188 - - [02/Dec/2023:15:25:12] "GET /statics/baseurl.txt" 200 26
+123.60.101.59:57210 - - [02/Dec/2023:15:25:12] "GET /css/2.01c6672a.css" 200 107
+123.60.101.59:57190 - - [02/Dec/2023:15:25:12] "GET /js/2.2e50e4a1.js" 200 26953
+123.60.101.59:57204 - - [02/Dec/2023:15:25:12] "GET /js/63.920bbb4b.js" 200 361455
+123.60.101.59:57226 - - [02/Dec/2023:15:25:13] "GET /fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.c08197a9.woff2" 200 128264
+123.60.101.59:57242 - - [02/Dec/2023:15:25:13] "GET /fonts/KFOlCnqEu92Fr1MmEU9fBBc-.48af7707.woff" 200 20544
+123.60.101.59:57248 - - [02/Dec/2023:15:25:14] "GET /fonts/KFOmCnqEu92Fr1Mu4mxM.f1e2a767.woff" 200 20344
+123.60.101.59:57232 - - [02/Dec/2023:15:25:14] "GET /fonts/KFOlCnqEu92Fr1MmWUlfBBc-.77ecb942.woff" 200 20408
+123.60.101.59:57258 - - [02/Dec/2023:15:25:14] "GET /statics/icons/IOS.png" 200 3161
+27.115.124.109:2493 - - [02/Dec/2023:15:25:14] "OPTIONS /warehouse/multiple/?max_page=30" 200 -
+123.60.101.59:57272 - - [02/Dec/2023:15:25:14] "GET /statics/icons/android.png" 200 7470
+27.115.124.109:2493 - - [02/Dec/2023:15:25:15] "GET /warehouse/multiple/?max_page=30" 200 1354
+183.193.34.102:3998 - - [02/Dec/2023:15:28:32] "OPTIONS /login/" 200 -
+183.193.34.102:3998 - - [02/Dec/2023:15:28:32] "POST /login/" 200 151
+183.193.34.102:4005 - - [02/Dec/2023:15:28:35] "OPTIONS /staff/?staff_name=admin" 200 -
+183.193.34.102:4006 - - [02/Dec/2023:15:28:35] "GET /warehouse/multiple/?max_page=30" 200 1354
+183.193.34.102:4005 - - [02/Dec/2023:15:28:35] "GET /staff/?staff_name=admin" 200 237
+183.193.34.102:4005 - - [02/Dec/2023:15:28:37] "OPTIONS /company/?page=1" 200 -
+183.193.34.102:4005 - - [02/Dec/2023:15:28:37] "GET /company/?page=1" 200 322
+114.84.5.78:45234 - - [02/Dec/2023:15:28:38] "OPTIONS /company/?page=1" 200 -
+114.84.5.78:45234 - - [02/Dec/2023:15:28:38] "GET /company/?page=1" 200 319
+114.84.5.78:45234 - - [02/Dec/2023:15:28:47] "OPTIONS /company/3/" 200 -
+114.84.5.78:45234 - - [02/Dec/2023:15:28:47] "PUT /company/3/" 200 277
+114.84.5.78:45234 - - [02/Dec/2023:15:28:47] "GET /company/?page=1" 200 315
+183.193.34.102:4018 - - [02/Dec/2023:15:28:48] "GET /company/?page=1" 200 322
+114.84.5.78:45234 - - [02/Dec/2023:15:28:49] "DELETE /company/3/" 200 263
+114.84.5.78:45234 - - [02/Dec/2023:15:28:49] "GET /company/?page=1" 200 52
+183.193.34.102:4023 - - [02/Dec/2023:15:29:01] "GET /company/?page=1" 200 322
+183.193.34.102:4027 - - [02/Dec/2023:15:29:08] "OPTIONS /supplier/?page=1" 200 -
+183.193.34.102:4027 - - [02/Dec/2023:15:29:08] "GET /supplier/?page=1" 200 8346
+183.193.34.102:4027 - - [02/Dec/2023:15:29:10] "GET /company/?page=1" 200 322
+183.193.34.102:4027 - - [02/Dec/2023:15:29:10] "OPTIONS /customer/?page=1" 200 -
+183.193.34.102:4027 - - [02/Dec/2023:15:29:11] "GET /customer/?page=1" 200 8351
+183.193.34.102:4031 - - [02/Dec/2023:15:29:15] "OPTIONS /customer/?customer_name__icontains=u&page=1" 200 -
+183.193.34.102:4031 - - [02/Dec/2023:15:29:15] "GET /customer/?customer_name__icontains=u&page=1" 200 8378
+183.193.34.102:4031 - - [02/Dec/2023:15:29:16] "GET /customer/?customer_name__icontains=u&page=1" 200 8378
+183.193.34.102:4033 - - [02/Dec/2023:15:29:18] "GET /customer/?customer_name__icontains=u&page=1" 200 8378
+183.193.34.102:4033 - - [02/Dec/2023:15:29:20] "GET /company/?page=1" 200 322
+183.193.34.102:4037 - - [02/Dec/2023:15:29:36] "GET /company/?page=1" 200 322
+183.193.34.102:4037 - - [02/Dec/2023:15:29:37] "GET /supplier/?page=1" 200 8346
+183.193.34.102:4041 - - [02/Dec/2023:15:29:38] "GET /customer/?page=1" 200 8351
+183.193.34.102:4041 - - [02/Dec/2023:15:29:39] "GET /company/?page=1" 200 322
+114.84.5.78:47003 - - [02/Dec/2023:15:30:18] "OPTIONS /asn/list/?page=1" 200 -
+114.84.5.78:47003 - - [02/Dec/2023:15:30:18] "GET /asn/list/?page=1" 200 3160
+114.84.5.78:47003 - - [02/Dec/2023:15:30:21] "OPTIONS /asn/detail/?goods_shortage_qty__gt=0&page=1" 200 -
+114.84.5.78:47003 - - [02/Dec/2023:15:30:21] "GET /asn/detail/?goods_shortage_qty__gt=0&page=1" 200 910
+114.84.5.78:47003 - - [02/Dec/2023:15:30:32] "GET /asn/list/?page=1" 200 3160
+114.84.5.78:47003 - - [02/Dec/2023:15:30:39] "OPTIONS /asn/viewprint/15/" 200 -
+114.84.5.78:47003 - - [02/Dec/2023:15:30:39] "GET /asn/viewprint/15/" 200 782
+114.84.5.78:47003 - - [02/Dec/2023:15:31:12] "GET /asn/detail/?goods_shortage_qty__gt=0&page=1" 200 910
+114.84.5.78:47003 - - [02/Dec/2023:15:31:14] "OPTIONS /asn/detail/?goods_more_qty__gt=0&page=1" 200 -
+114.84.5.78:47003 - - [02/Dec/2023:15:31:14] "GET /asn/detail/?goods_more_qty__gt=0&page=1" 200 451
+114.84.5.78:47003 - - [02/Dec/2023:15:31:18] "GET /asn/detail/?goods_shortage_qty__gt=0&page=1" 200 910
+114.84.5.78:47003 - - [02/Dec/2023:15:31:19] "GET /asn/list/?page=1" 200 3160
+114.84.5.78:47003 - - [02/Dec/2023:15:31:47] "GET /asn/detail/?goods_shortage_qty__gt=0&page=1" 200 910
+114.84.5.78:47003 - - [02/Dec/2023:15:32:24] "GET /asn/list/?page=1" 200 3160
+114.84.5.78:47003 - - [02/Dec/2023:15:32:26] "OPTIONS /asn/list/" 200 -
+114.84.5.78:47003 - - [02/Dec/2023:15:32:27] "POST /asn/list/" 200 336
+114.84.5.78:47003 - - [02/Dec/2023:15:32:31] "OPTIONS /goods/?goods_code__icontains=0" 200 -
+114.84.5.78:47003 - - [02/Dec/2023:15:32:31] "GET /goods/?goods_code__icontains=0" 200 18882
+114.84.5.78:47003 - - [02/Dec/2023:15:32:31] "OPTIONS /goods/?goods_code__icontains=00" 200 -
+114.84.5.78:47003 - - [02/Dec/2023:15:32:32] "GET /goods/?goods_code__icontains=00" 200 18883
+114.84.5.78:47003 - - [02/Dec/2023:15:32:32] "GET /goods/?goods_code__icontains=0" 200 18882
+114.84.5.78:47003 - - [02/Dec/2023:15:32:32] "OPTIONS /goods/?goods_code__icontains=01" 200 -
+114.84.5.78:47003 - - [02/Dec/2023:15:32:32] "GET /goods/?goods_code__icontains=01" 200 8210
+114.84.5.78:47003 - - [02/Dec/2023:15:32:34] "OPTIONS /goods/?goods_code__icontains=a000019" 200 -
+114.84.5.78:47003 - - [02/Dec/2023:15:32:34] "GET /goods/?goods_code__icontains=a000019" 200 2626
+114.84.5.78:47003 - - [02/Dec/2023:15:32:37] "OPTIONS /asn/detail/" 200 -
+114.84.5.78:47003 - - [02/Dec/2023:15:32:37] "POST /asn/detail/" 200 20
+114.84.5.78:47003 - - [02/Dec/2023:15:32:37] "GET /asn/list/?page=1" 200 3541
+114.84.5.78:47003 - - [02/Dec/2023:15:32:42] "OPTIONS /asn/viewprint/18/" 200 -
+114.84.5.78:47003 - - [02/Dec/2023:15:32:42] "GET /asn/viewprint/18/" 200 731
+114.84.5.78:47003 - - [02/Dec/2023:15:32:54] "OPTIONS /asn/preload/18/" 200 -
+114.84.5.78:47003 - - [02/Dec/2023:15:32:54] "POST /asn/preload/18/" 200 438
+114.84.5.78:47003 - - [02/Dec/2023:15:32:54] "GET /asn/list/?page=1" 200 3541
+114.84.5.78:47003 - - [02/Dec/2023:15:32:58] "OPTIONS /asn/presort/18/" 200 -
+114.84.5.78:47003 - - [02/Dec/2023:15:32:58] "POST /asn/presort/18/" 200 438
+114.84.5.78:47003 - - [02/Dec/2023:15:32:58] "GET /asn/list/?page=1" 200 3541
+114.84.5.78:47003 - - [02/Dec/2023:15:33:00] "OPTIONS /asn/detail/?asn_code=ASN202312021" 200 -
+114.84.5.78:47003 - - [02/Dec/2023:15:33:00] "GET /asn/detail/?asn_code=ASN202312021" 200 448
+114.84.5.78:47003 - - [02/Dec/2023:15:33:12] "OPTIONS /asn/sorted/18/" 200 -
+114.84.5.78:47003 - - [02/Dec/2023:15:33:12] "POST /asn/sorted/18/" 200 20
+114.84.5.78:47003 - - [02/Dec/2023:15:33:12] "GET /asn/list/?page=1" 200 3542
+114.84.5.78:47003 - - [02/Dec/2023:15:33:37] "GET /asn/detail/?goods_shortage_qty__gt=0&page=1" 200 1308
+114.84.5.78:45586 - - [02/Dec/2023:15:35:28] "OPTIONS /asn/detail/?asn_status=5&ordering=-id&page=1" 200 -
+114.84.5.78:45586 - - [02/Dec/2023:15:35:28] "GET /asn/detail/?asn_status=5&ordering=-id&page=1" 200 2110
+114.84.5.78:45586 - - [02/Dec/2023:15:35:49] "GET /asn/list/?page=1" 200 3542
+114.84.5.78:45827 - - [02/Dec/2023:15:40:46] "POST /asn/list/" 200 336
+114.84.5.78:45827 - - [02/Dec/2023:15:41:14] "GET /asn/detail/?goods_shortage_qty__gt=0&page=1" 200 1308
+114.84.5.78:45827 - - [02/Dec/2023:15:41:35] "GET /asn/detail/?asn_status=5&ordering=-id&page=1" 200 2110
+114.84.5.78:45327 - - [02/Dec/2023:15:45:44] "OPTIONS /dn/list/?page=1" 200 -
+114.84.5.78:45327 - - [02/Dec/2023:15:45:44] "GET /dn/list/?page=1" 200 1641
+114.84.5.78:45327 - - [02/Dec/2023:15:45:46] "OPTIONS /dn/detail/?dn_status=2&back_order_label=true&page=1" 200 -
+114.84.5.78:45327 - - [02/Dec/2023:15:45:46] "GET /dn/detail/?dn_status=2&back_order_label=true&page=1" 200 512
+114.84.5.78:45327 - - [02/Dec/2023:15:45:49] "OPTIONS /dn/detail/4/" 200 -
+114.84.5.78:45327 - - [02/Dec/2023:15:45:49] "DELETE /dn/detail/4/" 200 20
+114.84.5.78:45327 - - [02/Dec/2023:15:45:49] "GET /dn/detail/?dn_status=2&back_order_label=true&page=1" 200 52
+114.84.5.78:45327 - - [02/Dec/2023:15:45:54] "OPTIONS /dn/detail/?dn_status=3&pick_qty__gt=0&page=1" 200 -
+114.84.5.78:45327 - - [02/Dec/2023:15:45:54] "GET /dn/detail/?dn_status=3&pick_qty__gt=0&page=1" 200 52
+114.84.5.78:45327 - - [02/Dec/2023:15:45:56] "GET /dn/detail/?dn_status=2&back_order_label=true&page=1" 200 52
+114.84.5.78:45327 - - [02/Dec/2023:15:45:57] "OPTIONS /dn/detail/?dn_status=2&page=1" 200 -
+114.84.5.78:45327 - - [02/Dec/2023:15:45:57] "GET /dn/detail/?dn_status=2&page=1" 200 52
+114.84.5.78:45327 - - [02/Dec/2023:15:45:58] "OPTIONS /dn/detail/?dn_status=1&page=1" 200 -
+114.84.5.78:45327 - - [02/Dec/2023:15:45:58] "GET /dn/detail/?dn_status=1&page=1" 200 52
+114.84.5.78:45327 - - [02/Dec/2023:15:45:58] "GET /dn/list/?page=1" 200 1241
+114.84.5.78:45327 - - [02/Dec/2023:15:46:10] "OPTIONS /dn/detail/?dn_status=5&intransit_qty__gte=0&page=1" 200 -
+114.84.5.78:45327 - - [02/Dec/2023:15:46:10] "GET /dn/detail/?dn_status=5&intransit_qty__gte=0&page=1" 200 52
+114.84.5.78:45327 - - [02/Dec/2023:15:46:14] "OPTIONS /dn/detail/?dn_status=4&picked_qty__gt=0&page=1" 200 -
+114.84.5.78:45327 - - [02/Dec/2023:15:46:14] "GET /dn/detail/?dn_status=4&picked_qty__gt=0&page=1" 200 52
+114.84.5.78:45327 - - [02/Dec/2023:15:46:16] "GET /dn/detail/?dn_status=1&page=1" 200 52
+114.84.5.78:45327 - - [02/Dec/2023:15:46:18] "GET /dn/list/?page=1" 200 1241
+114.84.5.78:45327 - - [02/Dec/2023:15:46:21] "OPTIONS /dn/detail/?dn_status=6&page=1" 200 -
+114.84.5.78:45327 - - [02/Dec/2023:15:46:21] "GET /dn/detail/?dn_status=6&page=1" 200 515
+114.84.5.78:46706 - - [02/Dec/2023:15:47:25] "GET /asn/list/?page=1" 200 3542
+114.84.5.78:46706 - - [02/Dec/2023:15:47:30] "OPTIONS /asn/detail/?asn_status=4&page=1" 200 -
+114.84.5.78:46706 - - [02/Dec/2023:15:47:30] "GET /asn/detail/?asn_status=4&page=1" 200 449
+114.84.5.78:46706 - - [02/Dec/2023:15:47:39] "GET /asn/list/?page=1" 200 3542
+114.84.5.78:46706 - - [02/Dec/2023:15:47:45] "OPTIONS /stock/list/?ordering=-update_time&page=1" 200 -
+114.84.5.78:46706 - - [02/Dec/2023:15:47:45] "GET /stock/list/?ordering=-update_time&page=1" 200 1686
+114.84.5.78:46706 - - [02/Dec/2023:15:47:58] "OPTIONS /stock/bin/?page=1" 200 -
+114.84.5.78:46706 - - [02/Dec/2023:15:47:58] "GET /stock/bin/?page=1" 200 1809
+114.84.5.78:46706 - - [02/Dec/2023:15:48:13] "OPTIONS /warehouse/?page=1" 200 -
+114.84.5.78:46706 - - [02/Dec/2023:15:48:13] "GET /warehouse/?page=1" 200 372
+114.84.5.78:46706 - - [02/Dec/2023:15:48:15] "OPTIONS /binsize/?page=1" 200 -
+114.84.5.78:46706 - - [02/Dec/2023:15:48:15] "GET /binsize/?page=1" 200 774
+114.84.5.78:46706 - - [02/Dec/2023:15:48:26] "GET /warehouse/?page=1" 200 372
+114.84.5.78:46706 - - [02/Dec/2023:15:48:27] "GET /stock/list/?ordering=-update_time&page=1" 200 1686
+114.84.5.78:46706 - - [02/Dec/2023:15:48:58] "OPTIONS /goods/?page=1" 200 -
+114.84.5.78:46706 - - [02/Dec/2023:15:48:58] "GET /goods/?page=1" 200 18858
+114.84.5.78:46706 - - [02/Dec/2023:15:49:01] "GET /stock/list/?ordering=-update_time&page=1" 200 1686
+114.84.5.78:46706 - - [02/Dec/2023:15:49:05] "GET /goods/?page=1" 200 18858
+114.84.5.78:46706 - - [02/Dec/2023:15:49:28] "GET /warehouse/?page=1" 200 372
+114.84.5.78:46706 - - [02/Dec/2023:15:49:30] "GET /binsize/?page=1" 200 774
+114.84.5.78:47813 - - [02/Dec/2023:15:57:18] "OPTIONS /staff/?page=1" 200 -
+114.84.5.78:47813 - - [02/Dec/2023:15:57:18] "GET /staff/?page=1" 200 5865
+114.84.5.78:47813 - - [02/Dec/2023:15:57:21] "GET /staff/?page=1" 200 5865
+114.84.5.78:47813 - - [02/Dec/2023:15:57:38] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.5.78:46963 - - [02/Dec/2023:15:59:18] "OPTIONS /staff/?staff_name=Aaron&check_code=8185" 200 -
+114.84.5.78:46963 - - [02/Dec/2023:15:59:18] "GET /staff/?staff_name=Aaron&check_code=8185" 200 241
+114.84.5.78:46963 - - [02/Dec/2023:15:59:20] "OPTIONS /staff/?staff_name=Aaron" 200 -
+114.84.5.78:46402 - - [02/Dec/2023:15:59:20] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.5.78:46963 - - [02/Dec/2023:15:59:20] "GET /staff/?staff_name=Aaron" 200 241
+114.84.5.78:46963 - - [02/Dec/2023:15:59:58] "GET /company/?page=1" 200 52
+114.84.5.78:46963 - - [02/Dec/2023:16:00:01] "GET /asn/list/?page=1" 200 3542
+114.84.5.78:46963 - - [02/Dec/2023:16:00:10] "GET /staff/?page=1" 200 5865
+114.84.5.78:46963 - - [02/Dec/2023:16:00:19] "OPTIONS /staff/169/" 200 -
+114.84.5.78:46963 - - [02/Dec/2023:16:00:19] "PUT /staff/169/" 200 205
+114.84.5.78:46963 - - [02/Dec/2023:16:00:19] "GET /staff/?page=1" 200 5865
+114.84.5.78:46963 - - [02/Dec/2023:16:00:25] "PUT /staff/169/" 200 206
+114.84.5.78:46963 - - [02/Dec/2023:16:00:25] "GET /staff/?page=1" 200 5866
+114.84.5.78:46963 - - [02/Dec/2023:16:00:26] "OPTIONS /staff/type/?page=1" 200 -
+114.84.5.78:46963 - - [02/Dec/2023:16:00:26] "GET /staff/type/?page=1" 200 951
+114.84.5.78:46963 - - [02/Dec/2023:16:00:39] "GET /staff/?page=1" 200 5866
+183.193.34.102:4040 - - [02/Dec/2023:16:00:43] "OPTIONS /staff/?page=1" 200 -
+183.193.34.102:4040 - - [02/Dec/2023:16:00:43] "GET /staff/?page=1" 200 5815
+183.193.34.102:4040 - - [02/Dec/2023:16:00:45] "GET /staff/?page=1" 200 5815
+183.193.34.102:4040 - - [02/Dec/2023:16:00:46] "OPTIONS /staff/type/?page=1" 200 -
+183.193.34.102:4040 - - [02/Dec/2023:16:00:46] "GET /staff/type/?page=1" 200 951
+183.193.34.102:4040 - - [02/Dec/2023:16:00:47] "GET /staff/?page=1" 200 5815
+183.193.34.102:4040 - - [02/Dec/2023:16:00:55] "GET /staff/?page=1" 200 5815
+183.193.34.102:4040 - - [02/Dec/2023:16:00:56] "GET /staff/type/?page=1" 200 951
+114.84.5.78:46963 - - [02/Dec/2023:16:01:06] "GET /staff/type/?page=1" 200 951
+183.193.34.102:4040 - - [02/Dec/2023:16:01:28] "GET /staff/?page=1" 200 5815
+183.193.34.102:4040 - - [02/Dec/2023:16:01:30] "GET /staff/?page=1" 200 5815
+183.193.34.102:4040 - - [02/Dec/2023:16:01:44] "OPTIONS /driver/?page=1" 200 -
+183.193.34.102:4040 - - [02/Dec/2023:16:01:44] "GET /driver/?page=1" 200 5634
+183.193.34.102:4040 - - [02/Dec/2023:16:01:46] "GET /staff/?page=1" 200 5815
+183.193.34.102:4040 - - [02/Dec/2023:16:02:21] "OPTIONS /staff/4/" 200 -
+183.193.34.102:4040 - - [02/Dec/2023:16:02:21] "PUT /staff/4/" 200 204
+183.193.34.102:4040 - - [02/Dec/2023:16:02:21] "GET /staff/?page=1" 200 5814
+114.84.5.78:46685 - - [02/Dec/2023:16:02:25] "GET /asn/list/?page=1" 200 3542
+183.193.34.102:4040 - - [02/Dec/2023:16:02:26] "PUT /staff/4/" 200 205
+183.193.34.102:4040 - - [02/Dec/2023:16:02:26] "GET /staff/?page=1" 200 5815
+183.193.34.102:4040 - - [02/Dec/2023:16:02:30] "GET /staff/?page=1" 200 5815
+183.193.34.102:4040 - - [02/Dec/2023:16:02:31] "GET /staff/?page=1" 200 5815
+183.193.34.102:4040 - - [02/Dec/2023:16:02:38] "GET /staff/?page=1" 200 5815
+183.193.34.102:4040 - - [02/Dec/2023:16:02:39] "GET /staff/type/?page=1" 200 951
+114.84.5.78:46685 - - [02/Dec/2023:16:02:47] "GET /staff/?page=1" 200 5866
+114.84.5.78:46685 - - [02/Dec/2023:16:02:49] "GET /staff/type/?page=1" 200 951
+183.193.34.102:4040 - - [02/Dec/2023:16:03:24] "GET /staff/?page=1" 200 5815
+114.84.5.78:45537 - - [02/Dec/2023:16:04:03] "GET /asn/list/?page=1" 200 3542
+114.84.5.78:45537 - - [02/Dec/2023:16:04:05] "GET /staff/?page=1" 200 5866
+114.84.5.78:45537 - - [02/Dec/2023:16:04:06] "GET /staff/type/?page=1" 200 951
+114.84.5.78:45537 - - [02/Dec/2023:16:04:12] "GET /asn/list/?page=1" 200 3542
+114.84.5.78:45537 - - [02/Dec/2023:16:04:26] "POST /asn/list/" 200 337
+114.84.5.78:45537 - - [02/Dec/2023:16:04:49] "GET /staff/?page=1" 200 5866
+114.84.5.78:45537 - - [02/Dec/2023:16:04:52] "GET /staff/type/?page=1" 200 951
+114.84.5.78:45537 - - [02/Dec/2023:16:05:00] "GET /staff/?page=1" 200 5866
+114.84.5.78:45537 - - [02/Dec/2023:16:05:03] "OPTIONS /staff/?page=3" 200 -
+114.84.5.78:45537 - - [02/Dec/2023:16:05:03] "GET /staff/?page=3" 200 3972
+114.84.5.78:45537 - - [02/Dec/2023:16:05:04] "GET /staff/?page=3" 200 3972
+114.84.5.78:45537 - - [02/Dec/2023:16:05:58] "GET /asn/list/?page=1" 200 3542
+114.84.5.78:45537 - - [02/Dec/2023:16:06:05] "POST /asn/list/" 200 337
+114.84.5.78:45537 - - [02/Dec/2023:16:07:05] "GET /company/?page=1" 200 52
+114.84.5.78:45537 - - [02/Dec/2023:16:07:14] "GET /staff/?page=1" 200 5866
+183.193.34.102:3888 - - [02/Dec/2023:16:07:33] "GET /driver/?page=1" 200 5634
+183.193.34.102:3888 - - [02/Dec/2023:16:07:38] "OPTIONS /asn/list/?page=1" 200 -
+183.193.34.102:3888 - - [02/Dec/2023:16:07:38] "GET /asn/list/?page=1" 200 840
+114.84.5.78:45537 - - [02/Dec/2023:16:07:39] "OPTIONS /driver/?page=1" 200 -
+114.84.5.78:45537 - - [02/Dec/2023:16:07:39] "GET /driver/?page=1" 200 5656
+183.193.34.102:3888 - - [02/Dec/2023:16:07:46] "GET /asn/list/?page=1" 200 840
+183.193.34.102:3919 - - [02/Dec/2023:16:07:51] "GET /media/upload_example/goodslist_cn.xlsx" 200 5115
+123.60.101.59:34074 - - [02/Dec/2023:16:07:55] "GET /" 200 907
+123.60.101.59:60632 - - [02/Dec/2023:16:08:00] "GET /" 200 907
+123.60.101.59:60648 - - [02/Dec/2023:16:08:00] "GET /statics/icons/logo.png" 200 9411
+123.60.101.59:60654 - - [02/Dec/2023:16:08:01] "GET /favicon.ico" 200 9411
+114.84.5.78:45537 - - [02/Dec/2023:16:08:06] "GET /asn/list/?page=1" 200 3542
+114.84.5.78:45537 - - [02/Dec/2023:16:08:09] "GET /staff/?page=1" 200 5866
+114.84.5.78:45537 - - [02/Dec/2023:16:08:15] "GET /asn/list/?page=1" 200 3542
+114.84.5.78:45537 - - [02/Dec/2023:16:08:25] "GET /dn/list/?page=1" 200 1241
+114.84.5.78:45537 - - [02/Dec/2023:16:08:26] "GET /stock/list/?ordering=-update_time&page=1" 200 1686
+114.84.5.78:45537 - - [02/Dec/2023:16:08:27] "GET /stock/bin/?page=1" 200 1809
+114.84.5.78:45537 - - [02/Dec/2023:16:08:28] "GET /goods/?page=1" 200 18858
+183.193.34.102:3997 - - [02/Dec/2023:16:10:03] "GET /driver/?page=1" 200 5634
+183.193.34.102:3997 - - [02/Dec/2023:16:10:06] "OPTIONS /driver/dispatchlist/?page=1" 200 -
+183.193.34.102:3997 - - [02/Dec/2023:16:10:06] "GET /driver/dispatchlist/?page=1" 200 52
+183.193.34.102:3997 - - [02/Dec/2023:16:10:07] "GET /driver/?page=1" 200 5634
+183.193.34.102:3997 - - [02/Dec/2023:16:10:08] "GET /asn/list/?page=1" 200 840
+183.193.34.102:3997 - - [02/Dec/2023:16:10:10] "OPTIONS /asn/detail/?asn_status=1&page=1" 200 -
+183.193.34.102:3997 - - [02/Dec/2023:16:10:10] "GET /asn/detail/?asn_status=1&page=1" 200 52
+183.193.34.102:3997 - - [02/Dec/2023:16:10:11] "OPTIONS /asn/detail/?asn_status=2&page=1" 200 -
+183.193.34.102:3997 - - [02/Dec/2023:16:10:11] "GET /asn/detail/?asn_status=2&page=1" 200 52
+183.193.34.102:3997 - - [02/Dec/2023:16:10:12] "OPTIONS /asn/detail/?asn_status=3&page=1" 200 -
+183.193.34.102:3997 - - [02/Dec/2023:16:10:12] "GET /asn/detail/?asn_status=3&page=1" 200 52
+183.193.34.102:3997 - - [02/Dec/2023:16:10:13] "OPTIONS /asn/detail/?asn_status=4&page=1" 200 -
+183.193.34.102:3997 - - [02/Dec/2023:16:10:13] "GET /asn/detail/?asn_status=4&page=1" 200 52
+183.193.34.102:3997 - - [02/Dec/2023:16:10:13] "OPTIONS /asn/detail/?goods_shortage_qty__gt=0&page=1" 200 -
+183.193.34.102:3997 - - [02/Dec/2023:16:10:13] "GET /asn/detail/?goods_shortage_qty__gt=0&page=1" 200 52
+183.193.34.102:3997 - - [02/Dec/2023:16:10:15] "OPTIONS /asn/detail/?asn_status=5&ordering=-id&page=1" 200 -
+183.193.34.102:3997 - - [02/Dec/2023:16:10:15] "GET /asn/detail/?asn_status=5&ordering=-id&page=1" 200 52
+183.193.34.102:3997 - - [02/Dec/2023:16:10:15] "OPTIONS /asn/detail/?goods_more_qty__gt=0&page=1" 200 -
+183.193.34.102:3997 - - [02/Dec/2023:16:10:15] "GET /asn/detail/?goods_more_qty__gt=0&page=1" 200 52
+183.193.34.102:4088 - - [02/Dec/2023:16:11:24] "GET /asn/list/?page=1" 200 840
+183.193.34.102:3848 - - [02/Dec/2023:16:17:55] "GET /company/?page=1" 200 322
+183.193.34.102:3856 - - [02/Dec/2023:16:17:58] "OPTIONS /dashboard/sales/" 200 -
+183.193.34.102:3856 - - [02/Dec/2023:16:17:58] "GET /dashboard/sales/" 200 64
+183.193.34.102:3856 - - [02/Dec/2023:16:18:00] "OPTIONS /dashboard/receipts/" 200 -
+183.193.34.102:3856 - - [02/Dec/2023:16:18:00] "GET /dashboard/receipts/" 200 64
+183.193.34.102:3860 - - [02/Dec/2023:16:18:01] "OPTIONS /cyclecount/qtyrecorviewset/?page=1" 200 -
+183.193.34.102:3860 - - [02/Dec/2023:16:18:01] "GET /cyclecount/qtyrecorviewset/?page=1" 200 52
+183.193.34.102:3860 - - [02/Dec/2023:16:18:02] "GET /dashboard/sales/" 200 64
+183.193.34.102:3860 - - [02/Dec/2023:16:18:04] "GET /asn/list/?page=1" 200 840
+183.193.34.102:3860 - - [02/Dec/2023:16:18:05] "OPTIONS /dn/list/?page=1" 200 -
+183.193.34.102:3860 - - [02/Dec/2023:16:18:05] "GET /dn/list/?page=1" 200 840
+183.193.34.102:3860 - - [02/Dec/2023:16:18:06] "OPTIONS /stock/list/?ordering=-update_time&page=1" 200 -
+183.193.34.102:3860 - - [02/Dec/2023:16:18:06] "GET /stock/list/?ordering=-update_time&page=1" 200 52
+183.193.34.102:3868 - - [02/Dec/2023:16:18:07] "GET /dn/list/?page=1" 200 840
+183.193.34.102:3868 - - [02/Dec/2023:16:18:07] "OPTIONS /dn/orderrelease/" 200 -
+183.193.34.102:3868 - - [02/Dec/2023:16:18:08] "POST /dn/orderrelease/" 200 20
+183.193.34.102:3868 - - [02/Dec/2023:16:18:08] "GET /dn/list/?page=1" 200 840
+183.193.34.102:3868 - - [02/Dec/2023:16:18:09] "POST /dn/orderrelease/" 200 20
+183.193.34.102:3868 - - [02/Dec/2023:16:18:09] "GET /dn/list/?page=1" 200 840
+183.193.34.102:3868 - - [02/Dec/2023:16:18:10] "GET /dn/list/?page=1" 200 840
+183.193.34.102:3703 - - [02/Dec/2023:16:39:11] "GET /warehouse/multiple/?max_page=30" 200 1354
+183.193.34.102:3704 - - [02/Dec/2023:16:39:11] "GET /staff/?staff_name=admin" 200 237
+183.193.34.102:3704 - - [02/Dec/2023:16:39:45] "GET /asn/list/?page=1" 200 840
+183.193.34.102:3704 - - [02/Dec/2023:16:39:46] "GET /staff/?page=1" 200 5815
+183.193.34.102:3704 - - [02/Dec/2023:16:39:50] "OPTIONS /staff/?staff_name__icontains=qi&page=1" 200 -
+183.193.34.102:3704 - - [02/Dec/2023:16:39:50] "GET /staff/?staff_name__icontains=qi&page=1" 200 52
+183.193.34.102:3704 - - [02/Dec/2023:16:39:51] "OPTIONS /staff/?staff_name__icontains=qige&page=1" 200 -
+183.193.34.102:3704 - - [02/Dec/2023:16:39:51] "GET /staff/?staff_name__icontains=qige&page=1" 200 52
+183.193.34.102:3704 - - [02/Dec/2023:16:39:52] "GET /staff/?staff_name__icontains=qige&page=1" 200 52
+183.193.34.102:3704 - - [02/Dec/2023:16:39:54] "GET /staff/?page=1" 200 5815
+114.84.5.78:48286 - - [02/Dec/2023:16:41:46] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.5.78:48286 - - [02/Dec/2023:16:42:26] "OPTIONS /login/" 200 -
+114.84.5.78:48286 - - [02/Dec/2023:16:42:27] "POST /login/" 200 149
+114.84.5.78:48286 - - [02/Dec/2023:16:42:28] "GET /staff/?staff_name=qige" 200 238
+114.84.5.78:46920 - - [02/Dec/2023:16:42:28] "GET /warehouse/multiple/?max_page=30" 200 1354
+114.84.5.78:47221 - - [02/Dec/2023:16:43:58] "GET /staff/?page=1" 200 5866
+114.84.5.78:47221 - - [02/Dec/2023:16:44:13] "GET /staff/?page=1" 200 5866
+183.193.34.102:3993 - - [02/Dec/2023:16:46:32] "GET /asn/list/?page=1" 200 840
+183.193.34.102:3993 - - [02/Dec/2023:16:46:34] "GET /dashboard/sales/" 200 64
+183.193.34.102:3993 - - [02/Dec/2023:16:46:54] "GET /staff/?page=1" 200 5815
+183.193.34.102:3664 - - [02/Dec/2023:16:50:42] "OPTIONS /warehouse/multiple/?max_page=30" 200 -
+183.193.34.102:3665 - - [02/Dec/2023:16:50:42] "OPTIONS /staff/?page=1" 200 -
+183.193.34.102:3663 - - [02/Dec/2023:16:50:42] "OPTIONS /staff/?staff_name=admin" 200 -
+183.193.34.102:3665 - - [02/Dec/2023:16:50:42] "GET /warehouse/multiple/?max_page=30" 200 1354
+183.193.34.102:3664 - - [02/Dec/2023:16:50:42] "GET /staff/?page=1" 200 5815
+183.193.34.102:3663 - - [02/Dec/2023:16:50:42] "GET /staff/?staff_name=admin" 200 237
+183.193.34.102:3788 - - [02/Dec/2023:16:51:50] "GET /staff/?staff_name=admin" 200 237
+183.193.34.102:3790 - - [02/Dec/2023:16:51:50] "GET /warehouse/multiple/?max_page=30" 200 1354
+183.193.34.102:3789 - - [02/Dec/2023:16:51:50] "GET /staff/?page=1" 200 5815
+
+ Dev mode.......... spa
+ Pkg quasar........ v1.19.4
+ Pkg @quasar/app... v2.4.1
+ Debugging......... enabled
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ Configured browser support (at least 88.57% of global marketshare):
+ · Chrome for Android >= 103
+ · Firefox for Android >= 101
+ · Android >= 103
+ · Chrome >= 94
+ · Edge >= 100
+ · Firefox >= 94
+ · iOS >= 13.0-13.1
+ · Opera >= 85
+ · Safari >= 14.1
+
+Welcome To GreaterWMS
+2023-12-02 16:57:19,020 INFO     Starting server at tcp:port=8008:interface=0.0.0.0
+2023-12-02 16:57:19,021 INFO     HTTP/2 support enabled
+2023-12-02 16:57:19,021 INFO     Configuring endpoint tcp:port=8008:interface=0.0.0.0
+2023-12-02 16:57:19,022 INFO     Listening on TCP address 0.0.0.0:8008
+ App · Reading quasar.conf.js
+ App · Checking listening address availability (0.0.0.0:8080)...
+ App · Transpiling JS (Babel active)
+ App · Extending SPA Webpack config
+ App · Generating Webpack entry point
+ App · Booting up...
+ App · Compiling SPA...
+ App · Compiled SPA done in 19926 ms
+ DONE  Compiled successfully in 19931ms4:57:40 PM
+
+
+ N  App dir........... /root/www/GreaterWMS/templates
+    App URL........... http://localhost:8080
+    Dev mode.......... spa
+    Pkg quasar........ v1.19.4
+    Pkg @quasar/app... v2.4.1
+    Transpiled JS..... yes (Babel)
+  
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+2023-12-02 16:58:42,446 INFO     Killed 0 pending application instances
+
+ Dev mode.......... spa
+ Pkg quasar........ v1.19.4
+ Pkg @quasar/app... v2.4.1
+ Debugging......... enabled
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ Configured browser support (at least 88.57% of global marketshare):
+ · Chrome for Android >= 103
+ · Firefox for Android >= 101
+ · Android >= 103
+ · Chrome >= 94
+ · Edge >= 100
+ · Firefox >= 94
+ · iOS >= 13.0-13.1
+ · Opera >= 85
+ · Safari >= 14.1
+
+Welcome To GreaterWMS
+2023-12-02 16:58:56,481 INFO     Starting server at tcp:port=8008:interface=0.0.0.0
+2023-12-02 16:58:56,481 INFO     HTTP/2 support enabled
+2023-12-02 16:58:56,482 INFO     Configuring endpoint tcp:port=8008:interface=0.0.0.0
+2023-12-02 16:58:56,482 INFO     Listening on TCP address 0.0.0.0:8008
+ App · Reading quasar.conf.js
+ App · Checking listening address availability (0.0.0.0:8080)...
+ App · Transpiling JS (Babel active)
+ App · Extending SPA Webpack config
+ App · Generating Webpack entry point
+ App · Booting up...
+ App · Compiling SPA...
+ App · Compiled SPA done in 18937 ms
+ DONE  Compiled successfully in 18942ms4:59:16 PM
+
+
+ N  App dir........... /root/www/GreaterWMS/templates
+    App URL........... http://localhost:8080
+    Dev mode.......... spa
+    Pkg quasar........ v1.19.4
+    Pkg @quasar/app... v2.4.1
+    Transpiled JS..... yes (Babel)
+  
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[2023-12-02 17:02:23][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin/scripts/setup.php
+[2023-12-02 17:02:23][django.request.log_response():241] [WARNING] Not Found: /phpmyadmin/scripts/setup.php
+[2023-12-02 17:02:23][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-2.11.4/scripts/setup.php
+[2023-12-02 17:02:23][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-2.11.3/scripts/setup.php
+[2023-12-02 17:02:23][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-2.10.0.2/scripts/setup.php
+[2023-12-02 17:02:23][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-2.10.3/scripts/setup.php
+[2023-12-02 17:02:23][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-2.8.0.2/scripts/setup.php
+[2023-12-02 17:02:23][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-2.10.2/scripts/setup.php
+[2023-12-02 17:02:23][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-2.11.9.2/scripts/setup.php
+[2023-12-02 17:02:23][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-2.11.0/scripts/setup.php
+[2023-12-02 17:02:23][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-2.11.7/scripts/setup.php
+[2023-12-02 17:02:23][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-2.11.1.2/scripts/setup.php
+[2023-12-02 17:02:23][django.request.log_response():241] [WARNING] Not Found: /pma/scripts/setup.php
+[2023-12-02 17:02:23][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin3/scripts/setup.php
+[2023-12-02 17:02:23][django.request.log_response():241] [WARNING] Not Found: /myadmin/scripts/setup.php
+[2023-12-02 17:02:23][django.request.log_response():241] [WARNING] Not Found: /MyAdmin/scripts/setup.php
+[2023-12-02 17:02:23][django.request.log_response():241] [WARNING] Not Found: /PHPMYADMIN/scripts/setup.php
+[2023-12-02 17:02:23][django.request.log_response():241] [WARNING] Not Found: /mysqladmin/scripts/setup.php
+[2023-12-02 17:02:23][django.request.log_response():241] [WARNING] Not Found: /SQL/scripts/setup.php
+[2023-12-02 17:02:23][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-2.5.5-pl1/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-2.5.5/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-2.5.4/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-2.5.7-pl1/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin-2/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /web/phpMyAdmin/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /webadmin/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /dbadmin/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /mysql/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /phpMyAdmin2/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /phpma/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /sqlweb/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /webdb/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /websql/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /_phpMyAdmin/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /php/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /db/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /sqlmanager/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /mysqlmanager/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /phpmanager/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /php-myadmin/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /phpmy-admin/scripts/setup.php
+[2023-12-02 17:02:24][django.request.log_response():241] [WARNING] Not Found: /mysql-admin/scripts/setup.php
+[2023-12-02 17:13:07][django.request.log_response():241] [WARNING] Not Found: //login/
+183.193.34.102:3834 - - [02/Dec/2023:16:59:57] "OPTIONS /capital/?page=1" 200 -
+183.193.34.102:3833 - - [02/Dec/2023:16:59:57] "GET /warehouse/multiple/?max_page=30" 200 1354
+183.193.34.102:3832 - - [02/Dec/2023:16:59:57] "GET /staff/?staff_name=admin" 200 237
+183.193.34.102:3833 - - [02/Dec/2023:16:59:57] "GET /capital/?page=1" 200 5336
+123.60.101.59:53618 - - [02/Dec/2023:17:02:23] "GET /phpMyAdmin/scripts/setup.php" 404 6918
+123.60.101.59:53620 - - [02/Dec/2023:17:02:23] "GET /phpmyadmin/scripts/setup.php" 404 6918
+123.60.101.59:53634 - - [02/Dec/2023:17:02:23] "GET /phpMyAdmin-2.11.4/scripts/setup.php" 404 6939
+123.60.101.59:53638 - - [02/Dec/2023:17:02:23] "GET /phpMyAdmin-2.11.3/scripts/setup.php" 404 6939
+123.60.101.59:53648 - - [02/Dec/2023:17:02:23] "GET /phpMyAdmin-2.10.0.2/scripts/setup.php" 404 6945
+123.60.101.59:53664 - - [02/Dec/2023:17:02:23] "GET /phpMyAdmin-2.10.3/scripts/setup.php" 404 6939
+123.60.101.59:53678 - - [02/Dec/2023:17:02:23] "GET /phpMyAdmin-2.8.0.2/scripts/setup.php" 404 6942
+123.60.101.59:53686 - - [02/Dec/2023:17:02:23] "GET /phpMyAdmin-2.10.2/scripts/setup.php" 404 6939
+123.60.101.59:53688 - - [02/Dec/2023:17:02:23] "GET /phpMyAdmin-2.11.9.2/scripts/setup.php" 404 6945
+123.60.101.59:53692 - - [02/Dec/2023:17:02:23] "GET /phpMyAdmin-2.11.0/scripts/setup.php" 404 6939
+123.60.101.59:53702 - - [02/Dec/2023:17:02:23] "GET /phpMyAdmin-2.11.7/scripts/setup.php" 404 6939
+123.60.101.59:53718 - - [02/Dec/2023:17:02:23] "GET /phpMyAdmin-2.11.1.2/scripts/setup.php" 404 6945
+123.60.101.59:53730 - - [02/Dec/2023:17:02:23] "GET /pma/scripts/setup.php" 404 6897
+123.60.101.59:53742 - - [02/Dec/2023:17:02:23] "GET /phpMyAdmin3/scripts/setup.php" 404 6921
+123.60.101.59:53756 - - [02/Dec/2023:17:02:23] "GET /myadmin/scripts/setup.php" 404 6909
+123.60.101.59:53768 - - [02/Dec/2023:17:02:23] "GET /MyAdmin/scripts/setup.php" 404 6909
+123.60.101.59:53784 - - [02/Dec/2023:17:02:23] "GET /PHPMYADMIN/scripts/setup.php" 404 6918
+123.60.101.59:53798 - - [02/Dec/2023:17:02:23] "GET /mysqladmin/scripts/setup.php" 404 6918
+123.60.101.59:53808 - - [02/Dec/2023:17:02:23] "GET /SQL/scripts/setup.php" 404 6897
+123.60.101.59:53824 - - [02/Dec/2023:17:02:23] "GET /phpMyAdmin-2.5.5-pl1/scripts/setup.php" 404 6948
+123.60.101.59:53834 - - [02/Dec/2023:17:02:24] "GET /phpMyAdmin-2.5.5/scripts/setup.php" 404 6936
+123.60.101.59:53848 - - [02/Dec/2023:17:02:24] "GET /phpMyAdmin-2.5.4/scripts/setup.php" 404 6936
+123.60.101.59:53850 - - [02/Dec/2023:17:02:24] "GET /phpMyAdmin-2.5.7-pl1/scripts/setup.php" 404 6948
+123.60.101.59:53852 - - [02/Dec/2023:17:02:24] "GET /admin/pma/scripts/setup.php" 302 -
+123.60.101.59:53868 - - [02/Dec/2023:17:02:24] "GET /phpMyAdmin-2/scripts/setup.php" 404 6924
+123.60.101.59:53874 - - [02/Dec/2023:17:02:24] "GET /web/phpMyAdmin/scripts/setup.php" 404 6930
+123.60.101.59:53886 - - [02/Dec/2023:17:02:24] "GET /webadmin/scripts/setup.php" 404 6912
+123.60.101.59:53890 - - [02/Dec/2023:17:02:24] "GET /admin/scripts/setup.php" 302 -
+123.60.101.59:53898 - - [02/Dec/2023:17:02:24] "GET /dbadmin/scripts/setup.php" 404 6909
+123.60.101.59:53906 - - [02/Dec/2023:17:02:24] "GET /mysql/scripts/setup.php" 404 6903
+123.60.101.59:53912 - - [02/Dec/2023:17:02:24] "GET /phpMyAdmin2/scripts/setup.php" 404 6921
+123.60.101.59:53922 - - [02/Dec/2023:17:02:24] "GET /phpma/scripts/setup.php" 404 6903
+123.60.101.59:53928 - - [02/Dec/2023:17:02:24] "GET /sqlweb/scripts/setup.php" 404 6906
+123.60.101.59:53942 - - [02/Dec/2023:17:02:24] "GET /webdb/scripts/setup.php" 404 6903
+123.60.101.59:53946 - - [02/Dec/2023:17:02:24] "GET /websql/scripts/setup.php" 404 6906
+123.60.101.59:53960 - - [02/Dec/2023:17:02:24] "GET /_phpMyAdmin/scripts/setup.php" 404 6921
+123.60.101.59:53968 - - [02/Dec/2023:17:02:24] "GET /php/scripts/setup.php" 404 6897
+123.60.101.59:53984 - - [02/Dec/2023:17:02:24] "GET /admin/phpmyadmin/scripts/setup.txt" 302 -
+123.60.101.59:53998 - - [02/Dec/2023:17:02:24] "GET /db/scripts/setup.php" 404 6894
+123.60.101.59:54000 - - [02/Dec/2023:17:02:24] "GET /sqlmanager/scripts/setup.php" 404 6918
+123.60.101.59:54012 - - [02/Dec/2023:17:02:24] "GET /mysqlmanager/scripts/setup.php" 404 6924
+123.60.101.59:54018 - - [02/Dec/2023:17:02:24] "GET /phpmanager/scripts/setup.php" 404 6918
+123.60.101.59:54026 - - [02/Dec/2023:17:02:24] "GET /php-myadmin/scripts/setup.php" 404 6921
+123.60.101.59:54028 - - [02/Dec/2023:17:02:24] "GET /phpmy-admin/scripts/setup.php" 404 6921
+123.60.101.59:54030 - - [02/Dec/2023:17:02:24] "GET /mysql-admin/scripts/setup.php" 404 6921
+183.193.34.102:3905 - - [02/Dec/2023:17:11:24] "GET /warehouse/multiple/?max_page=30" 200 1354
+183.193.34.102:3905 - - [02/Dec/2023:17:11:40] "OPTIONS /login/" 200 -
+183.193.34.102:3905 - - [02/Dec/2023:17:11:41] "POST /login/" 200 151
+183.193.34.102:3905 - - [02/Dec/2023:17:11:44] "GET /staff/?staff_name=admin" 200 237
+183.193.34.102:3957 - - [02/Dec/2023:17:11:44] "GET /warehouse/multiple/?max_page=30" 200 1354
+183.193.34.102:3956 - - [02/Dec/2023:17:11:44] "GET /dn/list/?page=1" 200 840
+183.193.34.102:3956 - - [02/Dec/2023:17:12:05] "GET /warehouse/multiple/?max_page=30" 200 1354
+183.193.34.102:3956 - - [02/Dec/2023:17:12:11] "POST /login/" 200 151
+183.193.34.102:3905 - - [02/Dec/2023:17:12:14] "GET /warehouse/multiple/?max_page=30" 200 1354
+183.193.34.102:3957 - - [02/Dec/2023:17:12:14] "GET /dn/list/?page=1" 200 840
+183.193.34.102:3956 - - [02/Dec/2023:17:12:14] "GET /staff/?staff_name=admin" 200 237
+114.84.5.78:48786 - - [02/Dec/2023:17:13:07] "OPTIONS //login/" 200 -
+114.84.5.78:48786 - - [02/Dec/2023:17:13:07] "POST //login/" 404 6861
+183.193.34.102:3703 - - [02/Dec/2023:17:13:11] "OPTIONS /login/" 200 -
+183.193.34.102:3705 - - [02/Dec/2023:17:13:11] "POST /login/" 200 151
+114.84.5.78:45062 - - [02/Dec/2023:17:14:41] "OPTIONS /login/" 200 -
+114.84.5.78:45062 - - [02/Dec/2023:17:14:41] "POST /login/" 200 149
+114.84.5.78:45062 - - [02/Dec/2023:17:15:27] "OPTIONS /scanner/list/6903244673563/" 200 -
+114.84.5.78:45062 - - [02/Dec/2023:17:15:27] "GET /scanner/list/6903244673563/" 200 43
+183.193.34.102:3585 - - [02/Dec/2023:17:15:55] "OPTIONS /asn/detail/?asn_status=4&asn_code=" 200 -
+183.193.34.102:3586 - - [02/Dec/2023:17:15:55] "GET /asn/detail/?asn_status=4&asn_code=" 200 52
+183.193.34.102:3585 - - [02/Dec/2023:17:15:58] "OPTIONS /dn/pickinglistfilter/?pick_qty__gt=0&picking_status=0" 200 -
+183.193.34.102:3586 - - [02/Dec/2023:17:15:59] "GET /dn/pickinglistfilter/?pick_qty__gt=0&picking_status=0" 200 52
+183.193.34.102:3585 - - [02/Dec/2023:17:16:01] "OPTIONS /cyclecount/manualcyclecount/?bin_name=&goods_code=" 200 -
+183.193.34.102:3586 - - [02/Dec/2023:17:16:01] "GET /cyclecount/manualcyclecount/?bin_name=&goods_code=" 200 2
+183.193.34.102:3585 - - [02/Dec/2023:17:16:04] "OPTIONS /binset/?empty_label=true" 200 -
+183.193.34.102:3586 - - [02/Dec/2023:17:16:04] "GET /binset/?empty_label=true" 200 2946
+183.193.34.102:3585 - - [02/Dec/2023:17:16:07] "OPTIONS /stock/bin/?goods_code=" 200 -
+183.193.34.102:3586 - - [02/Dec/2023:17:16:07] "GET /stock/bin/?goods_code=" 200 52
+183.193.34.102:3585 - - [02/Dec/2023:17:16:08] "OPTIONS /stock/list/?ordering=-id" 200 -
+183.193.34.102:3586 - - [02/Dec/2023:17:16:08] "GET /stock/list/?ordering=-id" 200 52
+183.193.34.102:3585 - - [02/Dec/2023:17:16:10] "OPTIONS /goods/?goods_code=" 200 -
+183.193.34.102:3586 - - [02/Dec/2023:17:16:10] "GET /goods/?goods_code=" 200 18878
+183.193.34.102:3661 - - [02/Dec/2023:17:17:10] "GET /cyclecount/manualcyclecount/?bin_name=&goods_code=" 200 2
+183.193.34.102:3662 - - [02/Dec/2023:17:17:14] "OPTIONS /dn/detail/?dn_code=" 200 -
+183.193.34.102:3661 - - [02/Dec/2023:17:17:14] "GET /dn/detail/?dn_code=" 200 52
+183.193.34.102:3677 - - [02/Dec/2023:17:17:29] "GET /warehouse/multiple/?max_page=30" 200 1354
+183.193.34.102:3676 - - [02/Dec/2023:17:17:29] "GET /staff/?staff_name=admin" 200 237
+183.193.34.102:3675 - - [02/Dec/2023:17:17:29] "GET /dn/list/?page=1" 200 840
+114.84.5.78:46433 - - [02/Dec/2023:17:17:51] "OPTIONS /asn/detail/?asn_status=4&asn_code=" 200 -
+114.84.5.78:46433 - - [02/Dec/2023:17:17:51] "GET /asn/detail/?asn_status=4&asn_code=" 200 449
+114.84.5.78:46433 - - [02/Dec/2023:17:17:56] "OPTIONS /asn/list/" 200 -
+
+ Dev mode.......... spa
+ Pkg quasar........ v1.19.4
+ Pkg @quasar/app... v2.4.1
+ Debugging......... enabled
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ Configured browser support (at least 88.57% of global marketshare):
+ · Chrome for Android >= 103
+ · Firefox for Android >= 101
+ · Android >= 103
+ · Chrome >= 94
+ · Edge >= 100
+ · Firefox >= 94
+ · iOS >= 13.0-13.1
+ · Opera >= 85
+ · Safari >= 14.1
+
+Welcome To GreaterWMS
+2023-12-02 18:14:05,431 INFO     Starting server at tcp:port=8008:interface=0.0.0.0
+2023-12-02 18:14:05,431 INFO     HTTP/2 support enabled
+2023-12-02 18:14:05,431 INFO     Configuring endpoint tcp:port=8008:interface=0.0.0.0
+2023-12-02 18:14:05,432 INFO     Listening on TCP address 0.0.0.0:8008
+ App · Reading quasar.conf.js
+ App · Checking listening address availability (0.0.0.0:8080)...
+ App · Transpiling JS (Babel active)
+ App · Extending SPA Webpack config
+ App · Generating Webpack entry point
+ App · Booting up...
+ App · Compiling SPA...
+ App · Compiled SPA done in 20319 ms
+ DONE  Compiled successfully in 20324ms6:14:27 PM
+
+
+ N  App dir........... /root/www/GreaterWMS/templates
+    App URL........... http://localhost:8080
+    Dev mode.......... spa
+    Pkg quasar........ v1.19.4
+    Pkg @quasar/app... v2.4.1
+    Transpiled JS..... yes (Babel)
+  
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+2023-12-02 18:15:30,449 INFO     Killed 0 pending application instances
+
+ Dev mode.......... spa
+ Pkg quasar........ v1.19.4
+ Pkg @quasar/app... v2.4.1
+ Debugging......... enabled
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ Configured browser support (at least 88.57% of global marketshare):
+ · Chrome for Android >= 103
+ · Firefox for Android >= 101
+ · Android >= 103
+ · Chrome >= 94
+ · Edge >= 100
+ · Firefox >= 94
+ · iOS >= 13.0-13.1
+ · Opera >= 85
+ · Safari >= 14.1
+
+Welcome To GreaterWMS
+2023-12-02 18:15:43,438 INFO     Starting server at tcp:port=8008:interface=0.0.0.0
+2023-12-02 18:15:43,438 INFO     HTTP/2 support enabled
+2023-12-02 18:15:43,438 INFO     Configuring endpoint tcp:port=8008:interface=0.0.0.0
+2023-12-02 18:15:43,439 INFO     Listening on TCP address 0.0.0.0:8008
+ App · Reading quasar.conf.js
+ App · Checking listening address availability (0.0.0.0:8080)...
+ App · Transpiling JS (Babel active)
+ App · Extending SPA Webpack config
+ App · Generating Webpack entry point
+ App · Booting up...
+ App · Compiling SPA...
+ App · Compiled SPA done in 19036 ms
+ DONE  Compiled successfully in 19040ms6:16:03 PM
+
+
+ N  App dir........... /root/www/GreaterWMS/templates
+    App URL........... http://localhost:8080
+    Dev mode.......... spa
+    Pkg quasar........ v1.19.4
+    Pkg @quasar/app... v2.4.1
+    Transpiled JS..... yes (Babel)
+  
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+ WAIT  Compiling...6:32:45 PM
+
+ App · Compiling SPA...
+ App · Compiled SPA done in 522 ms
+ DONE  Compiled successfully in 526ms6:32:46 PM
+
+
+ N  App dir........... /root/www/GreaterWMS/templates
+    App URL........... http://localhost:8080
+    Dev mode.......... spa
+    Pkg quasar........ v1.19.4
+    Pkg @quasar/app... v2.4.1
+    Transpiled JS..... yes (Babel)
+  
+2023-12-02 19:01:23,131 WARNING  Application instance <Task pending name='Task-25' coro=<application() running at /root/www/GreaterWMS/./greaterwms/asgi.py:14> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]>> for connection <WebRequest at 0x7f21126e0ac0 method=GET uri=/.env clientproto=HTTP/1.0> took too long to shut down and was killed.
+
+ Dev mode.......... spa
+ Pkg quasar........ v1.19.4
+ Pkg @quasar/app... v2.4.1
+ Debugging......... enabled
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ Configured browser support (at least 88.57% of global marketshare):
+ · Chrome for Android >= 103
+ · Firefox for Android >= 101
+ · Android >= 103
+ · Chrome >= 94
+ · Edge >= 100
+ · Firefox >= 94
+ · iOS >= 13.0-13.1
+ · Opera >= 85
+ · Safari >= 14.1
+
+Welcome To GreaterWMS
+2023-12-02 19:23:16,179 INFO     Starting server at tcp:port=8008:interface=0.0.0.0
+2023-12-02 19:23:16,179 INFO     HTTP/2 support enabled
+2023-12-02 19:23:16,179 INFO     Configuring endpoint tcp:port=8008:interface=0.0.0.0
+2023-12-02 19:23:16,179 INFO     Listening on TCP address 0.0.0.0:8008
+ App · Reading quasar.conf.js
+ App · Checking listening address availability (0.0.0.0:8080)...
+ App · Transpiling JS (Babel active)
+ App · Extending SPA Webpack config
+ App · Generating Webpack entry point
+ App · Booting up...
+ App · Compiling SPA...
+ App · Compiled SPA done in 19494 ms
+ DONE  Compiled successfully in 19498ms7:23:37 PM
+
+
+ N  App dir........... /root/www/GreaterWMS/templates
+    App URL........... http://localhost:8080
+    Dev mode.......... spa
+    Pkg quasar........ v1.19.4
+    Pkg @quasar/app... v2.4.1
+    Transpiled JS..... yes (Babel)
+  
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+2023-12-02 19:24:40,279 INFO     Killed 0 pending application instances
+
+ Dev mode.......... spa
+ Pkg quasar........ v1.19.4
+ Pkg @quasar/app... v2.4.1
+ Debugging......... enabled
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ Configured browser support (at least 88.57% of global marketshare):
+ · Chrome for Android >= 103
+ · Firefox for Android >= 101
+ · Android >= 103
+ · Chrome >= 94
+ · Edge >= 100
+ · Firefox >= 94
+ · iOS >= 13.0-13.1
+ · Opera >= 85
+ · Safari >= 14.1
+
+Welcome To GreaterWMS
+2023-12-02 19:24:54,233 INFO     Starting server at tcp:port=8008:interface=0.0.0.0
+2023-12-02 19:24:54,233 INFO     HTTP/2 support enabled
+2023-12-02 19:24:54,233 INFO     Configuring endpoint tcp:port=8008:interface=0.0.0.0
+2023-12-02 19:24:54,234 INFO     Listening on TCP address 0.0.0.0:8008
+ App · Reading quasar.conf.js
+ App · Checking listening address availability (0.0.0.0:8080)...
+ App · Transpiling JS (Babel active)
+ App · Extending SPA Webpack config
+ App · Generating Webpack entry point
+ App · Booting up...
+ App · Compiling SPA...
+ App · Compiled SPA done in 18803 ms
+ DONE  Compiled successfully in 18808ms7:25:13 PM
+
+
+ N  App dir........... /root/www/GreaterWMS/templates
+    App URL........... http://localhost:8080
+    Dev mode.......... spa
+    Pkg quasar........ v1.19.4
+    Pkg @quasar/app... v2.4.1
+    Transpiled JS..... yes (Babel)
+  
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
