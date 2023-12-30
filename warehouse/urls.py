@@ -3,6 +3,7 @@ from . import views
 
 urlpatterns = [
 path(r'', views.APIViewSet.as_view({"get": "list", "post": "create"}), name="warehouse"),
+path('test', views.APIViewSet.as_view({"get": "get_project"}), name="warehouse1"),
 re_path(r'^(?P<pk>\d+)/$', views.APIViewSet.as_view({
     'get': 'retrieve',
     'put': 'update',

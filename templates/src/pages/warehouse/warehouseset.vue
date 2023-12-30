@@ -360,6 +360,7 @@ export default {
       if (LocalStorage.has('auth')) {
         getauth(_this.pathname + '?page=' + '' + _this.current, {
         }).then(res => {
+          console.log('warehouse', res)
           _this.table_list = res.results
           _this.total = res.count
           if (res.count === 0) {

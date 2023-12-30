@@ -17,3 +17,8 @@ class ListModel(models.Model):
         verbose_name = 'Warehouse'
         verbose_name_plural = "Warehouse"
         ordering = ['-id']
+
+        permissions = (
+            ("view_warehouse", "can view warehouse"),
+            ("publish_warehouse", "can publish warehouse"),
+        )

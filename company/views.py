@@ -7,6 +7,11 @@ from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.response import Response
 from .filter import Filter
 from rest_framework.exceptions import APIException
+# from permission.decorators import permission_required
+# from django.contrib.auth.mixins import PermissionRequiredMixin
+import logging
+
+logger = logging.getLogger('django')
 
 class APIViewSet(viewsets.ModelViewSet):
     """
@@ -33,7 +38,9 @@ class APIViewSet(viewsets.ModelViewSet):
     ordering_fields = ['id', "create_time", "update_time", ]
     filter_class = Filter
 
+
     def get_project(self):
+        logger.debug("请求来自哪里：" . self.action)
         try:
             id = self.kwargs.get('pk')
             return id
@@ -41,6 +48,7 @@ class APIViewSet(viewsets.ModelViewSet):
             return None
 
     def get_queryset(self):
+        logger.debug("请求来自哪里：" . self.action)
         id = self.get_project()
         if self.request.user:
             if id is None:
@@ -51,6 +59,7 @@ class APIViewSet(viewsets.ModelViewSet):
             return ListModel.objects.none()
 
     def get_serializer_class(self):
+        logger.debug("请求来自哪里：" . self.action)
         if self.action in ['list', 'retrieve', 'destroy']:
             return serializers.CompanyGetSerializer
         elif self.action in ['create']:
@@ -63,6 +72,7 @@ class APIViewSet(viewsets.ModelViewSet):
             return self.http_method_not_allowed(request=self.request)
 
     def create(self, request, *args, **kwargs):
+        logger.debug("请求来自哪里：" . self.action)
         data = self.request.data
         data['openid'] = self.request.auth.openid
         if ListModel.objects.filter(openid=data['openid'], company_name=data['company_name'], is_delete=False).exists():
@@ -78,10 +88,12 @@ class APIViewSet(viewsets.ModelViewSet):
                 return Response(serializer.data, status=200, headers=headers)
 
     def update(self, request, pk):
+        logger.debug("请求来自哪里：" . self.action)
         qs = self.get_object()
         if qs.openid != self.request.auth.openid:
             raise APIException({"detail": "Cannot update data which not yours"})
         else:
+            # user = Users.objects.first()
             data = self.request.data
             serializer = self.get_serializer(qs, data=data)
             serializer.is_valid(raise_exception=True)
@@ -90,6 +102,7 @@ class APIViewSet(viewsets.ModelViewSet):
             return Response(serializer.data, status=200, headers=headers)
 
     def partial_update(self, request, pk):
+        logger.debug("请求来自哪里：" . self.action)
         qs = self.get_object()
         if qs.openid != self.request.auth.openid:
             raise APIException({"detail": "Cannot partial_update data which not yours"})
@@ -102,6 +115,7 @@ class APIViewSet(viewsets.ModelViewSet):
             return Response(serializer.data, status=200, headers=headers)
 
     def destroy(self, request, pk):
+        logger.debug("请求来自哪里：" . self.action)
         qs = self.get_object()
         if qs.openid != self.request.auth.openid:
             raise APIException({"detail": "Cannot delete data which not yours"})

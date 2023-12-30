@@ -1,4 +1,6 @@
 from rest_framework import viewsets
+
+# from userprofile.models import Users
 from .models import ListModel
 from . import serializers
 from utils.page import MyPageNumberPagination
@@ -7,9 +9,13 @@ from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.response import Response
 from .filter import Filter
 from rest_framework.exceptions import APIException
+# from django.contrib.auth.decorators import permission_required
+from django.contrib.auth.mixins import PermissionRequiredMixin
+from django.contrib.auth.models import Permission,ContentType,User
+from rest_framework import permissions
 
-
-class APIViewSet(viewsets.ModelViewSet):
+# @permission_required('warehouse.view_warehouse')
+class APIViewSet(PermissionRequiredMixin, viewsets.ModelViewSet):
     """
         retrieve:
             Response a data list（get）
@@ -34,7 +40,10 @@ class APIViewSet(viewsets.ModelViewSet):
     ordering_fields = ['id', "create_time", "update_time", ]
     filter_class = Filter
 
+    permission_required = ["warehouse.view_warehouse"]
+
     def get_project(self):
+        print("test")
         try:
             id = self.kwargs.get('pk')
             return id
@@ -42,6 +51,7 @@ class APIViewSet(viewsets.ModelViewSet):
             return None
 
     def get_queryset(self):
+        print("test1")
         id = self.get_project()
         if self.request.user:
             if id is None:
@@ -52,6 +62,7 @@ class APIViewSet(viewsets.ModelViewSet):
             return ListModel.objects.none()
 
     def get_serializer_class(self):
+        print("test2")
         if self.action in ['list', 'retrieve', 'destroy']:
             return serializers.WarehouseGetSerializer
         elif self.action in ['create']:
@@ -64,6 +75,7 @@ class APIViewSet(viewsets.ModelViewSet):
             return self.http_method_not_allowed(request=self.request)
 
     def create(self, request, *args, **kwargs):
+
         data = self.request.data
         data['openid'] = self.request.auth.openid
         if len(data['warehouse_name']) > 45:
@@ -82,7 +94,22 @@ class APIViewSet(viewsets.ModelViewSet):
                 return Response(serializer.data, status=200, headers=headers)
 
     def update(self, request, pk):
+        print("test3")
         qs = self.get_object()
+
+        # raise APIException({"detail": "The warehouse name is set to more than 45 characters"})
+
+        # user = User.objects.get();
+        # # 查看用户的所有权限
+        # all_perm = user.get_all_permissions()
+        # # 查看用户的组权限
+        # group_perm = user.get_group_permissions()
+        # # 查询用户是否有add_user_per权限
+        # if user.has_perm('warehouse.publish_warehouse'):
+        #     return Response('用户有add_user_per权限')
+        # else:
+        #     return Response('用户没有add_user_per权限')
+        
         if qs.openid != self.request.auth.openid:
             raise APIException({"detail": "Cannot update data which not yours"})
         else:
@@ -96,6 +123,7 @@ class APIViewSet(viewsets.ModelViewSet):
             return Response(serializer.data, status=200, headers=headers)
 
     def partial_update(self, request, pk):
+        print("test4")
         qs = self.get_object()
         if qs.openid != self.request.auth.openid:
             raise APIException({"detail": "Cannot partial_update data which not yours"})

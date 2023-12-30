@@ -14,7 +14,7 @@ export default {
     index_title: '仓库管理平台',
     webtitle: 'GreaterWMS--开源仓库管理系统',
     home: '首页',
-    title: 'GreaterWMS',
+    title: '佳谷WMS',
     title_tip: 'GreaterWMS首页',
     hide_menu: '收起菜单',
     api: 'API文档',

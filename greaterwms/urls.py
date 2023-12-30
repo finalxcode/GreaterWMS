@@ -61,3 +61,8 @@ urlpatterns += [
     path('api/debug/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
     path('api/docs/', SpectacularRedocView.as_view(url_name='schema'), name='docs'),
 ]
+
+
+if settings.DEBUG:
+    import debug_toolbar
+    urlpatterns.insert(0, path('__debug__/', include(debug_toolbar.urls)))

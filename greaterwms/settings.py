@@ -103,11 +103,18 @@ CSRF_COOKIE_SAMESITE = None
 # update
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-        'OPTIONS': {
-            'timeout': 20,
-        }
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
+        # 'OPTIONS': {
+        #     'timeout': 20,
+        # }
+
+    	'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'wms',
+        'USER':'root',
+        'PASSWORD':'st642538617',
+        'HOST':'127.0.0.1',
+        'PORT':'3306',
     }
 }
 
@@ -292,20 +299,25 @@ LOGGING = {
             "class": "logging.StreamHandler",
             "formatter": "console",
         },
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': '/root/www/GreaterWMS/logs/debug.log',
+        },
     },
     "loggers": {
         "django": {
             "handlers": ["console", "error", "file"],
             "level": "INFO",
-            "propagate": False,
+            "propagate": True,
         },
         "scripts": {
             "handlers": ["console", "error", "file"],
             "level": "INFO",
-            "propagate": False,
+            "propagate": True,
         },
         "django.db.backends": {
-            "handlers": [],
+            "handlers": ["console"],
             "propagate": True,
             "level": "INFO",
         },
@@ -353,3 +365,27 @@ POST_THROTTLE = 500
 PUT_THROTTLE = 500
 PATCH_THROTTLE = 500
 DELETE_THROTTLE = 500
+
+
+if DEBUG:
+    MIDDLEWARE += [
+        'debug_toolbar.middleware.DebugToolbarMiddleware',
+    ]
+    INSTALLED_APPS += [
+        'debug_toolbar',
+    ]
+    INTERNAL_IPS = ['127.0.0.1', ]
+
+    # this is the main reason for not showing up the toolbar
+    import mimetypes
+    mimetypes.add_type("application/javascript", ".js", True)
+
+    DEBUG_TOOLBAR_CONFIG = {
+        # 'INTERCEPT_REDIRECTS': False,
+        # 引入jQuery库 如果项目组包含jquery，这里可以为 ""
+        'JQUERY_URL': 'https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js',
+        # 工具栏是否折叠
+        'SHOW_COLLAPSED': True,
+        # 是否显示工具栏
+        'SHOW_TOOLBAR_CALLBACK': lambda x: True,
+    }

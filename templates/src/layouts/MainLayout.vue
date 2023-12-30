@@ -214,7 +214,7 @@
               >
             </q-btn>
           </transition>
-          <transition appear enter-active-class="animated zoomIn">
+          <!-- <transition appear enter-active-class="animated zoomIn">
             <q-btn
               :label="$t('index.register')"
               color="primary"
@@ -228,7 +228,7 @@
                 >{{ $t("index.register_tip") }}</q-tooltip
               >
             </q-btn>
-          </transition>
+          </transition> -->
         </template>
       </q-toolbar>
     </q-header>
@@ -418,10 +418,10 @@
             :active="link === 'warehouselist' && link !== ''"
             :class="{'my-menu-link': link === 'warehouselist' && link !== '',}"
           >
-            <q-item-section avatar>
+            <!-- <q-item-section avatar>
               <q-icon name="warehouse"/>
             </q-item-section>
-            <q-item-section>{{ $t("menuItem.cloudwarehouse") }}</q-item-section>
+            <q-item-section>{{ $t("menuItem.cloudwarehouse") }}</q-item-section> -->
           </q-item>
         </q-list>
       </q-scroll-area>
@@ -582,7 +582,7 @@
               @click="admin ? adminLogin() : Login()"
             />
           </template>
-          <div class="q-mx-auto">
+          <!-- <div class="q-mx-auto">
             <q-btn
               flat
               class="text-teal-4 q-mt-sm"
@@ -593,7 +593,7 @@
             >
               {{ $t("index.register_tip") }}
             </q-btn>
-          </div>
+          </div> -->
         </q-card-actions>
       </q-card>
     </q-dialog>
@@ -607,7 +607,7 @@
           class="bg-light-blue-10 text-white rounded-borders"
           style="height: 50px"
         >
-          <div>{{ $t("index.register_tip") }}</div>
+          <!-- <div>{{ $t("index.register_tip") }}</div> -->
           <q-space></q-space>
           <q-btn dense flat icon="close" v-close-popup>
             <q-tooltip
@@ -705,14 +705,14 @@ export default {
         { value: 'en-US', label: 'English' },
         { value: 'zh-hans', label: '中文简体' },
         { value: 'zh-hant', label: '中文繁體' },
-        { value: 'fr', label: 'Français' },
-        { value: 'pt', label: 'Português' },
-        { value: 'sp', label: 'Español' },
-        { value: 'de', label: 'Deutsch' },
-        { value: 'ru', label: 'русский язык' },
-        { value: 'ar', label: 'Arabic' },
-        { value: 'it', label: 'Italiano' },
-        { value: 'ja', label: '日本語' }
+        // { value: 'fr', label: 'Français' },
+        // { value: 'pt', label: 'Português' },
+        // { value: 'sp', label: 'Español' },
+        // { value: 'de', label: 'Deutsch' },
+        // { value: 'ru', label: 'русский язык' },
+        // { value: 'ar', label: 'Arabic' },
+        // { value: 'it', label: 'Italiano' },
+        // { value: 'ja', label: '日本語' }
       ],
       title: this.$t('index.webtitle'),
       admin: false,

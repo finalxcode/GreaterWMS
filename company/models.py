@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import Permission
 
 class ListModel(models.Model):
     company_name = models.CharField(max_length=255, verbose_name="Company Name")
